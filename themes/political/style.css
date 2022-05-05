@@ -439,7 +439,8 @@ p.notion-callout__content{
   margin-bottom: 1rem!important;
 }
 
-.notion-collection-board .notion-property__title,  .notion-collection-gallery .notion-property__title{
+.notion-collection-board .notion-property__title,  
+.notion-collection-gallery .notion-property__title{
   padding: 1rem!important;
 }
 
@@ -927,13 +928,6 @@ white-space: normal!important;
     display: none!important;
   }
   
-  /* Hide Icon on Database Card  */
-  .notion-property__title, 
-  .notion-property__title__icon-wrapper, 
-  .notion-header__title-wrapper {
-      display: none!important;
-  }
-  
   /* SHOW or HIDE Page Title */
   .notion-header__title {
       display: none!important;
@@ -1028,11 +1022,13 @@ white-space: normal!important;
 }
 
 /* Show/Hide Icon on Database Card  */
-/*.notion-property__title,*/
+.notion-property__title,
 .notion-property__title__icon-wrapper, 
 .notion-header__title-wrapper {
-    display: none!important;
+    display: block!important;
 }
+
+
 
 /* Show/Hide Page Title */
 .notion-header__title {
