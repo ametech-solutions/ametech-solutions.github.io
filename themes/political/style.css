@@ -1026,11 +1026,11 @@ white-space: normal!important;
 .notion-property__title,
 .notion-property__title__icon-wrapper, 
 .notion-header__title-wrapper {
-    display: block!important;
+    display: flex!important;
 }
 
 .notion-property .notion-property__title {
-    display: block!important;
+    display: flex!important;
 }
 
 
