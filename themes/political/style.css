@@ -73,7 +73,7 @@
  /* Colors */                                /* HEX Values for DEFAULT colors*/
    --color-default: 255, 255, 255!important; /* HEX:  #37352f */ 
    --color-white: 255, 255, 255!important;   /* HEX:  #ffffff */
-   --color-gray: 255, 255, 255!important;    /* HEX:  #646464 */
+   --color-gray: 0, 0, 0!important;          /* HEX:  #646464 */
    --color-black: 0, 0, 0!important;         /* HEX:  #000000 */
    --color-brown: 101, 67, 33!important;     /* HEX:  #654321 */
    --color-orange: 255, 119, 0!important;    /* HEX:  #ff7700 */
@@ -89,7 +89,7 @@
 --color-text-default: rgb(var(--color-white))!important;             /* HEX: # */
  /* --color-text-default-light sets default text color site-wide */
 --color-text-default-light: rgba(var(--color-white),1)!important;   /* HEX: #37352F or rgba(55, 53, 47, 0.6) */
---color-text-gray: rgb(var(--color-gray))!important;                 /* HEX: #9B9A97 */
+--color-text-gray: rgb(var(--color-black))!important;                 /* HEX: #9B9A97 */
 --color-text-black: rgb(var(--color-black))!important;               /* HEX: #000000 */
 --color-text-brown: rgb(var(--color-brown))!important;               /* HEX: #64473A */
 --color-text-orange: rgb(var(--color-orange))!important;             /* HEX: #D9730D */
@@ -129,7 +129,7 @@
 
 /* Pill */
 --color-pill-default: rgba(var( --color-default), .5)!important;  /* rgba(206,205,202,0.5) */ 
---color-pill-gray: rgba(var(--color-gray), .75)!important;         /* hsla(45,2%,60%,0.4) */
+--color-pill-gray: rgba(var(--color-gray), .15)!important;         /* hsla(45,2%,60%,0.4) */
 --color-pill-brown: rgba(var(--color-brown),.5)!important;        /* rgba(140,46,0,0.2) */
 --color-pill-orange: rgba(var(--color-orange),.5)!important;      /* rgba(245,93,0,0.2) */
 --color-pill-yellow: rgba(var(--color-yellow),.5)!important;      /* rgba(233,168,0,0.2) */
