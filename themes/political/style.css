@@ -631,7 +631,7 @@ p.notion-callout__content{
   box-shadow: 0px 24px 16px 0px rgba(0,0,0,0.05)!important;
   -webkit-box-shadow: 1px 17px 23px 0px rgba(0,0,0,0.05)!important;
   -moz-box-shadow: 1px 17px 23px 0px rgba(0,0,0,0.05)!important;
-    transform: scale(1.01)!important;
+  transform: scale(1.01)!important;
 }
 
 .notion-collection-list__item .notion-property__title .notion-semantic-string > span {
@@ -683,77 +683,10 @@ white-space: normal!important;
 
 
 /* VARIABLES */ 
-:root {
-     /* --element-radius affects edge roundness on elements site-wide */
-     --element-radius: 12px!important;
-     /* --theme-width is used as a consistent width variable site-wide */
-     --theme-width: 1440px!important;
-     --column-spacing: 2em!important;
-     --body-font: 18px!important;
-     --collection-card-cover-size-small: calc(20%)!important;
-     --collection-card-cover-size-medium: calc(30%)!important;
-     --collection-card-cover-size-large: calc(45%)!important;
-}
 
 
 
-/*MOBILE RESPONSIVE*/
 
-
- @media screen and (max-width: 880px) {
-
-
-     h1 {
-        font-size: 2rem !important;
-    }
-     h2 {
-        font-size: 1.5rem !important;
-    }
-     h3 {
-        font-size: 1.25rem !important;
-    }
-
-
-  .notion-divider {
-    border-bottom: none!important;
-    margin: 2em 0!important;
-  }
-
- .notion-column {
-    margin-bottom: 0!important;
-    padding: 0!important;
-  }
-
- .notion-quote {
-    padding: 2em!important;
-  }
-
- .notion-collection-list__item-content {
-    flex-direction: column!important;
-    align-items: flex-start!important;
-  }
-
- .notion-collection-list__item-property .notion-property__select{
-    display: block!important;
-  }
-
- .notion-collection-list__item-property .notion-property__select .notion-pill {
-   margin-bottom: 0.5rem!important;
-  }
-
- .notion-collection-list__item-property {
-    margin-left: 0rem!important;
-    font-size: 0.75rem!important;
-  }
-
-
-  :root {
-    --body-font: 16px!important;
-    --collection-card-cover-size-small: 100%!important;
-    --collection-card-cover-size-medium: 100%!important;
-    --collection-card-cover-size-large:  100%!important;
-  }
-}
 
 /* END TEMPLATE STARTER */
 
@@ -918,7 +851,8 @@ white-space: normal!important;
   }
   
   /* HIDE Notion Page Blocks */
-  .notion-page:hover .notion-page:focus {
+  .notion-page:focus,
+  .notion-page:hover {
     display: block!important;
     background: rgba(var(--color-card-bg), .75);
     
@@ -933,42 +867,22 @@ white-space: normal!important;
   
   .notion-page__icon {
       display: none !important;
-      
   }
-  .notion-icon .notion-icon__page .notion-header__icon { 
-    display: none!important;
+  .notion-icon, 
+  .notion-icon__page, 
+  .notion-header__icon { 
+     display: none!important;
             
-          }
+    }
   
   /*.notion-link.notion-page.emoji, .notion-link.notion-page.emoji:hover, .notion-link.notion-page.emoji:focus, {
     color: rgba(var(--color-card-bg), 1)!important;
     background: rgba(var(--color-card-bg), 1)!important;
   }*/
   
-  /* Change Global Border Radius */ 
-  :root {
-       --lift-radius: 5px!important;
-  }
-  
-  /* Change "0" value with the one you want to use. */
-  
-  
-  
-  /* Change Desktop Page Width */
-  :root {
-       --lift-width: 1440px!important;
-  }
-  
-  /* Change "960" value with the one you want to use */
-  
-  :root {
-       --body-font: 16px!important;
-  }
-  
-  /* Change "20" value with the one you want to use */
-  
-  
-  /* Hide Column Header for Board Database */
+
+/* VARIABLES */ 
+n Header for Board Database */
   .notion-collection-board__column-header {
     display: none!important;
   }
@@ -994,11 +908,6 @@ white-space: normal!important;
     display: none!important;
   }
   
-  /* HIDE all toggles */
-  .notion-toggle .notion-toggle_summary {
-     display: none!important;
-  }
-  
   .notion-bulleted-list
   .notion-numbered-list .notion-collection-card .notion-collection-card:hover {
       color: var(--color-text-white);
@@ -1009,7 +918,7 @@ white-space: normal!important;
    .notion-collection-card {
         box-shadow: none!important;
         border: none;
-        border-radius: var(--lift-radius)!important;
+        border-radius: var(--element-radius)!important;
         transition: .3s ease-in-out !important;
   }
   
@@ -1081,7 +990,7 @@ white-space: normal!important;
 }
 
 /* Show/Hide Icon on Database Card  */
-.notion-property__title,
+/*.notion-property__title,*/
 .notion-property__title__icon-wrapper, 
 .notion-header__title-wrapper {
     display: none!important;
@@ -1142,15 +1051,84 @@ white-space: normal!important;
 
 :root {
   /* Global Border Radius [Rounding] */
-  --element-radius: 5px!important;
+  --element-radius: 25px!important;
   /* Desktop Page Width */
-  --site-width: 1440px!important;
+  --theme-width: 1440px!important;
   /* Site Font Size*/
   --body-font: 16px!important;
+  /* Site Line Spacing*/
+  --column-spacing: 2em!important;
   /* UI COLORS */
   --color-card-bg: 37, 77, 117!important;
-
+  /* Collection Card Size*/
+  --collection-card-cover-size-small: calc(20%)!important;
+  --collection-card-cover-size-medium: calc(30%)!important;
+  --collection-card-cover-size-large: calc(45%)!important;
 }
+
 /* END AMETECH OVERWRITES*/
 
 /* END OVERWRITES */
+
+
+
+
+
+/*MOBILE RESPONSIVE*/
+
+
+@media screen and (max-width: 880px) {
+
+
+  h1 {
+     font-size: 2rem !important;
+ }
+  h2 {
+     font-size: 1.5rem !important;
+ }
+  h3 {
+     font-size: 1.25rem !important;
+ }
+
+
+.notion-divider {
+ border-bottom: none!important;
+ margin: 2em 0!important;
+}
+
+.notion-column {
+ margin-bottom: 0!important;
+ padding: 0!important;
+}
+
+.notion-quote {
+ padding: 2em!important;
+}
+
+.notion-collection-list__item-content {
+ flex-direction: column!important;
+ align-items: flex-start!important;
+}
+
+.notion-collection-list__item-property .notion-property__select{
+ display: block!important;
+}
+
+.notion-collection-list__item-property .notion-property__select .notion-pill {
+margin-bottom: 0.5rem!important;
+}
+
+.notion-collection-list__item-property {
+ margin-left: 0rem!important;
+ font-size: 0.75rem!important;
+}
+
+:root {
+ /* Mobile Body Font Size */
+ --body-font: 16px!important;
+ /* Mobile Collection Card Cover Size*/
+ --collection-card-cover-size-small: 100%!important;
+ --collection-card-cover-size-medium: 100%!important;
+ --collection-card-cover-size-large:  100%!important;
+}
+}
