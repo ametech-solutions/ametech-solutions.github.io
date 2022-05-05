@@ -88,7 +88,7 @@
 /* --color-text-default sets default text color site-wide */
 --color-text-default: rgb(var(--color-white))!important;             /* HEX: # */
  /* --color-text-default-light sets default text color site-wide */
---color-text-default-light: 255, 255, 255!important;   /* HEX: #37352F or rgba(55, 53, 47, 0.6) */
+--color-text-default-light: rgba(var(--color-white),1)!important;   /* HEX: #37352F or rgba(55, 53, 47, 0.6) */
 --color-text-gray: rgb(var(--color-gray))!important;                 /* HEX: #9B9A97 */
 --color-text-black: rgb(var(--color-black))!important;               /* HEX: #000000 */
 --color-text-brown: rgb(var(--color-brown))!important;               /* HEX: #64473A */
@@ -117,7 +117,7 @@
 --color-bg-red: rgba(var(--color-red),.85)!important;        /* HEX: #FBE4E4 */
 
 /* Background Light  */
---color-bg-gray-light: rgba(var(--color-gray),.5)!important;      /* rgba(235,236,237,0.3) */
+--color-bg-gray-light: rgba(var(--color-gray),.75)!important;      /* rgba(235,236,237,0.3) */
 --color-bg-brown-light: rgba(var(--color-brown),.5)!important;    /* rgba(233,229,227,0.3) */ 
 --color-bg-orange-light: rgba(var(--color-orange),.5)!important;  /* rgba(250,235,221,0.3) */
 --color-bg-yellow-light: rgba(var(--color-yellow),.5)!important;  /* rgba(251,243,219,0.3) */
@@ -129,7 +129,7 @@
 
 /* Pill */
 --color-pill-default: rgba(var( --color-default), .5)!important;  /* rgba(206,205,202,0.5) */ 
---color-pill-gray: rgba(var(--color-gray), .5)!important;         /* hsla(45,2%,60%,0.4) */
+--color-pill-gray: rgba(var(--color-gray), .75)!important;         /* hsla(45,2%,60%,0.4) */
 --color-pill-brown: rgba(var(--color-brown),.5)!important;        /* rgba(140,46,0,0.2) */
 --color-pill-orange: rgba(var(--color-orange),.5)!important;      /* rgba(245,93,0,0.2) */
 --color-pill-yellow: rgba(var(--color-yellow),.5)!important;      /* rgba(233,168,0,0.2) */
@@ -1081,7 +1081,6 @@ white-space: normal!important;
     background: none!important;
     opacity: 1!important;
 }
-
 
 /*.notion-link.notion-page.emoji, .notion-link.notion-page.emoji:hover, .notion-link.notion-page.emoji:focus, {
   color: rgba(var(--color-card-bg), 1)!important;
