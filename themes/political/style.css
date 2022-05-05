@@ -88,7 +88,7 @@
 /* --color-text-default sets default text color site-wide */
 --color-text-default: rgb(var(--color-white))!important;             /* HEX: # */
  /* --color-text-default-light sets default text color site-wide */
---color-text-default-light: rgba(var(--color-white), 1)!important;   /* HEX: #37352F or rgba(55, 53, 47, 0.6) */
+--color-text-default-light: var(--color-white)!important;   /* HEX: #37352F or rgba(55, 53, 47, 0.6) */
 --color-text-gray: rgb(var(--color-gray))!important;                 /* HEX: #9B9A97 */
 --color-text-black: rgb(var(--color-black))!important;               /* HEX: #000000 */
 --color-text-brown: rgb(var(--color-brown))!important;               /* HEX: #64473A */
