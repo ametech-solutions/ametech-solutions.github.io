@@ -1029,6 +1029,10 @@ white-space: normal!important;
     display: block!important;
 }
 
+.notion-property .notion-property__title {
+    display: block!important;
+}
+
 
 
 /* Show/Hide Page Title */
