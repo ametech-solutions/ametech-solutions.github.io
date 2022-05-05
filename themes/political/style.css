@@ -29,7 +29,7 @@ body {
 .notion-embed__content {
   border-radius: var(--element-radius) !important;
   overflow: hidden!important;
-  margin-bottom: 2rem!important;
+  margin-bottom: fit-content!important;
 }
 
 
@@ -325,7 +325,7 @@ p.notion-callout__content{
   border-radius: var(--element-radius)!important;
   border: 1px solid var(--color-border-default)!important;
   padding: 1.5em 1.5em 0.5em 1.5em!important;
-  overflow: visible!important;
+  overflow: hidden!important;
   margin-bottom: 1em!important;
 }
 
@@ -564,7 +564,8 @@ p.notion-callout__content{
 
 
 
-.notion-table td, .notion-table th {
+.notion-table td, 
+.notion-table th {
   padding: 1rem!important;
   overflow: hidden!important;
 }
@@ -882,7 +883,7 @@ white-space: normal!important;
   
 
 /* VARIABLES */ 
-n Header for Board Database */
+/* Show/Hide Header for Board Database */
   .notion-collection-board__column-header {
     display: none!important;
   }
@@ -894,7 +895,9 @@ n Header for Board Database */
   }
   
   /* Hide Icon on Database Card  */
-  .notion-property__title .notion-property__title__icon-wrapper .notion-header__title-wrapper {
+  .notion-property__title, 
+  .notion-property__title__icon-wrapper, 
+  .notion-header__title-wrapper {
       display: none!important;
   }
   
@@ -909,7 +912,9 @@ n Header for Board Database */
   }
   
   .notion-bulleted-list
-  .notion-numbered-list .notion-collection-card .notion-collection-card:hover {
+  .notion-numbered-list, 
+  .notion-collection-card, 
+  .notion-collection-card:hover {
       color: var(--color-text-white);
       background: rgba(var(--color-card-bg), .25);
       font-family: var(--secondary-font)!important;
