@@ -29,7 +29,7 @@ body {
 .notion-embed__content {
   border-radius: var(--element-radius) !important;
   overflow: hidden!important;
-  margin-bottom: fit-content!important;
+  margin-bottom: auto!important;
 }
 
 
@@ -56,7 +56,8 @@ body {
   display: none!important;
 }
 
-.notion-dropdown__button p, .notion-dropdown__option p{
+.notion-dropdown__button p, 
+.notion-dropdown__option p{
   margin: 0px 0.5em!important;
 }
 
@@ -364,6 +365,18 @@ p.notion-callout__content{
 
 
 
+
+/*---------  BOOKMARKS ------*/
+
+.notion-bookmark__description {
+  margin: 0;
+  margin-bottom: 0px;
+  font-size: 12px;
+  line-height: 1rem;
+  height: fit-content;
+  overflow: hidden;
+}
+
 /*---------  TOGGLE ---------*/
 
 
@@ -500,8 +513,17 @@ p.notion-callout__content{
 }
 
 
-.notion-quote.bg-gray, .notion-quote.bg-brown, .notion-quote.bg-orange, .notion-quote.bg-yellow, .notion-quote.bg-green, .notion-quote.bg-blue, .notion-quote.bg-purple, .notion-quote.bg-pink, .notion-quote.bg-red {
-  border:none!important;
+.notion-quote.bg-gray, 
+.notion-quote.bg-brown, 
+.notion-quote.bg-orange, 
+.notion-quote.bg-yellow, 
+.notion-quote.bg-green, 
+.notion-quote.bg-blue, 
+.notion-quote.bg-purple, 
+.notion-quote.bg-pink, 
+.notion-quote.bg-red {
+  /* border:none!important; */
+  border: 1px solid var(--color-border-default)!important;
 }
 
 
@@ -525,7 +547,8 @@ p.notion-callout__content{
 }
 
 
-.notion-collection-table td, .notion-collection-table th {
+.notion-collection-table td, 
+.notion-collection-table th {
   padding: 1rem!important;
   border: 1px solid var(--color-border-default)!important;
   overflow: hidden!important;
@@ -596,7 +619,16 @@ p.notion-callout__content{
 }
 
 
-.notion-table-of-contents.bg-yellow, .notion-table-of-contents.bg-yellow, .notion-table-of-contents.bg-orange, .notion-table-of-contents.bg-gray, .notion-table-of-contents.bg-brown, .notion-table-of-contents.bg-green, .notion-table-of-contents.bg-blue, .notion-table-of-contents.bg-purple, .notion-table-of-contents.bg-pink,.notion-table-of-contents.bg-red{
+.notion-table-of-contents.bg-yellow, 
+.notion-table-of-contents.bg-yellow, 
+.notion-table-of-contents.bg-orange, 
+.notion-table-of-contents.bg-gray, 
+.notion-table-of-contents.bg-brown, 
+.notion-table-of-contents.bg-green, 
+.notion-table-of-contents.bg-blue, 
+.notion-table-of-contents.bg-purple, 
+.notion-table-of-contents.bg-pink,
+.notion-table-of-contents.bg-red{
   border: none!important;
 }
 
@@ -645,7 +677,8 @@ white-space: normal!important;
   font-size: 0.75rem!important;
 }
 
-.notion-collection-list__item-property .notion-property__date, .notion-collection-list__item-property .notion-property__select .notion-pill {
+.notion-collection-list__item-property .notion-property__date, 
+.notion-collection-list__item-property .notion-property__select .notion-pill {
   font-size: 1em!important;
 }
 
@@ -806,7 +839,7 @@ white-space: normal!important;
   --color-bg-blue: rgba(var(--color-blue),.5)!important;      /* HEX: #DDEBF1 */
   --color-bg-purple: rgba(var(--color-purple),.5)!important;  /* HEX: #EAE4F2 */
   --color-bg-pink: rgba(var(--color-pink),.5)!important;      /* HEX: #F4DFEB */
-  --color-bg-red: rgba(var(--color-red),.5)!important;        /* HEX: #FBE4E4 */
+  --color-bg-red: rgba(var(--color-red),.75)!important;        /* HEX: #FBE4E4 */
 
   /* Background Light  */
   --color-bg-gray-light: rgba(var(--color-gray),.5)!important;      /* rgba(235,236,237,0.3) */
@@ -817,7 +850,7 @@ white-space: normal!important;
   --color-bg-blue-light: rgba(var(--color-blue),.25)!important;     /* rgba(221,235,241,0.3) */
   --color-bg-purple-light: rgba(var(--color-purple),.25)!important; /* rgba(234,228,242,0.3) */
   --color-bg-pink-light: rgba(var(--color-pink),.25)!important;     /* rgba(244,223,235,0.3) */
-  --color-bg-red-light: rgba(var(--color-red),.25)!important;       /* rgba(251,228,228,0.3) */
+  --color-bg-red-light: rgba(var(--color-red),.5)!important;       /* rgba(251,228,228,0.3) */
 
   /* Pill */
   --color-pill-default: rgba(var( --color-default), .5)!important;  /* rgba(206,205,202,0.5) */ 
