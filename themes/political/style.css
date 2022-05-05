@@ -839,7 +839,7 @@ white-space: normal!important;
   --color-bg-blue: rgba(var(--color-blue),.5)!important;      /* HEX: #DDEBF1 */
   --color-bg-purple: rgba(var(--color-purple),.5)!important;  /* HEX: #EAE4F2 */
   --color-bg-pink: rgba(var(--color-pink),.5)!important;      /* HEX: #F4DFEB */
-  --color-bg-red: rgba(var(--color-red),.75)!important;        /* HEX: #FBE4E4 */
+  --color-bg-red: rgba(var(--color-red),.85)!important;        /* HEX: #FBE4E4 */
 
   /* Background Light  */
   --color-bg-gray-light: rgba(var(--color-gray),.5)!important;      /* rgba(235,236,237,0.3) */
@@ -850,7 +850,7 @@ white-space: normal!important;
   --color-bg-blue-light: rgba(var(--color-blue),.25)!important;     /* rgba(221,235,241,0.3) */
   --color-bg-purple-light: rgba(var(--color-purple),.25)!important; /* rgba(234,228,242,0.3) */
   --color-bg-pink-light: rgba(var(--color-pink),.25)!important;     /* rgba(244,223,235,0.3) */
-  --color-bg-red-light: rgba(var(--color-red),.5)!important;       /* rgba(251,228,228,0.3) */
+  --color-bg-red-light: rgba(var(--color-red),.75)!important;       /* rgba(251,228,228,0.3) */
 
   /* Pill */
   --color-pill-default: rgba(var( --color-default), .5)!important;  /* rgba(206,205,202,0.5) */ 
@@ -862,7 +862,7 @@ white-space: normal!important;
   --color-pill-blue: rgba(var(--color-blue),.2)!important;          /* rgba(0,120,223,0.2) */
   --color-pill-purple: rgba(var(--color-purple),.2)!important;      /* rgba(103,36,222,0.2) */
   --color-pill-pink: rgba(var(--color-pink),.2)!important;          /* rgba(221,0,129,0.2) */
-  --color-pill-red: rgba(var(--color-red),.2)!important;            /* rgba(255,0,26,0.2) */
+  --color-pill-red: rgba(var(--color-red),.5)!important;            /* rgba(255,0,26,0.2) */
    /* UI */
     --color-ui-hover-bg: rgba(var(--color-card-bg), 1)!important;        /* rgba(55,53,47,0.08); */
     --color-ui-hover-bg-light: rgba(var(--color-white), 0.03)!important; /* */ 
