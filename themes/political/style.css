@@ -200,6 +200,7 @@ body {
   display: none!important;
 }
 
+
 .notion-dropdown__button p, 
 .notion-dropdown__option p{
   margin: 0px 0.5em!important;
@@ -986,6 +987,11 @@ background: rgba(var(--color-card-bg), .75);
 
 /* Show/Hide Page Icon image */
 .notion-header__icon-wrapper {
+  display: none!important;
+}
+
+/* Show/Hide Notion Database Header Icon */
+.notion-collection_header-icon {
   display: none!important;
 }
 
