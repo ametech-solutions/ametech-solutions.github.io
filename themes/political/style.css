@@ -164,10 +164,6 @@ body {
   max-width: var(--theme-width)!important;
 }
 
-.notion-header__title {
-  display: none!important;
-}
-
 .notion-header__content.max-width {
   max-width: var(--theme-width)!important;
 }
@@ -506,11 +502,6 @@ p.notion-callout__content{
 .notion-callout.bg-red-light {
   border:none!important;
 }
-
-.notion-callout__icon {
-  display: none !important;
-}
-
 
 .notion-page {
   border: 1px solid var(--color-border-transparent)!important;
@@ -943,12 +934,14 @@ background-color: rgba(var(--color-card-bg), .90);
 .notion-header__icon,
 .notion-page__icon,
 .notion-header__icon-wrapper { 
-    display: none!important;
+    display: block!important;
+/* was set to display: none */
 }
 
 /* Show/Hide Column Header for Board Database */
 .notion-collection-board__column-header {
-    display: none!important;
+    display: block!important;
+/* was set to display: none */
 }
 
   
@@ -958,7 +951,8 @@ background-color: rgba(var(--color-card-bg), .90);
 }
 /* Show/Hide Notion Database Header Icon */
 .notion-collection__header-wrapper {
-  display: none!important;
+  display: block!important;
+/* was set to display: none */
 }
 
 /* Show/Hide Icon on Database Card  */
@@ -971,18 +965,24 @@ background-color: rgba(var(--color-card-bg), .90);
 
 /* Show/Hide Page Title */
 .notion-header__title {
-  display: none!important;
+  display: block!important;
+/* was set to display: none */
 }
+
 .notion-header__title-wrapper {
-  display: none!important;
+  display: block!important;
+/* was set to display: none */
 }
 
 /* Show/Hide Page Icon image */
 .notion-header__icon-wrapper {
-  display: none!important;
+  display: block!important;
+/* was set to display: none */
 }
 
-
+.notion-callout__icon {
+  display: none !important;
+}
 
 /* Show/Hide ALL TOGGLES */
 .notion-toggle,
@@ -990,6 +990,8 @@ background-color: rgba(var(--color-card-bg), .90);
   display: block!important;
 }
 
+
+/* Global Variables */
 :root {
   /* Global Border Radius [Rounding] */
   --element-radius: 25px!important;
