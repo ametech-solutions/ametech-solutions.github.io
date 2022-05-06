@@ -484,7 +484,7 @@ p.notion-callout__content{
 
 .notion-callout:hover,
 .notion-callout__content:hover {
-  transform: scale(1.1)!important;
+  transform: scale(1.01)!important;
 }
 
 .notion-callout.bg-gray-light, 
