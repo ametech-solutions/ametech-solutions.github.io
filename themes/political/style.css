@@ -149,7 +149,7 @@
 .super-content.max-width {
   max-width: var(--theme-width)!important;
   margin: auto!important;
-}.
+}
 
 html {
   font-size: var(--body-font)!important;  
@@ -992,7 +992,7 @@ background: rgba(var(--color-card-bg), .75);
 /* Show/Hide ALL TOGGLES */
 .notion-toggle,
 .notion-toggle_summary {
-  display: none!important;
+  display: block!important;
 }
 
 :root {
