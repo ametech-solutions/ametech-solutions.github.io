@@ -119,8 +119,8 @@
 /* Background Light  */
 --color-bg-gray-light: rgba(var(--color-gray),.25)!important;       /* RGB rgba(0, 0, 0,   0.25) */
 --color-bg-brown-light: rgba(var(--color-brown),.75)!important;     /* RGB rgba(101, 67,33,0.75) */
---color-bg-orange-light: rgba(var(--color-orange),.75)!important;   /* RGB rgba(255, 119,0,0.75) */
---color-bg-yellow-light: rgba(var(--color-yellow),.75)!important;   /* RGB rgba(232, 232,0,0.75) */
+--color-bg-orange-light: rgba(var(--color-orange),.5)!important;    /* RGB rgba(255, 119,0, 0.5) */
+--color-bg-yellow-light: rgba(var(--color-yellow),.5)!important;    /* RGB rgba(232, 232,0, 0.5) */
 --color-bg-green-light: rgba(var(--color-green),.5)!important;      /* RGB rgba(0, 202, 0,  0.5) */
 --color-bg-blue-light: rgba(var(--color-blue),.5)!important;        /* RGB rgba(0, 144,255, 0.5) */
 --color-bg-purple-light: rgba(var(--color-purple),.75)!important;   /* RGB rgba(220,85,220,0.75) */
