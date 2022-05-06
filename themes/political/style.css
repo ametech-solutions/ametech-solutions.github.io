@@ -261,11 +261,11 @@ h1 {
   letter-spacing: -0.04em !important;
   margin-bottom: 0.5em!important;
   max-width: 800px!important;
-  /*-webkit-animation: fadeIn 0.5s!important;
+  -webkit-animation: fadeIn 0.5s!important;
   -moz-animation: fadeIn 0.5s!important;
   -ms-animation: fadeIn 0.5s!important;
   -o-animation: fadeIn 0.5s!important;
-  animation: fadeIn 0.5s!important;*/
+  animation: fadeIn 0.5s!important;
 }
 
 h2 {
@@ -275,11 +275,11 @@ h2 {
   letter-spacing: -0.03em !important;
   margin-bottom: 0.5em!important;
   max-width: 800px!important;
-/*  -webkit-animation: fadeIn 0.75s!important;
+  -webkit-animation: fadeIn 0.75s!important;
   -moz-animation: fadeIn 0.75s!important;
   -ms-animation: fadeIn 0.75s!important;
   -o-animation: fadeIn 0.75s!important;
-  animation: fadeIn 0.75s!important;*/
+  animation: fadeIn 0.75s!important;
 }
 
 h3 {
@@ -289,12 +289,12 @@ h3 {
   letter-spacing: -0.02em !important;
   margin-bottom: 0.5em!important;
   max-width: 800px!important;
-  /*-webkit-animation: fadeIn 1s!important;
+  -webkit-animation: fadeIn 1s!important;
   -moz-animation: fadeIn 1s!important;
   -ms-animation: fadeIn 1s!important;
   -o-animation: fadeIn 1s!important;
   animation: fadeIn 1s!important;
-  font-weight: 600!important;*/
+  font-weight: 600!important;
 }
 
 p {
