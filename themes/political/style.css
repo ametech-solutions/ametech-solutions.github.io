@@ -31,7 +31,7 @@
   --collection-card-cover-size-large: 320px!important;
   /* Color Card BG */
   /* --color-card-bg sets background color on card elements site-wide*/
-  --color-card-bg: 37, 77, 117!important;
+  --color-card-bg: rgba(37, 77, 117)!important;
   /* Pill [One Line Callouts]
   --notion-pill-padding: 2px 5px!important;
   --notion-pill-border-radius: 0px!important;
@@ -215,12 +215,11 @@ div.notion-dropdown__option,
 .notion-dropdown__option-list,
 .notion-dropdown__option-list:hover {
   background-color: var(--color-bg-default);
-  background: var(--color-bg-default);
 }
 
 
 .notion-dropdown__option:hover p {
-  background: var(--color-card-bg);
+  background-color: var(--color-card-bg);
 }
 
 
@@ -437,7 +436,7 @@ img {
   width:1.5em!important;
   height: 1.5em!important;
   border-radius: var(--element-radius)!important;
-  background: var(--color-bg-default)!important;
+  background-color: var(--color-bg-default)!important;
   border: 1px solid var(--color-text-default)!important;
 }
 
@@ -449,7 +448,7 @@ img {
   width:1.5em!important;
   height: 1.5em!important;
   border-radius: var(--element-radius)!important;
-  background: var(--color-text-default)!important;
+  background-color: var(--color-text-default)!important;
   border: 1px solid var(--color-text-default)!important;
 }
 
@@ -573,7 +572,7 @@ p.notion-callout__content{
 .notion-numbered-list, 
 .notion-collection-card {
     color: var(--color-text-white);
-    background: rgba(var(--color-card-bg), .25);
+    background-color: rgba(var(--color-card-bg), .25);
     font-family: var(--secondary-font)!important;
 }
 
@@ -586,7 +585,7 @@ p.notion-callout__content{
 
 .notion-collection-card:hover {
   color: var(--color-text-white);
-  background: rgba(var(--color-card-bg),.75)!important;
+  background-color: rgba(var(--color-card-bg),.75)!important;
   transform: scale(1.1)!important;
   border: none!important;
   box-shadow: 0px 24px 16px 0px rgba(0,0,0,0.05)!important;
@@ -609,7 +608,7 @@ p.notion-callout__content{
   overflow-x: scroll!important;
   margin-bottom: 1rem!important;
   padding: 1em!important;
-  background: var(--color-border-transparent)!important;
+  background-color: var(--color-border-transparent)!important;
   border-radius: var(--element-radius)!important;
 }
 
@@ -673,7 +672,7 @@ p.notion-callout__content{
 .notion-collection-card.gallery:hover {
   border: 1px solid var(--color-bg-default)!important;
   border-radius: var(--element-radius)!important;
-  background: var(--color-card-bg)!important;
+  background-color: var(--color-card-bg)!important;
   transition: .3s ease-in-out !important;
 }
 
@@ -728,7 +727,7 @@ p.notion-callout__content{
 }
 
 .notion-collection-table__wrapper{
-  background: var(--color-border-transparent)!important;
+  background-color: var(--color-border-transparent)!important;
   padding: 1em!important;
   border-radius: var(--element-radius)!important;
 }
@@ -738,7 +737,7 @@ p.notion-callout__content{
   padding: 1rem!important;
   border: 1px solid var(--color-border-default)!important;
   overflow: hidden!important;
-  background: var(--color-bg-default)!important;
+  background-color: var(--color-bg-default)!important;
 }
 
 .notion-collection-table__head {
@@ -793,7 +792,7 @@ p.notion-callout__content{
   border: 1px solid var(--color-border-transparent)!important;
   color: var(--color-white);
   /*background: var(--color-card-bg)!important;*/
-  background: none!important;
+  background-color: transparent!important;
   opacity: 1!important;
 }
 
@@ -821,7 +820,7 @@ p.notion-callout__content{
 }
 
 .notion-table-of-contents__item:hover {
-  background: none!important;
+  background-color: none!important;
   opacity: 0.5!important;
 }
 
@@ -840,14 +839,14 @@ p.notion-callout__content{
 }
 
 .notion-collection-list__item {
-  background: var(--color-bg-default)!important;
+  background-color: var(--color-bg-default)!important;
   padding: 1rem!important;
   transition: 0.3s !important;
   margin-bottom: 0.5rem!important;
 }
 
 .notion-collection-list__item:hover {
-  background: var(--color-bg-default)!important;
+  background-color: var(--color-bg-default)!important;
   box-shadow: 0px 24px 16px 0px rgba(0,0,0,0.05)!important;
   -webkit-box-shadow: 1px 17px 23px 0px rgba(0,0,0,0.05)!important;
   -moz-box-shadow: 1px 17px 23px 0px rgba(0,0,0,0.05)!important;
@@ -916,33 +915,6 @@ white-space: normal!important;
 
 /* OVERWRITES */
 
-/* TEMPLATE STARTER OVERWRITES */
-  
-
-  
-
-  
-
-
-/* VARIABLES */ 
-/* Show/Hide Header for Board Database */
-  .notion-collection-board__column-header {
-    display: none!important;
-  }
-  
-  /* SHOW or HIDE Page Title */
-  .notion-header__title {
-      display: none!important;
-  }
-  
-  /* Hide Page Icon image */
-  .notion-header__icon-wrapper {
-    display: none!important;
-  }
-  
-
-
-
 
 /* AMETECH OVERWRITES */
 
@@ -958,20 +930,21 @@ white-space: normal!important;
 
 /* Set Page Block BG Color*/
 .notion-page {  
-    background: rgba(var(--color-card-bg), .75)!important;
+    background-color: rgba(var(--color-card-bg), .75)!important;
 }
 
 /* Increase/Decrease Opacity to change Page BG Color on Mouseover */
 .notion-page:focus,
 .notion-page:hover {
-background: rgba(var(--color-card-bg), .90);
+background-color: rgba(var(--color-card-bg), .90);
 }
 
 /* HIDE All Notion Page Block Icons  */
 .notion-icon, 
 .notion-icon__page, 
 .notion-header__icon,
-.notion-page__icon { 
+.notion-page__icon,
+.notion-header__icon-wrapper { 
     display: none!important;
 }
 
@@ -980,6 +953,7 @@ background: rgba(var(--color-card-bg), .90);
     display: none!important;
 }
 
+  
 /* Show/Hide Database Name */
 .notion-collection__header-wrapper {
     display: block!important;
