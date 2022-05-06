@@ -208,7 +208,7 @@ body {
 
 .notion-dropdown__menu-header,
 .notion-dropdown__option-list {
-  background: rgba(var(--color-card-bg),1);
+  background: rgba(var(--color-accent-bg),1);
 }
 
 
