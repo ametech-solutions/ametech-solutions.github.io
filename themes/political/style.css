@@ -669,6 +669,7 @@ p.notion-callout__content{
 .notion-quote {
   font-style: italic!important;
   font-size: 1em!important;
+  font-weight: 500!important;
   width: 100% !important;
   margin: 1rem auto!important;
   padding: 1em 1em 2em 2em!important;
