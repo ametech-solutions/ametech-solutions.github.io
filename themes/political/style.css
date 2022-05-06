@@ -1,16 +1,16 @@
-/* POLITICAL */
+/******* THEME: POLITICAL *******/
 
 
 
-/* VARIABLES */ 
+/******* VARIABLES *******/ 
 
 :root {
-  /* Call to actions */
+  /* Call to actions
   --cta-padding: 13px 14px!important;
   --cta-border-radius: 4px!important;
   --cta-border: none!important;
   --cta-shadow: none!important;
-  /* Callout */
+  /* Callout
   --callout-padding: 15px 20px 15px 15px!important;
   --callout-border: 1px solid var(--color-border-default)!important;
   --callout-border-radius: 4px!important;
@@ -23,16 +23,17 @@
   --collection-gallery-gap: 30px!important;
   --collection-title-text-size: 16px!important;
   --collection-property-text-size: 14px!important;
-  /* --color-card-bg sets background color on card elements site-wide*/
-  --color-card-bg: 37, 77, 117!important;
-  /* END --color-card-bg */
   --collection-card-border-radius: 5px!important;
   --collection-card-padding: 20px!important;
   --collection-card-border: 1px solid var(--color-border-default)!important;
   --collection-card-cover-size-small: 172px!important;
   --collection-card-cover-size-medium: 260px!important;
   --collection-card-cover-size-large: 320px!important;
-  /*Pill */
+  /* Color Card BG*/
+  /* --color-card-bg sets background color on card elements site-wide*/
+  --color-card-bg: 37, 77, 117!important;
+  /* Pill */ 
+  /* One Line Callouts
   --notion-pill-padding: 2px 5px!important;
   --notion-pill-border-radius: 0px!important;
   --notion-pill-text-size: 11px!important;
@@ -48,25 +49,25 @@
   --text-spacing: 1px!important;
   --secondary-font: 'Inter', sans-serif!important;
   --notion-text-margin: 0px 0px 0px 0px!important;
-  /* h1 */
+  /* h1
   --h1-size: 3em!important;
   --h1-weight: 500!important;
   --h1-spacing: -1px!important;
   --h1-margin: 0px 0px 15px 0px!important;
   --h1-line-height: 1.25!important;
-  /* h2 */
+  /* h2
   --h2-size: 2.2rem!important;
   --h2-weight: 500!important;
   --h2-spacing: -.5px!important;
   --h2-margin: 10px 0px 20px 0px!important;
   --h2-line-height: 1.2!important;
-  /* h3 */
+  /* h3
   --h3-size: 1.5rem!important;
   --h3-weight: 500!important;
   --h3-spacing: -.5px!important;
   --h3-margin: 5px 0px 10px 0px!important;
   --h3-line-height: 1.4!important;
-  /* Link */
+  /* Link
   --link-border-width: 0px 0px 0px 0px!important;
   --link-border-style: none!important;
   --link-border-color: none!important;
@@ -215,7 +216,7 @@ body {
 }
 
 
-/*--------- NAVBAR ---------*/
+/******* NAVBAR *******/
  .super-navbar {
   -webkit-backdrop-filter: blur(16px)!important;
   backdrop-filter: blur(16px)!important;
@@ -253,7 +254,7 @@ body {
 
 
 
-/*---------  TYPOGRAPHY ---------*/
+/*******  TYPOGRAPHY *******/
 
 
 h1 {
@@ -339,7 +340,7 @@ img {
 
 
 
-/*--------- CTA ---------*/
+/******* CTA *******/
 
 
 .highlighted-background {
@@ -404,7 +405,7 @@ img {
 
 
 
-/*---------  TO_DO ---------*/
+/*******  TO_DO *******/
 
 
 .notion-to-do__content {
@@ -465,7 +466,7 @@ img {
 
 
 
-/*---------  CALLOUT ---------*/
+/*******  CALLOUT *******/
 
 
 
@@ -519,7 +520,7 @@ p.notion-callout__content{
 
 
 
-/*---------  BOOKMARKS ------*/
+/*******  BOOKMARKS *******/
 
 .notion-bookmark__description {
   margin: 0;
@@ -530,7 +531,7 @@ p.notion-callout__content{
   overflow: hidden;
 }
 
-/*---------  TOGGLE ---------*/
+/*******  TOGGLE *******/
 
 
 .notion-toggle {
@@ -651,7 +652,7 @@ p.notion-callout__content{
   transition: .3s ease-in-out !important;
 }
 
-/*---------  Quotes  ---------*/
+/*******  Quotes  *******/
 
 .notion-quote {
   font-size: 1em!important;
@@ -683,7 +684,7 @@ p.notion-callout__content{
 
 
 
-/*---------  TABLE DATABASE ---------*/
+/*******  #TABLE DATABASE *******/
 
 
 .notion-collection-table {
@@ -728,7 +729,7 @@ p.notion-callout__content{
 
 
 
-/*---------  Simple TABLE ---------*/
+/*******  Simple TABLE *******/
 
 
 .notion-table {
@@ -749,7 +750,7 @@ p.notion-callout__content{
 
 
 
-/*---------  TABLE OF CONTENTS  ---------*/
+/*******  #TABLE OF CONTENTS  *******/
 
 
 
@@ -796,7 +797,7 @@ p.notion-callout__content{
 
 
 
-/*---------  LIST   ---------*/
+/*******  LIST   *******/
 
 
 .notion-collection-list {
@@ -1073,7 +1074,7 @@ white-space: normal!important;
 
 .notion-table-of-contents {
     color: var(--color-white);
-    background: none!important;
+    background: var(--color-card-bg)!important;
     opacity: 1!important;
 }
 
@@ -1099,15 +1100,13 @@ white-space: normal!important;
   --collection-card-cover-size-large: calc(45%)!important;
 }
 
-/* END AMETECH OVERWRITES*/
-
-/* END OVERWRITES */
+/******* END #OVERWRITES# *******/
 
 
 
 
 
-/*MOBILE RESPONSIVE*/
+/******* #MOBILE RESPONSIVE *******/
 
 
 @media screen and (max-width: 880px) {
