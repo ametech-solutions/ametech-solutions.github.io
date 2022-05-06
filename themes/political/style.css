@@ -261,11 +261,11 @@ h1 {
   letter-spacing: -0.04em !important;
   margin-bottom: 0.5em!important;
   max-width: 800px!important;
-  -webkit-animation: fadeIn 0.5s!important;
+  /*-webkit-animation: fadeIn 0.5s!important;
   -moz-animation: fadeIn 0.5s!important;
   -ms-animation: fadeIn 0.5s!important;
   -o-animation: fadeIn 0.5s!important;
-  animation: fadeIn 0.5s!important;
+  animation: fadeIn 0.5s!important;*/
 }
 
 h2 {
@@ -275,11 +275,11 @@ h2 {
   letter-spacing: -0.03em !important;
   margin-bottom: 0.5em!important;
   max-width: 800px!important;
-  -webkit-animation: fadeIn 0.75s!important;
+/*  -webkit-animation: fadeIn 0.75s!important;
   -moz-animation: fadeIn 0.75s!important;
   -ms-animation: fadeIn 0.75s!important;
   -o-animation: fadeIn 0.75s!important;
-  animation: fadeIn 0.75s!important;
+  animation: fadeIn 0.75s!important;*/
 }
 
 h3 {
@@ -289,23 +289,23 @@ h3 {
   letter-spacing: -0.02em !important;
   margin-bottom: 0.5em!important;
   max-width: 800px!important;
-  -webkit-animation: fadeIn 1s!important;
+  /*-webkit-animation: fadeIn 1s!important;
   -moz-animation: fadeIn 1s!important;
   -ms-animation: fadeIn 1s!important;
   -o-animation: fadeIn 1s!important;
   animation: fadeIn 1s!important;
-  font-weight: 600!important;
+  font-weight: 600!important;*/
 }
 
 p {
   line-height: 175% !important;
   margin-bottom: 1rem!important;
   max-width: 800px!important;    
-  -webkit-animation: fadeIn 1.25s!important;
+  /*-webkit-animation: fadeIn 1.25s!important;
   -moz-animation: fadeIn 1.25s!important;
   -ms-animation: fadeIn 1.25s!important;
   -o-animation: fadeIn 1.25s!important;
-  animation: fadeIn 1.25s!important;     
+  animation: fadeIn 1.25s!important;*/     
 }
 
 
@@ -326,7 +326,8 @@ img {
   object-fit: cover;
 }
 
-.notion-bulleted-list, .notion-numbered-list {
+.notion-bulleted-list, 
+.notion-numbered-list {
   padding-bottom: 1em!important;
 }
 
@@ -481,7 +482,8 @@ p.notion-callout__content{
   margin-bottom: 1em!important;
 }
 
-.notion-callout:hover {
+.notion-callout:hover,
+.notion-callout__content:hover {
   transform: scale(1.1)!important;
 }
 
