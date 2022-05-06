@@ -614,8 +614,9 @@ p.notion-callout__content{
 }
 
 .notion-collection-board .notion-property__title,  
-.notion-collection-gallery .notion-property__title{
+.notion-collection-gallery .notion-property__title {
   padding: 1rem!important;
+  width: fit-content!important;
 }
 
 .super-content {
