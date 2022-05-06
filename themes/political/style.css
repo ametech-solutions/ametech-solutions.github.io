@@ -117,15 +117,15 @@
 --color-bg-red: rgba(var(--color-red),.85)!important;        /* HEX: #FBE4E4 */ /* RGB rgba(220, 64,64,0.85) */
 
 /* Background Light  */
---color-bg-gray-light: rgba(var(--color-gray),.25)!important;      /* RGB rgba(0, 0, 0, 0.25) */
---color-bg-brown-light: rgba(var(--color-brown),.3)!important;     /* RGB rgba(101, 67,33, .3) */
---color-bg-orange-light: rgba(var(--color-orange),.3)!important;   /* RGB rgba(255, 119,0, .3) */
---color-bg-yellow-light: rgba(var(--color-yellow),.3)!important;   /* RGB rgba(232, 232,0, .3) */
---color-bg-green-light: rgba(var(--color-green),.3)!important;     /* RGB rgba(0, 202, 0, 0.3) */
---color-bg-blue-light: rgba(var(--color-blue),.3)!important;       /* RGB rgba(0, 144,255,0.3) */
---color-bg-purple-light: rgba(var(--color-purple),.3)!important;   /* RGB rgba(220,85,220,0.3) */
---color-bg-pink-light: rgba(var(--color-pink),.3)!important;       /* RGB rgba(255,141,223,.3) */
---color-bg-red-light: rgba(var(--color-red),.25)!important;        /* RGB rgba(220,64,64,0.25) */
+--color-bg-gray-light: rgba(var(--color-gray),.25)!important;       /* RGB rgba(0, 0, 0,   0.25) */
+--color-bg-brown-light: rgba(var(--color-brown),.75)!important;     /* RGB rgba(101, 67,33,0.75) */
+--color-bg-orange-light: rgba(var(--color-orange),.75)!important;   /* RGB rgba(255, 119,0,0.75) */
+--color-bg-yellow-light: rgba(var(--color-yellow),.75)!important;   /* RGB rgba(232, 232,0,0.75) */
+--color-bg-green-light: rgba(var(--color-green),.5)!important;      /* RGB rgba(0, 202, 0,  0.5) */
+--color-bg-blue-light: rgba(var(--color-blue),.5)!important;        /* RGB rgba(0, 144,255, 0.5) */
+--color-bg-purple-light: rgba(var(--color-purple),.75)!important;   /* RGB rgba(220,85,220,0.75) */
+--color-bg-pink-light: rgba(var(--color-pink),.75)!important;       /* RGB rgba(255,141,223,.75) */
+--color-bg-red-light: rgba(var(--color-red),.85)!important;         /* RGB rgba(220,64,64, 0.85) */
 
 /* Pill */
 --color-pill-default: rgba(var( --color-default), .5)!important;   /* rgba(206,205,202,0.5) */ 
@@ -133,7 +133,7 @@
 --color-pill-brown: rgba(var(--color-brown),.5)!important;         /* rgba(101,67, 33, 0.5) */
 --color-pill-orange: rgba(var(--color-orange),.5)!important;       /* rgba(255,119, 0, 0.5) */
 --color-pill-yellow: rgba(var(--color-yellow),.75)!important;      /* rgba(233, 232, 0,.75) */
---color-pill-green: rgba(var(--color-green),.5)!important;         /* rgba(0, 202, 0, 0.5)  */
+--color-pill-green: rgba(var(--color-green),.5)!important;         /* rgba(0, 202, 0,  0.5) */
 --color-pill-blue: rgba(var(--color-blue),.5)!important;           /* rgba(0,144, 255, 0.5) */
 --color-pill-purple: rgba(var(--color-purple),.75)!important;      /* rgba(220,85,220,0.75) */
 --color-pill-pink: rgba(var(--color-pink),.75)!important;          /* rgba(255,141,223,.75) */
