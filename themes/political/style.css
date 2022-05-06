@@ -71,6 +71,7 @@
   --link-border-style: none!important;
   --link-border-color: none!important;
   /* Colors */                                /* HEX Values for DEFAULT colors*/
+   /* --color-default is the default theme color */
    --color-default: 255, 255, 255!important; /* HEX:  #37352f */ 
    --color-white: 255, 255, 255!important;   /* HEX:  #ffffff */
    --color-gray: 0, 0, 0!important;          /* HEX:  #646464 */
@@ -99,7 +100,7 @@
 --color-text-pink: rgb(var(--color-pink))!important;                 /* HEX: #AD1A72 */
 --color-text-red: rgb(var(--color-red))!important;                   /* HEX: #E03E3E */
 /* Site Background */
---color-bg-default: rgb(51, 102, 153)!important;           /* HEX: #336699 */ /* RGB rgb(51, 102, 153) */
+--color-bg-default: rgba(51, 102, 153, 1)!important;           /* HEX: #336699 */ /* RGB rgb(51,102,153,1) */
 /* Colored Backgrounds */
 --color-bg-gray: rgba(var(--color-gray),.75)!important;      /* HEX: #EBECED */ /* RGB  rgba(0, 0, 0, 0.25) */
 --color-bg-brown: rgba(var(--color-brown),.75)!important;    /* HEX: #E9E5E3 */ /* RGB rgba(101,67,33, 0.75) */
@@ -134,7 +135,7 @@
 /* UI */
   --color-ui-hover-bg: rgba(var(--color-card-bg), 1)!important;        /* rgba(37,77,117,1) */
   --color-ui-hover-bg-light: rgba(var(--color-white), 0.5)!important;  /* rgba(255,255,255,.5) */ 
-  --color-accent-bg: rgb(46, 170, 220)!important;                    /* rgb(46,170,220) */
+  --color-accent-bg: rgb(45, 170, 219)!important;                    /* rgb(45,170,219) */
   --color-border-default: rgba(var(--color-white), 1)!important;       /* rgba(255,255,255,1) */
   --color-border-transparent: transparent!important;                   /* rgba(0,0,0,0) */
 }
@@ -208,15 +209,18 @@ body {
 
 .notion-dropdown__menu-header,
 .notion-dropdown__menu-header:hover,
+div.notion-dropdown__option,
 .notion-dropdown__option,
-.notion-dropdown__option-list
+.notion-dropdown__option p,
+.notion-dropdown__option-list,
 .notion-dropdown__option-list:hover {
-  background: rgba(var(--color-bg-default),1);
+  background-color: var(--color-bg-default);
+  background: var(--color-bg-default);
 }
 
 
-.notion-dropdown__option:hover {
-  background: rgba(var(--color-card-bg),1);
+.notion-dropdown__option:hover p {
+  background: var(--color-card-bg);
 }
 
 
@@ -1022,6 +1026,8 @@ background: rgba(var(--color-card-bg), .90);
   --body-font: 20px!important;
   /* Site Column Spacing*/
   --column-spacing: 2em!important;
+  /* Site Background */
+  --color-bg-default: 51, 102, 153!important; 
   /* UI COLORS */
   --color-card-bg: 37, 77, 117!important;
   /* Collection Card Size*/
