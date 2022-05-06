@@ -700,7 +700,7 @@ p.notion-callout__content{
 }
 
 .notion-collection-table__wrapper{
-  background: var(--color-border-default)!important;
+  background: var(--color-border-transparent)!important;
   padding: 1em!important;
   border-radius: var(--element-radius)!important;
 }
@@ -807,7 +807,7 @@ p.notion-callout__content{
 .notion-collection-list {
   border: none!important;
   padding: 1rem!important;
-  background-color: var(--color-border-default)!important;
+  background-color: var(--color-border-transparent)!important;
   border-radius: var(--element-radius)!important;
 }
 
@@ -853,7 +853,7 @@ white-space: normal!important;
 .notion-collection-calendar {
   border: none!important;
   padding: 1rem!important;
-  background-color: var(--color-border-default)!important;
+  background-color: var(--color-border-transparent)!important;
   border-radius: var(--element-radius)!important;
 }
 
