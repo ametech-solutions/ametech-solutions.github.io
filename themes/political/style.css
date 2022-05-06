@@ -17,7 +17,7 @@
   --callout-shadow: none!important;
   --callout-icon-size: 20px!important;
   --callout-emoji-size: 18px!important;
-  /* Collections */
+  /* Collections
   --collection-list-item-border-radius: 0px!important;
   --collection-list-item-padding: 5px 0px 5px 5px!important;
   --collection-gallery-gap: 30px!important;
@@ -42,10 +42,10 @@
   --notion-pill-letter-spacing: 1px!important;
   /* Images */
   --image-border-radius: 10px!important;
-  /* Misc */
+  /* Misc 
   --divider-margin: 15px 0px!important;
   --divider-opacity: 1!important;
-  /* Typography */
+  /* Typography
   --text-spacing: 1px!important;
   --secondary-font: 'Inter', sans-serif!important;
   --notion-text-margin: 0px 0px 0px 0px!important;
@@ -71,7 +71,8 @@
   --link-border-width: 0px 0px 0px 0px!important;
   --link-border-style: none!important;
   --link-border-color: none!important;
- /* Colors */                                /* HEX Values for DEFAULT colors*/
+ 
+  /* Colors */                                /* HEX Values for DEFAULT colors*/
    --color-default: 255, 255, 255!important; /* HEX:  #37352f */ 
    --color-white: 255, 255, 255!important;   /* HEX:  #ffffff */
    --color-gray: 0, 0, 0!important;          /* HEX:  #646464 */
@@ -84,6 +85,7 @@
    --color-purple: 121, 85, 121!important;   /* HEX:  #DD55DD */
    --color-pink: 255, 141, 223!important;    /* HEX:  #FF8DDF */
    --color-red: 220, 64, 64!important;       /* HEX:  #dc4040 */
+
 /* Text */
 /* SITE TYOPGRAPHY - FOREGROUND */
 /* --color-text-default sets default text color site-wide */
@@ -139,18 +141,20 @@
 --color-pill-purple: rgba(var(--color-purple),.75)!important;      /* rgba(220,85,220,0.75) */
 --color-pill-pink: rgba(var(--color-pink),.75)!important;          /* rgba(255,141,223,.75) */
 --color-pill-red: rgba(var(--color-red),.75)!important;            /* rgba(220, 64, 64,.75) */
- /* UI */
+
+/* UI */
   --color-ui-hover-bg: rgba(var(--color-card-bg), 1)!important;        /* rgba(37,77,117,1) */
   --color-ui-hover-bg-light: rgba(var(--color-white), 0.5)!important;  /* rgba(255,255,255,.5) */ 
   --color-accent-bg: rgb(46, 170, 220)!important;                    /* rgb(46, 170, 220) */
-  --color-border-default: rgba(var(--color-white), 0)!important;       /* rgba(255,255,255,0) */
-  --color-border-dark: transparent!important;                          /* rgba(0,0,0,0) */
+  --color-border-default: rgba(var(--color-white), 1)!important;       /* rgba(255,255,255,1) */
+  --color-border-transparent: transparent!important;                          /* rgba(0,0,0,0) */
 }
 
 /* END VARIABLES */
 
 
-/* END POLITICAL */
+
+
 
 /* TEMPLATE STARTER */
 
@@ -514,7 +518,7 @@ p.notion-callout__content{
 }
 
 .notion-page__title .notion-semantic-string {
-  border-bottom: none var(--color-border-dark);
+  border-bottom: none var(--color-border-transparent);
 }
 
 
