@@ -1018,8 +1018,7 @@ white-space: normal!important;
 /* Show/Hide Icon on Database Card  */
 .notion-property,
 .notion-property__title,
-.notion-property__title__icon-wrapper, 
-.notion-header__title-wrapper {
+.notion-property__title__icon-wrapper {
     display: flex!important;
 }
 
@@ -1027,7 +1026,9 @@ white-space: normal!important;
     display: flex!important;
 }
 
-
+.notion-header__title-wrapper {
+  display: none!important;
+}
 
 /* Show/Hide Page Title */
 .notion-header__title {
