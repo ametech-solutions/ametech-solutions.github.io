@@ -124,7 +124,7 @@
 --color-bg-green-light: rgba(var(--color-green),.25)!important;   /* rgba(221,237,234,0.3) */
 --color-bg-blue-light: rgba(var(--color-blue),.25)!important;     /* rgba(221,235,241,0.3) */
 --color-bg-purple-light: rgba(var(--color-purple),.75)!important; /* rgba(234,228,242,0.3) */
---color-bg-pink-light: rgba(var(--color-pink),.75)!important;     /* rgba(244,223,235,0.3) */
+--color-bg-pink-light: rgba(var(--color-pink),1)!important;     /* rgba(244,223,235,0.3) */
 --color-bg-red-light: rgba(var(--color-red),.75)!important;       /* rgba(251,228,228,0.3) */
 
 /* Pill */
