@@ -142,7 +142,7 @@
   --color-ui-hover-bg: rgba(var(--color-card-bg), 1)!important;        /* rgba(37,77,117,1) */
   --color-ui-hover-bg-light: rgba(var(--color-white), 0.5)!important;  /* rgba(255,255,255,.5) */ 
   --color-accent-bg: rgb(46, 170, 220)!important;                    /* rgb(46, 170, 220) */
-  --color-border-default: rgba(var(--color-white), 1)!important;       /* rgba(255,255,255,1) */
+  --color-border-default: rgba(var(--color-white), .05)!important;       /* rgba(255,255,255,1) */
   --color-border-dark: transparent!important;                          /* rgba(0,0,0,0) */
 }
 
