@@ -482,11 +482,6 @@ p.notion-callout__content{
   margin-bottom: 1em!important;
 }
 
-.notion-callout:hover,
-.notion-callout__content:hover {
-  transform: scale(1.01)!important;
-}
-
 .notion-callout.bg-gray-light, 
 .notion-callout.bg-brown-light, 
 .notion-callout.bg-orange-light, 
