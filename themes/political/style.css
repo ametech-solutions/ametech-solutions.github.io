@@ -207,12 +207,15 @@ body {
 }
 
 .notion-dropdown__menu-header,
-.notion-dropdown__option-list {
+.notion-dropdown__menu-header:hover,
+.notion-dropdown__option,
+.notion-dropdown__option-list
+.notion-dropdown__option-list:hover {
   background: rgba(var(--color-bg-default),1);
 }
 
-.notion-dropdown__menu-header:hover,
-.notion-dropdown__option-list:hover {
+
+.notion-dropdown__option:hover {
   background: rgba(var(--color-card-bg),1);
 }
 
