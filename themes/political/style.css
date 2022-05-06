@@ -208,6 +208,11 @@ body {
 
 .notion-dropdown__menu-header,
 .notion-dropdown__option-list {
+  background: rgba(var(--color-card-bg),1);
+}
+
+.notion-dropdown__menu-header:hover,
+.notion-dropdown__option-list:hover {
   background: rgba(var(--color-accent-bg),1);
 }
 
