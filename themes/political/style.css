@@ -1027,9 +1027,9 @@ background: rgba(var(--color-card-bg), .90);
   /* Site Column Spacing*/
   --column-spacing: 2em!important;
   /* Site Background */
-  --color-bg-default: 51, 102, 153!important; 
+  --color-bg-default: rgb(51, 102, 153)!important; 
   /* UI COLORS */
-  --color-card-bg: 37, 77, 117!important;
+  --color-card-bg: rgb(37, 77, 117)!important;
   /* Collection Card Size*/
   --collection-card-cover-size-small: calc(20%)!important;
   --collection-card-cover-size-medium: calc(30%)!important;
