@@ -197,9 +197,6 @@ body {
   padding: 0!important;
 }
 
-.notion-collection__header-wrapper {
-  display: none!important;
-}
 
 
 .notion-dropdown__button p, 
@@ -958,6 +955,10 @@ background-color: rgba(var(--color-card-bg), .90);
 .notion-collection__header-wrapper {
     display: block!important;
 }
+/* Show/Hide Notion Database Header Icon */
+.notion-collection__header-wrapper {
+  display: none!important;
+}
 
 /* Show/Hide Icon on Database Card  */
 .notion-property,
@@ -980,10 +981,7 @@ background-color: rgba(var(--color-card-bg), .90);
   display: none!important;
 }
 
-/* Show/Hide Notion Database Header Icon */
-.notion-collection_header-icon {
-  display: none!important;
-}
+
 
 /* Show/Hide ALL TOGGLES */
 .notion-toggle,
