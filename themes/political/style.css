@@ -922,12 +922,6 @@ white-space: normal!important;
     display: none!important;
   }
   
-  /* Show Database Name */
-  
-  .notion-collection__header-wrapper {
-    display: none!important;
-  }
-  
   /* SHOW or HIDE Page Title */
   .notion-header__title {
       display: none!important;
@@ -1018,7 +1012,7 @@ white-space: normal!important;
 
 /* Show/Hide Database Name */
 .notion-collection__header-wrapper {
-    display: none!important;
+    display: block!important;
 }
 
 /* Show/Hide Icon on Database Card  */
