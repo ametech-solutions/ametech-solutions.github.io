@@ -71,68 +71,68 @@
   --link-border-style: none!important;
   --link-border-color: none!important;
   /* Colors */                                /* HEX Values for DEFAULT colors*/
-   /* --color-default is the default theme color */
-   --color-default: 255, 255, 255!important; /* HEX:  #37352f */ 
-   --color-white: 255, 255, 255!important;   /* HEX:  #ffffff */
-   --color-gray: 0, 0, 0!important;          /* HEX:  #646464 */
-   --color-black: 0, 0, 0!important;         /* HEX:  #000000 */
-   --color-brown: 101, 67, 33!important;     /* HEX:  #654321 */
-   --color-orange: 255, 119, 0!important;    /* HEX:  #ff7700 */
-   --color-yellow: 232, 232, 0!important;    /* HEX:  #e8e800 */
-   --color-green: 0, 202, 0!important;       /* HEX:  #00ca00 */
-   --color-blue: 0, 144, 255!important;      /* HEX:  #0090ff */
-   --color-purple: 121, 85, 121!important;   /* HEX:  #DD55DD */
-   --color-pink: 255, 141, 223!important;    /* HEX:  #FF8DDF */
-   --color-red: 220, 64, 64!important;       /* HEX:  #dc4040 */
-/* Text */
-/* Site Foreground */
-/* --color-text-default sets default text color site-wide */
---color-text-default: rgb(var(--color-white))!important;             /* HEX: # */
---color-text-default-light: rgba(var(--color-white),1)!important;    /* HEX: #37352F or rgba(55, 53, 47, 0.6) */
---color-text-gray: rgb(var(--color-black))!important;                /* HEX: #9B9A97 */ /* rgba(45,170,219,.3) */
---color-text-black: rgb(var(--color-black))!important;               /* HEX: #000000 */
---color-text-brown: rgb(var(--color-brown))!important;               /* HEX: #64473A */
---color-text-orange: rgb(var(--color-orange))!important;             /* HEX: #D9730D */
---color-text-yellow: rgb(var(--color-yellow))!important;             /* HEX: #DFAB01 */
---color-text-green: rgb(var(--color-green))!important;               /* HEX: #0F7B6C */
---color-text-blue: rgb(var(--color-blue))!important;                 /* HEX: #0B6E99 */
---color-text-purple: rgb(var(--color-purple))!important;             /* HEX: #6940A5 */
---color-text-pink: rgb(var(--color-pink))!important;                 /* HEX: #AD1A72 */
---color-text-red: rgb(var(--color-red))!important;                   /* HEX: #E03E3E */
-/* Site Background */
---color-bg-default: rgba(51, 102, 153, 1)!important;           /* HEX: #336699 */ /* RGB rgb(51,102,153,1) */
-/* Colored Backgrounds */
---color-bg-gray: rgba(var(--color-gray),.75)!important;      /* HEX: #EBECED */ /* RGB  rgba(0, 0, 0, 0.25) */
---color-bg-brown: rgba(var(--color-brown),.75)!important;    /* HEX: #E9E5E3 */ /* RGB rgba(101,67,33, 0.75) */
---color-bg-orange: rgba(var(--color-orange),.75)!important;  /* HEX: #FAEBDD */ /* RGB rgba(255,119, 0,0.75) */
---color-bg-yellow: rgba(var(--color-yellow),.75)!important;  /* HEX: #FBF3DB */ /* RGB rgba(232,232, 0,0.75) */
---color-bg-green: rgba(var(--color-green),.75)!important;    /* HEX: #DDEDEA */ /* RGB rgba(0, 202, 0, 0.75) */
---color-bg-blue: rgba(var(--color-blue),.75)!important;      /* HEX: #DDEBF1 */ /* RGB rgba(0,144, 255,0.75) */
---color-bg-purple: rgba(var(--color-purple),.75)!important;  /* HEX: #EAE4F2 */ /* RGB rgba(220,85,220,0.75) */
---color-bg-pink: rgba(var(--color-pink),.75)!important;      /* HEX: #F4DFEB */ /* RGB rgba(255,141,223,.75) */ 
---color-bg-red: rgba(var(--color-red),.85)!important;        /* HEX: #FBE4E4 */ /* RGB rgba(220, 64,64,0.85) */
-/* Background Light  */
---color-bg-gray-light: rgba(var(--color-gray),.25)!important;       /* RGB rgba(0, 0, 0,   0.25) */
---color-bg-brown-light: rgba(var(--color-brown),.75)!important;     /* RGB rgba(101, 67,33,0.75) */
---color-bg-orange-light: rgba(var(--color-orange),.5)!important;    /* RGB rgba(255, 119,0, 0.5) */
---color-bg-yellow-light: rgba(var(--color-yellow),.5)!important;    /* RGB rgba(232, 232,0, 0.5) */
---color-bg-green-light: rgba(var(--color-green),.5)!important;      /* RGB rgba(0, 202, 0,  0.5) */
---color-bg-blue-light: rgba(var(--color-blue),.5)!important;        /* RGB rgba(0, 144,255, 0.5) */
---color-bg-purple-light: rgba(var(--color-purple),.75)!important;   /* RGB rgba(220,85,220,0.75) */
---color-bg-pink-light: rgba(var(--color-pink),.75)!important;       /* RGB rgba(255,141,223,.75) */
---color-bg-red-light: rgba(var(--color-red),.85)!important;         /* RGB rgba(220,64,64, 0.85) */
-/* Pill */
---color-pill-default: rgba(var( --color-default), .5)!important;   /* rgba(206,205,202,0.5) */ 
---color-pill-gray: rgba(var(--color-gray), .15)!important;         /* hsla(45,2%,60%, 0.15) */
---color-pill-brown: rgba(var(--color-brown),.5)!important;         /* rgba(101,67, 33, 0.5) */
---color-pill-orange: rgba(var(--color-orange),.5)!important;       /* rgba(255,119, 0, 0.5) */
---color-pill-yellow: rgba(var(--color-yellow),.75)!important;      /* rgba(233, 232, 0,.75) */
---color-pill-green: rgba(var(--color-green),.5)!important;         /* rgba(0, 202, 0,  0.5) */
---color-pill-blue: rgba(var(--color-blue),.5)!important;           /* rgba(0,144, 255, 0.5) */
---color-pill-purple: rgba(var(--color-purple),.75)!important;      /* rgba(220,85,220,0.75) */
---color-pill-pink: rgba(var(--color-pink),.75)!important;          /* rgba(255,141,223,.75) */
---color-pill-red: rgba(var(--color-red),.75)!important;            /* rgba(220, 64, 64,.75) */
-/* UI */
+  /* --color-default is the default theme color */
+  --color-default: 255, 255, 255!important; /* HEX:  #37352f */ 
+  --color-white: 255, 255, 255!important;   /* HEX:  #ffffff */
+  --color-gray: 0, 0, 0!important;          /* HEX:  #646464 */
+  --color-black: 0, 0, 0!important;         /* HEX:  #000000 */
+  --color-brown: 101, 67, 33!important;     /* HEX:  #654321 */
+  --color-orange: 255, 119, 0!important;    /* HEX:  #ff7700 */
+  --color-yellow: 232, 232, 0!important;    /* HEX:  #e8e800 */
+  --color-green: 0, 202, 0!important;       /* HEX:  #00ca00 */
+  --color-blue: 0, 144, 255!important;      /* HEX:  #0090ff */
+  --color-purple: 121, 85, 121!important;   /* HEX:  #DD55DD */
+  --color-pink: 255, 141, 223!important;    /* HEX:  #FF8DDF */
+  --color-red: 220, 64, 64!important;       /* HEX:  #dc4040 */
+  /* Text */
+  /* Site Foreground */
+  /* --color-text-default sets default text color site-wide */
+  --color-text-default: rgb(var(--color-white))!important;             /* HEX: # */
+  --color-text-default-light: rgba(var(--color-white),1)!important;    /* HEX: #37352F or rgba(55, 53, 47, 0.6) */
+  --color-text-gray: rgb(var(--color-black))!important;                /* HEX: #9B9A97 */ /* rgba(45,170,219,.3) */
+  --color-text-black: rgb(var(--color-black))!important;               /* HEX: #000000 */
+  --color-text-brown: rgb(var(--color-brown))!important;               /* HEX: #64473A */
+  --color-text-orange: rgb(var(--color-orange))!important;             /* HEX: #D9730D */
+  --color-text-yellow: rgb(var(--color-yellow))!important;             /* HEX: #DFAB01 */
+  --color-text-green: rgb(var(--color-green))!important;               /* HEX: #0F7B6C */
+  --color-text-blue: rgb(var(--color-blue))!important;                 /* HEX: #0B6E99 */
+  --color-text-purple: rgb(var(--color-purple))!important;             /* HEX: #6940A5 */
+  --color-text-pink: rgb(var(--color-pink))!important;                 /* HEX: #AD1A72 */
+  --color-text-red: rgb(var(--color-red))!important;                   /* HEX: #E03E3E */
+  /* Site Background */
+  --color-bg-default: rgba(51, 102, 153, 1)!important;           /* HEX: #336699 */ /* RGB rgb(51,102,153,1) */
+  /* Colored Backgrounds */
+  --color-bg-gray: rgba(var(--color-gray),.75)!important;      /* HEX: #EBECED */ /* RGB  rgba(0, 0, 0, 0.25) */
+  --color-bg-brown: rgba(var(--color-brown),.75)!important;    /* HEX: #E9E5E3 */ /* RGB rgba(101,67,33, 0.75) */
+  --color-bg-orange: rgba(var(--color-orange),.75)!important;  /* HEX: #FAEBDD */ /* RGB rgba(255,119, 0,0.75) */
+  --color-bg-yellow: rgba(var(--color-yellow),.75)!important;  /* HEX: #FBF3DB */ /* RGB rgba(232,232, 0,0.75) */
+  --color-bg-green: rgba(var(--color-green),.75)!important;    /* HEX: #DDEDEA */ /* RGB rgba(0, 202, 0, 0.75) */
+  --color-bg-blue: rgba(var(--color-blue),.75)!important;      /* HEX: #DDEBF1 */ /* RGB rgba(0,144, 255,0.75) */
+  --color-bg-purple: rgba(var(--color-purple),.75)!important;  /* HEX: #EAE4F2 */ /* RGB rgba(220,85,220,0.75) */
+  --color-bg-pink: rgba(var(--color-pink),.75)!important;      /* HEX: #F4DFEB */ /* RGB rgba(255,141,223,.75) */ 
+  --color-bg-red: rgba(var(--color-red),.85)!important;        /* HEX: #FBE4E4 */ /* RGB rgba(220, 64,64,0.85) */
+  /* Background Light  */
+  --color-bg-gray-light: rgba(var(--color-gray),.25)!important;       /* RGB rgba(0, 0, 0,   0.25) */
+  --color-bg-brown-light: rgba(var(--color-brown),.75)!important;     /* RGB rgba(101, 67,33,0.75) */
+  --color-bg-orange-light: rgba(var(--color-orange),.5)!important;    /* RGB rgba(255, 119,0, 0.5) */
+  --color-bg-yellow-light: rgba(var(--color-yellow),.5)!important;    /* RGB rgba(232, 232,0, 0.5) */
+  --color-bg-green-light: rgba(var(--color-green),.5)!important;      /* RGB rgba(0, 202, 0,  0.5) */
+  --color-bg-blue-light: rgba(var(--color-blue),.5)!important;        /* RGB rgba(0, 144,255, 0.5) */
+  --color-bg-purple-light: rgba(var(--color-purple),.75)!important;   /* RGB rgba(220,85,220,0.75) */
+  --color-bg-pink-light: rgba(var(--color-pink),.75)!important;       /* RGB rgba(255,141,223,.75) */
+  --color-bg-red-light: rgba(var(--color-red),.85)!important;         /* RGB rgba(220,64,64, 0.85) */
+  /* Pill */
+  --color-pill-default: rgba(var( --color-default), .5)!important;   /* rgba(206,205,202,0.5) */ 
+  --color-pill-gray: rgba(var(--color-gray), .15)!important;         /* hsla(45,2%,60%, 0.15) */
+  --color-pill-brown: rgba(var(--color-brown),.5)!important;         /* rgba(101,67, 33, 0.5) */
+  --color-pill-orange: rgba(var(--color-orange),.5)!important;       /* rgba(255,119, 0, 0.5) */
+  --color-pill-yellow: rgba(var(--color-yellow),.75)!important;      /* rgba(233, 232, 0,.75) */
+  --color-pill-green: rgba(var(--color-green),.5)!important;         /* rgba(0, 202, 0,  0.5) */
+  --color-pill-blue: rgba(var(--color-blue),.5)!important;           /* rgba(0,144, 255, 0.5) */
+  --color-pill-purple: rgba(var(--color-purple),.75)!important;      /* rgba(220,85,220,0.75) */
+  --color-pill-pink: rgba(var(--color-pink),.75)!important;          /* rgba(255,141,223,.75) */
+  --color-pill-red: rgba(var(--color-red),.75)!important;            /* rgba(220, 64, 64,.75) */
+  /* UI */
   --color-ui-hover-bg: rgba(var(--color-card-bg), 1)!important;        /* rgba(37,77,117,1) */
   --color-ui-hover-bg-light: rgba(var(--color-white), 0.5)!important;  /* rgba(255,255,255,.5) */ 
   --color-accent-bg: rgb(45, 170, 219)!important;                    /* rgb(45,170,219) */
@@ -142,15 +142,10 @@
 /* END VARIABLES */
 
 
+/* BEGIN POLITICAL CUSTOMIZATION */
 
+/******* ###HTML *******/
 
-
-/* TEMPLATE STARTER */
-
-.super-content.max-width {
-  max-width: var(--theme-width)!important;
-  margin: auto!important;
-}
 
 html {
   font-size: var(--body-font)!important;  
@@ -160,68 +155,17 @@ body {
   font-size: var(--body-font)!important;
 }
 
-.notion-header__title-wrapper {
-  max-width: var(--theme-width)!important;
-}
 
-.notion-header__content.max-width {
-  max-width: var(--theme-width)!important;
-}
+/******* ###SUPER *******/
 
-.notion-embed__content {
-  border-radius: var(--element-radius) !important;
-  overflow: hidden!important;
-  margin-bottom: auto!important;
-}
-
-.notion-header__cover.no-cover {
-  max-height: 4em!important;
-  height: 0!important; 
-}
-
-.notion-divider {
-  border-bottom: none!important;
-  margin: 4em 0!important;
-}
-
-.notion-heading {
-  padding: 0!important;
-}
-
-.notion-column {
-  margin-bottom: 1em!important;
-  padding: 0!important;
+.super-content {
+  padding-bottom: 4em!important;
 }
 
 
+/* #NAVBAR */
 
-.notion-dropdown__button p, 
-.notion-dropdown__option p{
-  margin: 0px 0.5em!important;
-}
-
-.notion-dropdown__menu-header,
-.notion-dropdown__menu-header:hover,
-div.notion-dropdown__option,
-.notion-dropdown__option,
-.notion-dropdown__option p,
-.notion-dropdown__option-list,
-.notion-dropdown__option-list:hover {
-  background-color: var(--color-bg-default);
-}
-
-
-.notion-dropdown__option:hover p {
-  background-color: var(--color-card-bg);
-}
-
-
-
-
-
-/******* #NAVBAR *******/
-
- .super-navbar {
+.super-navbar {
   -webkit-backdrop-filter: blur(16px)!important;
   backdrop-filter: blur(16px)!important;
   max-width: var(--theme-width)!important;
@@ -238,14 +182,6 @@ div.notion-dropdown__option,
   transition: 0.1s ease-in-out!important;
 }
 
-.notion-header__cover {
-  margin: 1em 1em 4em 1em!important;
-  max-width: var(--theme-width)!important;
-  margin: auto!important;
-  width: calc(100% - var(--column-spacing))!important;
-  border-radius: var(--element-radius)!important;
-}
-
 .super-navbar__content {
   padding-left: 1em!important;
   padding-right: 1em!important;
@@ -257,94 +193,29 @@ div.notion-dropdown__option,
 }
 
 
+/******* ###NOTION HEADER *******/
 
 
-
-/*******  TYPOGRAPHY *******/
-
-
-h1 {
-  font-style: normal !important;
-  font-size: 3.25rem !important;
-  line-height: 120% !important;
-  letter-spacing: -0.04em !important;
-  margin-bottom: 0.5em!important;
-  max-width: 800px!important;
-  -webkit-animation: fadeIn 0.5s!important;
-  -moz-animation: fadeIn 0.5s!important;
-  -ms-animation: fadeIn 0.5s!important;
-  -o-animation: fadeIn 0.5s!important;
-  animation: fadeIn 0.5s!important;
+.notion-header__title-wrapper {
+  max-width: var(--theme-width)!important;
 }
 
-h2 {
-  font-style: normal !important;
-  font-size: 2rem !important;
-  line-height: 135% !important;
-  letter-spacing: -0.03em !important;
-  margin-bottom: 0.5em!important;
-  max-width: 800px!important;
-  -webkit-animation: fadeIn 0.75s!important;
-  -moz-animation: fadeIn 0.75s!important;
-  -ms-animation: fadeIn 0.75s!important;
-  -o-animation: fadeIn 0.75s!important;
-  animation: fadeIn 0.75s!important;
+.notion-header__content.max-width {
+  max-width: var(--theme-width)!important;
 }
 
-h3 {
-  font-style: normal !important;
-  font-size: 1.375rem !important;
-  line-height: 135% !important;
-  letter-spacing: -0.02em !important;
-  margin-bottom: 0.5em!important;
-  max-width: 800px!important;
-  -webkit-animation: fadeIn 1s!important;
-  -moz-animation: fadeIn 1s!important;
-  -ms-animation: fadeIn 1s!important;
-  -o-animation: fadeIn 1s!important;
-  animation: fadeIn 1s!important;
-  font-weight: 600!important;
-}
-
-p {
-  line-height: 175% !important;
-  margin-bottom: 1rem!important;
-  max-width: 800px!important;    
-  /*-webkit-animation: fadeIn 1.25s!important;
-  -moz-animation: fadeIn 1.25s!important;
-  -ms-animation: fadeIn 1.25s!important;
-  -o-animation: fadeIn 1.25s!important;
-  animation: fadeIn 1.25s!important;*/     
-}
-
-
-img {
-  border-radius: var(--element-radius)!important;
-  -webkit-animation: fadeIn 1.5s!important;
-  -moz-animation: fadeIn 1.5s!important;
-  -ms-animation: fadeIn 1.5s!important;
-  -o-animation: fadeIn 1.5s!important;
-  animation: fadeIn 1.5s!important;
-}
-
-.notion-image {
-  margin-bottom: 2rem!important;
-}
-
-.notion-image img{
-  object-fit: cover;
-}
-
-.notion-bulleted-list, 
-.notion-numbered-list {
-  padding-bottom: 1em!important;
-}
-
-.notion-code pre{
+.notion-header__cover {
+  margin: 1em 1em 4em 1em!important;
+  max-width: var(--theme-width)!important;
+  margin: auto!important;
+  width: calc(100% - var(--column-spacing))!important;
   border-radius: var(--element-radius)!important;
 }
 
-
+.notion-header__cover.no-cover {
+  max-height: 4em!important;
+  height: 0!important; 
+}
 
 
 
@@ -411,21 +282,203 @@ img {
 
 
 
+/******* ###BLOCK CUSTOMIZATION *******/
 
-/*******  #TO_DO *******/
+/******* ##Basic *******/
+
+/* #Text */
 
 
-.notion-to-do__content {
-    margin-bottom: 1em!important;
+
+/*******  TYPOGRAPHY *******/
+
+p {
+  line-height: 175% !important;
+  margin-bottom: 1rem!important;
+  max-width: 800px!important;    
+  /*-webkit-animation: fadeIn 1.25s!important;
+  -moz-animation: fadeIn 1.25s!important;
+  -ms-animation: fadeIn 1.25s!important;
+  -o-animation: fadeIn 1.25s!important;
+  animation: fadeIn 1.25s!important;*/     
 }
 
+
+/* #Heading 1 */
+
+h1 {
+  font-style: normal !important;
+  font-size: 3.25rem !important;
+  line-height: 120% !important;
+  letter-spacing: -0.04em !important;
+  margin-bottom: 0.5em!important;
+  max-width: 800px!important;
+  -webkit-animation: fadeIn 0.5s!important;
+  -moz-animation: fadeIn 0.5s!important;
+  -ms-animation: fadeIn 0.5s!important;
+  -o-animation: fadeIn 0.5s!important;
+  animation: fadeIn 0.5s!important;
+}
+
+
+/* #Heading 2 */
+
+
+h2 {
+  font-style: normal !important;
+  font-size: 2rem !important;
+  line-height: 135% !important;
+  letter-spacing: -0.03em !important;
+  margin-bottom: 0.5em!important;
+  max-width: 800px!important;
+  -webkit-animation: fadeIn 0.75s!important;
+  -moz-animation: fadeIn 0.75s!important;
+  -ms-animation: fadeIn 0.75s!important;
+  -o-animation: fadeIn 0.75s!important;
+  animation: fadeIn 0.75s!important;
+}
+
+
+
+/* #Heading 3 */
+
+h3 {
+  font-style: normal !important;
+  font-size: 1.375rem !important;
+  line-height: 135% !important;
+  letter-spacing: -0.02em !important;
+  margin-bottom: 0.5em!important;
+  max-width: 800px!important;
+  -webkit-animation: fadeIn 1s!important;
+  -moz-animation: fadeIn 1s!important;
+  -ms-animation: fadeIn 1s!important;
+  -o-animation: fadeIn 1s!important;
+  animation: fadeIn 1s!important;
+  font-weight: 600!important;
+}
+
+/* #Page */
+
+.notion-page {
+  border: 1px solid var(--color-border-transparent)!important;
+  border-radius: var(--element-radius)!important;
+}
+
+.notion-page > div {
+  border-radius: var(--element-radius)!important;
+  display: flex;
+  transition: 300ms ease-in!important;
+  padding: 0.5em!important;
+}
+
+.notion-page__title .notion-semantic-string {
+  border-bottom: none var(--color-border-transparent);
+}
+
+
+/* #Callout */
+
+/*  START Callout Button*/ 
+/* (Entire block is clickable) */
+.notion-callout {
+  position: relative!important;
+}
+  
+.notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
+  position: absolute!important;
+  height: 100%!important;
+  width: 100%!important;
+  top: 0!important;
+  left: 0!important;
+  right: 0!important;
+  bottom: 0!important;
+  padding: 15px!important;
+  padding-left: 50px!important;
+  border: none!important;
+}
+/* END Callout Button*/
+
+p.notion-callout__content{
+  max-width: var(--theme-width)!important;
+  width: var(--theme-width)!important;
+}
+
+.notion-callout {
+  border-radius: var(--element-radius)!important;
+  border: 1px solid var(--color-border-transparent)!important;
+  padding: 1.5em 1.5em 0.5em 1.5em!important;
+  overflow: hidden!important;
+  margin-bottom: 1em!important;
+}
+
+.notion-callout.bg-gray-light, 
+.notion-callout.bg-brown-light, 
+.notion-callout.bg-orange-light, 
+.notion-callout.bg-yellow-light, 
+.notion-callout.bg-green-light, 
+.notion-callout.bg-blue-light, 
+.notion-callout.bg-purple-light, 
+.notion-callout.bg-pink-light, 
+.notion-callout.bg-red-light {
+  border:none!important;
+}
+
+/* #Pills */
+
+.notion-pill {
+  padding: 0.25em 0.75em!important;
+  border-radius: var(--element-radius)!important;
+}
+
+/* #Quote */
+
+.notion-quote {
+  font-style: italic!important;
+  font-size: 1em!important;
+  font-weight: 500!important;
+  width: 100% !important;
+  margin: 1rem auto!important;
+  padding: 1em 1em 2em 2em!important;
+  border: 1px solid var(--color-border-default)!important;
+  text-align: center!important;
+  display: flex!important;
+  flex-direction: column!important;
+  align-items: center!important;
+  border-radius: var(--element-radius)!important;
+}
+
+.notion-quote.bg-gray, 
+.notion-quote.bg-brown, 
+.notion-quote.bg-orange, 
+.notion-quote.bg-yellow, 
+.notion-quote.bg-green, 
+.notion-quote.bg-blue, 
+.notion-quote.bg-purple, 
+.notion-quote.bg-pink, 
+.notion-quote.bg-red {
+  /* border:none!important; */
+  border: 1px solid var(--color-border-default)!important;
+}
+
+/* #Divider */
+
+.notion-divider {
+  border-bottom: none!important;
+  margin: 4em 0!important;
+}
+
+/* #To-do List */
+
+.notion-to-do__content {
+  margin-bottom: 1em!important;
+}
 
 .notion-to-do__icon {
   margin-inline: 0px!important;
   margin-right: 16px!important;
 }
 
-.notion-checkbox{
+.notion-checkbox {
   width:1.5em!important;
   height: 1.5em!important;
   border-radius: var(--element-radius)!important;
@@ -433,7 +486,7 @@ img {
   border: 1px solid var(--color-text-default)!important;
 }
 
-.notion-checkbox svg{
+.notion-checkbox svg {
   display: none!important;
 }
 
@@ -470,70 +523,32 @@ img {
 
 
 
+/* #Bulleted list */
 
-
-
-/*******  CALLOUT *******/
-
-
-
-p.notion-callout__content{
-  max-width: var(--theme-width)!important;
-  width: var(--theme-width)!important;
+.notion-bulleted-list {
+  padding-bottom: 1em!important;
 }
 
-
-.notion-callout {
-  border-radius: var(--element-radius)!important;
-  border: 1px solid var(--color-border-transparent)!important;
-  padding: 1.5em 1.5em 0.5em 1.5em!important;
-  overflow: hidden!important;
-  margin-bottom: 1em!important;
+.notion-bulleted-list {
+  color: var(--color-text-white);
+  background-color: rgba(var(--color-card-bg), .25);
+  font-family: var(--secondary-font)!important;
 }
 
-.notion-callout.bg-gray-light, 
-.notion-callout.bg-brown-light, 
-.notion-callout.bg-orange-light, 
-.notion-callout.bg-yellow-light, 
-.notion-callout.bg-green-light, 
-.notion-callout.bg-blue-light, 
-.notion-callout.bg-purple-light, 
-.notion-callout.bg-pink-light, 
-.notion-callout.bg-red-light {
-  border:none!important;
+.notion-numbered-list {
+  color: var(--color-text-white);
+  background-color: rgba(var(--color-card-bg), .25);
+  font-family: var(--secondary-font)!important;
+} 
+
+
+/* #Numbered list */
+
+.notion-numbered-list {
+  padding-bottom: 1em!important;
 }
 
-.notion-page {
-  border: 1px solid var(--color-border-transparent)!important;
-  border-radius: var(--element-radius)!important;
-}
-
-.notion-page > div {
-  border-radius: var(--element-radius)!important;
-  display: flex;
-  transition: 300ms ease-in!important;
-  padding: 0.5em!important;
-}
-
-.notion-page__title .notion-semantic-string {
-  border-bottom: none var(--color-border-transparent);
-}
-
-
-
-
-/*******  #BOOKMARKS *******/
-
-.notion-bookmark__description {
-  margin: 0;
-  margin-bottom: 0px;
-  font-size: 12px;
-  line-height: 1rem;
-  height: fit-content!important;
-  overflow: hidden;
-}
-
-/*******  #TOGGLES *******/
+/* #Toggle block */
 
 
 .notion-toggle {
@@ -544,11 +559,6 @@ p.notion-callout__content{
   font-weight: 600!important;
 }
 
-.notion-pill {
-  padding: 0.25em 0.75em!important;
-  border-radius: var(--element-radius)!important;
-}
-
 .notion-toggle__summary::before {
   font-size: 2em!important;
   border-radius: var(--element-radius)!important;
@@ -556,12 +566,39 @@ p.notion-callout__content{
   position: relative!important;
 }
 
-.notion-bulleted-list
-.notion-numbered-list, 
+
+
+/* #Simple tables */
+
+
+/* #Toggle heading 1 */
+
+
+/* #Toggle heading 2 */
+
+
+/* #Toggle heading 3 */
+
+
+.notion-heading {
+  padding: 0!important;
+}
+
+.notion-column {
+  margin-bottom: 1em!important;
+  padding: 0!important;
+}
+
+
+
+
+/******* ##Database *******/
+
+
 .notion-collection-card {
-    color: var(--color-text-white);
-    background-color: rgba(var(--color-card-bg), .25);
-    font-family: var(--secondary-font)!important;
+  color: var(--color-text-white);
+  background-color: rgba(var(--color-card-bg), .25);
+  font-family: var(--secondary-font)!important;
 }
 
 .notion-collection-card {
@@ -590,29 +627,7 @@ p.notion-callout__content{
   padding: 0em 1rem 1rem 1rem!important;
 }
 
-.notion-collection-board {
-  gap: 1rem!important;
-  border: none!important;
-  overflow-x: scroll!important;
-  margin-bottom: 1rem!important;
-  padding: 1em!important;
-  background-color: var(--color-border-transparent)!important;
-  border-radius: var(--element-radius)!important;
-}
 
-.notion-collection-board__item {
-  margin-bottom: 1rem!important;
-}
-
-.notion-collection-board .notion-property__title,  
-.notion-collection-gallery .notion-property__title {
-  padding: 1rem!important;
-  width: fit-content!important;
-}
-
-.super-content {
-  padding-bottom: 4em!important;
-}
 
 .notion-collection-card__cover.large {
   height: 18rem!important;
@@ -652,60 +667,26 @@ p.notion-callout__content{
   transform: scale(1.1) !important;
 }
 
-.notion-collection-card.gallery {
-  border: 1px solid var(--color-border-transparent)!important;
-  border-radius: var(--element-radius)!important;
-  transition: .3s ease-in-out !important;
-}
-
-.notion-collection-card.gallery:hover {
-  border: 1px solid var(--color-bg-default)!important;
-  border-radius: var(--element-radius)!important;
-  background-color: var(--color-card-bg)!important;
-  transition: .3s ease-in-out !important;
-}
 
 
+/* #Simple Table */
 
-
-
-/*******  Quotes  *******/
-
-
-.notion-quote {
-  font-style: italic!important;
-  font-size: 1em!important;
-  font-weight: 500!important;
-  width: 100% !important;
-  margin: 1rem auto!important;
-  padding: 1em 1em 2em 2em!important;
-  border: 1px solid var(--color-border-default)!important;
-  text-align: center!important;
-  display: flex!important;
-  flex-direction: column!important;
-  align-items: center!important;
-  border-radius: var(--element-radius)!important;
-}
-
-.notion-quote.bg-gray, 
-.notion-quote.bg-brown, 
-.notion-quote.bg-orange, 
-.notion-quote.bg-yellow, 
-.notion-quote.bg-green, 
-.notion-quote.bg-blue, 
-.notion-quote.bg-purple, 
-.notion-quote.bg-pink, 
-.notion-quote.bg-red {
-  /* border:none!important; */
-  border: 1px solid var(--color-border-default)!important;
+.notion-table {
+  font-size: 1rem!important;
+  margin: 1rem 0!important;
+  overflow: hidden!important;
+  padding: 1em!important;
 }
 
 
+.notion-table td, 
+.notion-table th {
+  padding: 1rem!important;
+  overflow: hidden!important;
+}
 
 
-
-/*******  #TABLE DATABASE *******/
-
+/* #Table */
 
 .notion-collection-table {
   font-size: 1rem!important;
@@ -748,76 +729,53 @@ p.notion-callout__content{
 
 
 
+/* #Board */
 
-/*******  #Simple TABLE *******/
-
-
-.notion-table {
-  font-size: 1rem!important;
-  margin: 1rem 0!important;
-  overflow: hidden!important;
-  padding: 1em!important;
-}
-
-
-.notion-table td, 
-.notion-table th {
-  padding: 1rem!important;
-  overflow: hidden!important;
-}
-
-
-
-/*******  #TABLE OF CONTENTS  *******/
-
-
-
-.notion-table-of-contents {
-  padding: 1rem!important;
-  font-size: 0.75rem!important;
-  margin: 1rem 0!important;
-  border-radius: var(--element-radius)!important;
-  z-index: 19!important;
-  border: 1px solid var(--color-border-transparent)!important;
-  color: var(--color-white);
-  /*background: var(--color-card-bg)!important;*/
-  background-color: transparent!important;
-  opacity: 1!important;
-}
-
-.notion-table-of-contents__item {
-  padding: 0.25em 0.5em!important;
-  opacity: 1!important;
-  transition: .5s!important;
-}
-
-.notion-table-of-contents__item .notion-semantic-string {
-  border-bottom: none!important;
-}
-
-.notion-table-of-contents.bg-yellow, 
-.notion-table-of-contents.bg-yellow, 
-.notion-table-of-contents.bg-orange, 
-.notion-table-of-contents.bg-gray, 
-.notion-table-of-contents.bg-brown, 
-.notion-table-of-contents.bg-green, 
-.notion-table-of-contents.bg-blue, 
-.notion-table-of-contents.bg-purple, 
-.notion-table-of-contents.bg-pink,
-.notion-table-of-contents.bg-red{
+.notion-collection-board {
+  gap: 1rem!important;
   border: none!important;
+  overflow-x: scroll!important;
+  margin-bottom: 1rem!important;
+  padding: 1em!important;
+  background-color: var(--color-border-transparent)!important;
+  border-radius: var(--element-radius)!important;
 }
 
-.notion-table-of-contents__item:hover {
-  background-color: none!important;
-  opacity: 0.5!important;
+.notion-collection-board__item {
+  margin-bottom: 1rem!important;
+}
+
+.notion-collection-board .notion-property__title   { 
+  padding: 1rem!important;
+  width: fit-content!important;
+}
+
+
+
+/* #Gallery */
+
+.notion-collection-card.gallery {
+  border: 1px solid var(--color-border-transparent)!important;
+  border-radius: var(--element-radius)!important;
+  transition: .3s ease-in-out !important;
+}
+
+.notion-collection-card.gallery:hover {
+  border: 1px solid var(--color-bg-default)!important;
+  border-radius: var(--element-radius)!important;
+  background-color: var(--color-card-bg)!important;
+  transition: .3s ease-in-out !important;
+}
+
+.notion-collection-gallery .notion-property__title {
+  padding: 1rem!important;
+  width: fit-content!important;
 }
 
 
 
 
-
-/*******  #LIST   *******/
+/* #List */
 
 
 .notion-collection-list {
@@ -868,8 +826,7 @@ white-space: normal!important;
 
 
 
-
-/******* #Calendar *******/
+/* #Calendar */
 
 .notion-collection-calendar {
   border: none!important;
@@ -897,15 +854,188 @@ white-space: normal!important;
 
 
 
-/* END TEMPLATE STARTER */
+/* View switcher */
+
+.notion-dropdown__button p, 
+.notion-dropdown__option p{
+  margin: 0px 0.5em!important;
+}
+
+.notion-dropdown__menu-header,
+.notion-dropdown__menu-header:hover,
+div.notion-dropdown__option,
+.notion-dropdown__option,
+.notion-dropdown__option p,
+.notion-dropdown__option-list,
+.notion-dropdown__option-list:hover {
+  background-color: var(--color-bg-default);
+}
+
+.notion-dropdown__option:hover p {
+  background-color: var(--color-card-bg);
+}
 
 
 
 
-/* OVERWRITES */
+/* Database grouping */
 
 
-/* AMETECH OVERWRITES */
+
+
+
+/******* ##Media *******/
+
+/* Images */
+
+img {
+  border-radius: var(--element-radius)!important;
+  -webkit-animation: fadeIn 1.5s!important;
+  -moz-animation: fadeIn 1.5s!important;
+  -ms-animation: fadeIn 1.5s!important;
+  -o-animation: fadeIn 1.5s!important;
+  animation: fadeIn 1.5s!important;
+}
+
+.notion-image {
+  margin-bottom: 2rem!important;
+}
+
+.notion-image img{
+  object-fit: cover;
+}
+
+
+/* Bookmarks */
+
+.notion-bookmark__description {
+  margin: 0;
+  margin-bottom: 0px;
+  font-size: 12px;
+  line-height: 1rem;
+  height: fit-content!important;
+  overflow: hidden;
+}
+
+
+
+/* Video */
+
+
+
+
+
+/* Audio */
+
+
+
+
+
+/* Code */
+
+.notion-code pre{
+  border-radius: var(--element-radius)!important;
+}
+
+
+
+/* File */
+
+
+/******* ##Embed *******/
+
+/* Embed */
+
+.notion-embed__content {
+  border-radius: var(--element-radius) !important;
+  overflow: hidden!important;
+  margin-bottom: auto!important;
+}
+
+/* Google drive */
+/* Tweet */
+/* Gist */
+/* Google maps */
+/* Figma */
+/* Abstract */
+/* Invision */
+/* Framer */
+/* Whimsical */
+/* Miro */
+/* Sketch */
+/* Excalidraw */
+/* PDF */
+/* Loom */
+/* Typeform */
+/* Codepen */
+/* Replit */
+/* Hex */
+/* Deepnote */
+
+
+/******* ##Advanced *******/
+
+/* #Table of Contents */
+
+/*******  #TABLE OF CONTENTS  *******/
+
+
+
+.notion-table-of-contents {
+  padding: 1rem!important;
+  font-size: 0.75rem!important;
+  margin: 1rem 0!important;
+  border-radius: var(--element-radius)!important;
+  z-index: 19!important;
+  border: 1px solid var(--color-border-transparent)!important;
+  color: var(--color-white);
+  /*background: var(--color-card-bg)!important;*/
+  background-color: transparent!important;
+  opacity: 1!important;
+}
+
+.notion-table-of-contents__item {
+  padding: 0.25em 0.5em!important;
+  opacity: 1!important;
+  transition: .5s!important;
+}
+
+.notion-table-of-contents__item .notion-semantic-string {
+  border-bottom: none!important;
+}
+
+.notion-table-of-contents.bg-yellow, 
+.notion-table-of-contents.bg-yellow, 
+.notion-table-of-contents.bg-orange, 
+.notion-table-of-contents.bg-gray, 
+.notion-table-of-contents.bg-brown, 
+.notion-table-of-contents.bg-green, 
+.notion-table-of-contents.bg-blue, 
+.notion-table-of-contents.bg-purple, 
+.notion-table-of-contents.bg-pink,
+.notion-table-of-contents.bg-red{
+  border: none!important;
+}
+
+.notion-table-of-contents__item:hover {
+  background-color: none!important;
+  opacity: 0.5!important;
+}
+
+/* #Equation */
+
+/* #Synced blocks */
+
+/* #Breadcrumbs */
+
+
+
+/* END POLITICAL CUSTOMIZATION */
+
+
+
+/* THEME: POLITICAL OVERWRITES */
+
 
 /* Show/Hide Notion-Navbar  */
 .notion-navbar {
@@ -925,10 +1055,24 @@ white-space: normal!important;
 /* Increase/Decrease Opacity to change Page BG Color on Mouseover */
 .notion-page:focus,
 .notion-page:hover {
-background-color: rgba(var(--color-card-bg), .90);
+  background-color: rgba(var(--color-card-bg), .90);
 }
 
-/* HIDE All Notion Page Block Icons  */
+/******* #NOTION-HEADER *******/
+
+/* Show/Hide Notion Header */
+/* (Page Title, Cover and Icon)*/
+.notion-header {
+  display: none!important;
+}
+.super-content {
+  padding-top: 60px!important;
+}
+/* .super-content affects the header padding left behind*/
+/* END Show/Hide Notion Header*/
+
+
+/* Show/Hide All Notion Page Block Icons  */
 .notion-icon, 
 .notion-icon__page, 
 .notion-header__icon,
@@ -944,11 +1088,11 @@ background-color: rgba(var(--color-card-bg), .90);
 /* was set to display: none */
 }
 
-  
 /* Show/Hide Database Name */
 .notion-collection__header-wrapper {
     display: block!important;
 }
+
 /* Show/Hide Notion Database Header Icon */
 .notion-collection__header-wrapper {
   display: block!important;
@@ -984,10 +1128,20 @@ background-color: rgba(var(--color-card-bg), .90);
   display: none !important;
 }
 
-/* Show/Hide ALL TOGGLES */
-.notion-toggle,
-.notion-toggle_summary {
+/* SHOW/Hide All Toggles*/
+.notion-toggle {
   display: block!important;
+}
+/* HIDE All Toggles with Brown Background */
+/* Use these to hide page content*/
+.notion-toggle.bg-brown {
+  display: none!important;
+}
+
+/* Set Page Width */
+.super-content.max-width {
+  max-width: var(--theme-width)!important;
+  margin: auto!important;
 }
 
 
