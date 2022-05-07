@@ -401,6 +401,11 @@ h3 {
   padding: 15px !important;
   padding-left: 50px !important;
   border: none !important;
+  opacity: 0.5 !important;
+}
+
+.notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
+  opacity: 1 !important;
 }
 /* END Callout Button*/
 
