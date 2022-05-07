@@ -404,7 +404,11 @@ h3 {
   opacity: 0.5 !important;
 }
 
-.notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
+.notion-callout .bg-red-light .border {
+  /*opacity: 0.5 !important;*/
+}
+
+.notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link:link {
   opacity: 1 !important;
 }
 /* END Callout Button*/
