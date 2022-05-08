@@ -403,11 +403,11 @@ h3 {
   border: none !important;
 }
 
-/*.notion-callout .bg-red-light .border {
-  opacity: 0.5 !important;
+.notion-callout .bg-red-light .border {
+  opacity: 1 !important;
 }
-*/
-[class="notion-callout notion-callout__content:first-of-type > notion-semantic-string span notion-link:link"] {
+
+.notion-callout:hover .bg-red-light .border {
   opacity: 0 !important;
 }
 /* END Callout Button*/
