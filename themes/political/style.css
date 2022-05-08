@@ -441,10 +441,10 @@ p.notion-callout__content{
 /* To get red button, give a single line Callout 
   and make the background red in Notion */
   [class="notion-callout bg-red-light border"] {
-    background: rgb(162,0,0,1);
+    background: rgb(153,0,0,1);
   }
   [class="notion-callout bg-red-light border"]:hover {
-     background: rgba(162,0,0,0.5);
+     background: rgba(153,0,0,0.5);
   }
   
 
