@@ -403,9 +403,7 @@ h3 {
   border: none !important;
 }
 
-[class="notion-callout bg-red-light border"]:hover {
-  opacity: 0 !important;
-}
+
 /* END Callout Button*/
 
 p.notion-callout__content{
