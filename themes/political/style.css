@@ -53,7 +53,7 @@
   --h1-weight: 500 !important;
   --h1-spacing: -1px !important;
   --h1-margin: 0px 0px 15px 0px !important;
-  --h1-line-height: 1.25 !important;
+  --h1-line-height: 1 !important;
   /* h2 */
   --h2-size: 2.2rem !important;
   --h2-weight: 500 !important;
@@ -316,7 +316,7 @@ p {
 h1 {
   font-style: normal  !important;
   font-size: 3.25rem  !important;
-  line-height: 120%  !important;
+  line-height: 100%  !important;
   letter-spacing: -0.04em  !important;
   margin-bottom: 0.5em !important;
   max-width: 800px !important;
