@@ -458,86 +458,86 @@ p.notion-callout__content{
   /* Gray Button */
  
   [class="notion-callout bg-gray-light border"] {
-    background-color: rgba(var(--color-bg-gray), 0.75) !important;
+    background-color: rgba(var(--color-gray), 0.75) !important;
   }
 
   [class="notion-callout bg-gray-light border"]:hover {
-    background-color: rgba(var(--color-bg-gray), 0.25) !important;
+    background-color: rgba(var(--color-gray), 0.25) !important;
   }
 
 
   /* Brown Button */
 
   [class="notion-callout bg-brown-light border"] {
-    background-color: rgba(var(--color-bg-brown), 1) !important;
+    background-color: rgba(var(--color-brown), 1) !important;
   }
 
   [class="notion-callout bg-brown-light border"]:hover {
-    background-color: rgba(var(--color-bg-brown), 0.5) !important;
+    background-color: rgba(var(--color-brown), 0.5) !important;
   }
 
 
   /* Orange Button */
 
   [class="notion-callout bg-orange-light border"] {
-    background-color: rgba(var(--color-bg-orange), 0.50) !important;
+    background-color: rgba(var(--color-orange), 0.50) !important;
   }
 
   [class="notion-callout bg-orange-light border"]:hover {
-    background-color: rgba(var(--color-bg-orange), 0.25) !important;
+    background-color: rgba(var(--color-orange), 0.25) !important;
   }
 
 
   /* Yellow Button */
 
   [class="notion-callout bg-yellow-light border"] {
-    background-color: rgba(var(--color-bg-yellow), 0.50) !important;
+    background-color: rgba(var(--color-yellow), 0.50) !important;
   }
 
   [class="notion-callout bg-yellow-light border"]:hover {
-    background-color: rgba(var(--color-bg-yellow), 0.25) !important;
+    background-color: rgba(var(--color-yellow), 0.25) !important;
   }
 
 
   /* Green Button */
 
   [class="notion-callout bg-green-light border"] {
-    background-color: rgba(var(--color-bg-green), 0.50) !important;
+    background-color: rgba(var(--color-green), 0.50) !important;
   }
 
   [class="notion-callout bg-green-light border"]:hover {
-    background-color: rgba(var(--color-bg-green), 0.25) !important;
+    background-color: rgba(var(--color-green), 0.25) !important;
   }
 
   /* Blue Button */
 
   [class="notion-callout bg-blue-light border"] {
-    background-color: rgba(var(--color-bg-blue), 1) !important;
+    background-color: rgba(var(--color-blue), 1) !important;
   }
 
   [class="notion-callout bg-blue-light border"]:hover {
-    background-color: rgba(var(--color-bg-blue), 0.50) !important;
+    background-color: rgba(var(--color-blue), 0.50) !important;
   }
   
   /* Purple Button */
   
   [class="notion-callout bg-purple-light border"] {
-    background-color: rgba(var(--color-bg-purple), 0.75) !important;
+    background-color: rgba(var(--color-purple), 0.75) !important;
   }
 
   [class="notion-callout bg-purple-light border"]:hover {
-    background-color: rgba(var(--color-bg-purple), 0.25) !important;
+    background-color: rgba(var(--color-purple), 0.25) !important;
   }
 
 
   /* Pink Button */
   
   [class="notion-callout bg-pink-light border"] {
-    background-color: rgba(var(--color-bg-pink),0.5) !important;
+    background-color: rgba(var(--color-pink),0.5) !important;
   }
   
   [class="notion-callout bg-pink-light border"]:hover {
-    background-color: rgba(var(--color-bg-pink),0.25) !important;
+    background-color: rgba(var(--color-pink),0.25) !important;
   }
   
 
@@ -545,11 +545,11 @@ p.notion-callout__content{
 
 
   [class="notion-callout bg-red-light border"] {
-    background-color: rgba(var(--color-bg-red), 0.75) !important;
+    background-color: rgba(var(--color-red), 0.75) !important;
   }
 
   [class="notion-callout bg-red-light border"]:hover {
-    background-color: rgba(var(--color-bg-red), 0.25) !important;
+    background-color: rgba(var(--color-red), 0.25) !important;
   }
 
 /* Fit Content in Button */
