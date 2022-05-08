@@ -67,80 +67,80 @@
   --link-border-width: 0px 0px 0px 0px !important;
   --link-border-style: none !important;
   --link-border-color: none !important;
-  /* Colors */                                /* HEX Values for DEFAULT colors*/
+  /* Colors */
   /* --color-default is the default theme color */
   /* This affects text color exclusively (right?)
      and gray contrasted poorly with the background 
      color so it was set to white */
-  --color-default: 255, 255, 255 !important; /* HEX:  #37352f */ 
-  --color-white: 255, 255, 255 !important;   /* HEX:  #ffffff */
-  --color-gray: 255, 255, 255 !important;    /* HEX:  #646464 */
-  --color-black: 0, 0, 0 !important;         /* HEX:  #000000 */
-  --color-brown: 101, 67, 33 !important;     /* HEX:  #654321 */
-  --color-orange: 255, 119, 0 !important;    /* HEX:  #ff7700 */
-  --color-yellow: 232, 232, 0 !important;    /* HEX:  #e8e800 */
-  --color-green: 0, 202, 0 !important;       /* HEX:  #00ca00 */
-  --color-blue: 51, 102, 153 !important;     /* HEX:  #0090ff */
-  --color-purple: 121, 85, 121 !important;   /* HEX:  #DD55DD */
-  --color-pink: 255, 141, 223 !important;    /* HEX:  #FF8DDF */
-  --color-red: 179, 25, 66 !important;       /* HEX:  #dc4040 */
+  --color-default: 255, 255, 255 !important;
+  --color-white: 255, 255, 255 !important;
+  --color-gray: 255, 255, 255 !important;
+  --color-black: 0, 0, 0 !important;
+  --color-brown: 101, 67, 33 !important;
+  --color-orange: 255, 119, 0 !important;
+  --color-yellow: 232, 232, 0 !important;
+  --color-green: 0, 202, 0 !important;
+  --color-blue: 51, 102, 153 !important;
+  --color-purple: 121, 85, 121 !important;
+  --color-pink: 255, 141, 223 !important;
+  --color-red: 179, 25, 66 !important;
   /* Text */
   /* Site Foreground */
   /* --color-text-default sets default text color site-wide */
-  --color-text-default: rgba(var(--color-white),1) !important;             /* HEX: # */
-  --color-text-default-light: rgba(var(--color-white),1) !important;    /* HEX: #37352F or rgba(55, 53, 47, 0.6) */
-  --color-text-gray: rgba(var(--color-white),1) !important;                /* HEX: #9B9A97 */ /* rgba(45,170,219,.3) */
-  --color-text-black: rgba(var(--color-black),1) !important;               /* HEX: #000000 */
-  --color-text-brown: rgba(var(--color-brown),1) !important;               /* HEX: #64473A */
-  --color-text-orange: rgba(var(--color-orange),1) !important;             /* HEX: #D9730D */
-  --color-text-yellow: rgba(var(--color-yellow),1) !important;             /* HEX: #DFAB01 */
-  --color-text-green: rgba(var(--color-green),1) !important;               /* HEX: #0F7B6C */
-  --color-text-blue: rgba(var(--color-blue),1) !important;                 /* HEX: #0B6E99 */
-  --color-text-purple: rgba(var(--color-purple),1) !important;             /* HEX: #6940A5 */
-  --color-text-pink: rgba(var(--color-pink),1) !important;                 /* HEX: #AD1A72 */
-  --color-text-red: rgba(var(--color-red),1) !important;                   /* HEX: #E03E3E */
+  --color-text-default: rgb(var(--color-white)) !important;
+  --color-text-default-light: rgba(var(--color-white),1) !important;
+  --color-text-gray: rgb(var(--color-white)) !important;
+  --color-text-black: rgb(var(--color-black)) !important;
+  --color-text-brown: rgb(var(--color-brown)) !important;
+  --color-text-orange: rgb(var(--color-orange)) !important;
+  --color-text-yellow: rgb(var(--color-yellow)) !important;
+  --color-text-green: rgb(var(--color-green)) !important;
+  --color-text-blue: rgb(var(--color-blue)) !important;
+  --color-text-purple: rgb(var(--color-purple)) !important;
+  --color-text-pink: rgb(var(--color-pink)) !important;
+  --color-text-red: rgb(var(--color-red)) !important;
   /* Site Background */
-  --color-bg-default: rgb(10, 49, 97) !important;           /* HEX: #336699 */ /* RGB rgb(51,102,153,1) */
+  --color-bg-default: 10, 49, 97 !important;
   /* Color Card BG */
   /* --color-card-bg sets background color on card elements site-wide*/
-  --color-card-bg: rgb(37, 77, 117) !important;
+  --color-card-bg: 37, 77, 117 !important;
   /* Colored Backgrounds */
-  --color-bg-gray: rgba(var(--color-black),.75) !important;      /* HEX: #EBECED */ /* RGB  rgba(0, 0, 0, 0.25) */
-  --color-bg-brown: rgba(var(--color-brown),.75) !important;    /* HEX: #E9E5E3 */ /* RGB rgba(101,67,33, 0.75) */
-  --color-bg-orange: rgba(var(--color-orange),.75) !important;  /* HEX: #FAEBDD */ /* RGB rgba(255,119, 0,0.75) */
-  --color-bg-yellow: rgba(var(--color-yellow),.75) !important;  /* HEX: #FBF3DB */ /* RGB rgba(232,232, 0,0.75) */
-  --color-bg-green: rgba(var(--color-green),.75) !important;    /* HEX: #DDEDEA */ /* RGB rgba(0, 202, 0, 0.75) */
-  --color-bg-blue: rgba(var(--color-blue),.75) !important;      /* HEX: #DDEBF1 */ /* RGB rgba(0,144, 255,0.75) */
-  --color-bg-purple: rgba(var(--color-purple),.75) !important;  /* HEX: #EAE4F2 */ /* RGB rgba(220,85,220,0.75) */
-  --color-bg-pink: rgba(var(--color-pink),.75) !important;      /* HEX: #F4DFEB */ /* RGB rgba(255,141,223,.75) */ 
-  --color-bg-red: rgba(var(--color-red),.85) !important;        /* HEX: #FBE4E4 */ /* RGB rgba(220, 64,64,0.85) */
+  --color-bg-gray: rgba(0,0,0,.75) !important;
+  --color-bg-brown: rgba(var(--color-brown)) !important;
+  --color-bg-orange: rgba(var(--color-orange),.75) !important;
+  --color-bg-yellow: rgba(var(--color-yellow),.75) !important;
+  --color-bg-green: rgba(var(--color-green),.75) !important;
+  --color-bg-blue: rgba(var(--color-blue),.75) !important;
+  --color-bg-purple: rgba(var(--color-purple),.75) !important;
+  --color-bg-pink: rgba(var(--color-pink),.75) !important;
+  --color-bg-red: rgba(var(--color-red),.85) !important;
   /* Background Light  */
-  --color-bg-gray-light: rgba(var(--color-black),.25) !important;       /* RGB rgba(0, 0, 0,   0.25) */
-  --color-bg-brown-light: rgba(var(--color-bg-brown),.75) !important;     /* RGB rgba(101, 67,33,0.75) */
-  --color-bg-orange-light: rgba(var(--color-bg-orange),.5) !important;    /* RGB rgba(255, 119,0, 0.5) */
-  --color-bg-yellow-light: rgba(var(--color-bg-yellow),.5) !important;    /* RGB rgba(232, 232,0, 0.5) */
-  --color-bg-green-light: rgba(var(--color-bg-green),.5) !important;      /* RGB rgba(0, 202, 0,  0.5) */
-  --color-bg-blue-light: rgba(var(--color-bg-blue),.5) !important;        /* RGB rgba(0, 144,255, 0.5) */
-  --color-bg-purple-light: rgba(var(--color-bg-purple),.75) !important;   /* RGB rgba(220,85,220,0.75) */
-  --color-bg-pink-light: rgba(var(--color-bg-pink),.75) !important;       /* RGB rgba(255,141,223,.75) */
-  --color-bg-red-light: rgba(var(--color-bg-red),.85) !important;         /* RGB rgba(220,64,64, 0.85) */
+  --color-bg-gray-light: rgba(var(--color-black),.25) !important;
+  --color-bg-brown-light: rgba(var(--color-bg-brown),.75) !important;
+  --color-bg-orange-light: rgba(var(--color-bg-orange),.5) !important;
+  --color-bg-yellow-light: rgba(var(--color-bg-yellow),.5) !important;
+  --color-bg-green-light: rgba(var(--color-bg-green),.5) !important;
+  --color-bg-blue-light: rgba(var(--color-bg-blue),.5) !important;
+  --color-bg-purple-light: rgba(var(--color-bg-purple),.75) !important;
+  --color-bg-pink-light: rgba(var(--color-bg-pink),.75) !important;
+  --color-bg-red-light: rgba(var(--color-bg-red),.85) !important;
   /* Pill */
-  --color-pill-default: rgba(var(--color-default),.5) !important;   /* rgba(206,205,202,0.5) */ 
-  --color-pill-gray: rgba(var(--color-black),.50) !important;         /* hsla(45,2%,60%, 0.15) */
-  --color-pill-brown: rgba(var(--color-brown),.5) !important;         /* rgba(101,67, 33, 0.5) */
-  --color-pill-orange: rgba(var(--color-orange),.5) !important;       /* rgba(255,119, 0, 0.5) */
-  --color-pill-yellow: rgba(var(--color-yellow),.75) !important;      /* rgba(233, 232, 0,.75) */
-  --color-pill-green: rgba(var(--color-green),.5) !important;         /* rgba(0, 202, 0,  0.5) */
-  --color-pill-blue: rgba(var(--color-blue),.5) !important;           /* rgba(0,144, 255, 0.5) */
-  --color-pill-purple: rgba(var(--color-purple),.75) !important;      /* rgba(220,85,220,0.75) */
-  --color-pill-pink: rgba(var(--color-pink),.75) !important;          /* rgba(255,141,223,.75) */
-  --color-pill-red: rgba(var(--color-red),.75) !important;            /* rgba(220, 64, 64,.75) */
+  --color-pill-default: rgba(var(--color-default),.5) !important;
+  --color-pill-gray: rgba(var(--color-black),.50) !important;
+  --color-pill-brown: rgba(var(--color-brown),.5) !important;
+  --color-pill-orange: rgba(var(--color-orange),.5) !important;
+  --color-pill-yellow: rgba(var(--color-yellow),.75) !important;
+  --color-pill-green: rgba(var(--color-green),.5) !important;
+  --color-pill-blue: rgba(var(--color-blue),.5) !important;
+  --color-pill-purple: rgba(var(--color-purple),.75) !important;
+  --color-pill-pink: rgba(var(--color-pink),.75) !important;
+  --color-pill-red: rgba(var(--color-red),.75) !important;
   /* UI */
-  --color-ui-hover-bg: rgba(var(--color-card-bg), 0.5) !important;        /* rgba(37,77,117,1) */
-  --color-ui-hover-bg-light: rgba(var(--color-white), 0.5) !important;  /* rgba(255,255,255,.5) */ 
-  --color-accent-bg: rgba(var(--color-bg-default),1) !important;                    /* rgb(45,170,219) */
-  --color-border-default: rgba(var(--color-white), 1) !important;       /* rgba(255,255,255,1) */
-  --color-border-transparent: transparent !important;                   /* rgba(0,0,0,0) */
+  --color-ui-hover-bg: var(--color-card-bg) !important;
+  --color-ui-hover-bg-light: var(--color-yellow) !important; 
+  --color-accent-bg: rgba(var(--color-bg-default),1) !important;                   
+  --color-border-default: rgba(var(--color-white), 1) !important;
+  --color-border-transparent: transparent !important;
 }
 /* END VARIABLES */
 
