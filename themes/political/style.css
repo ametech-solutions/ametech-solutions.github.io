@@ -253,43 +253,38 @@ body {
 }
 
 .highlighted-background.bg-gray a{
-  background-color: var(--color-text-default) !important;
+  background-color: rgb(var(--color-black)) !important;
 }
-
-.highlighted-background.bg-yellow a{
-  background-color: var(--color-text-yellow) !important;
-}
-
-.highlighted-background.bg-purple a{
-  background-color: var(--color-text-purple) !important;
-}
-
-.highlighted-background.bg-yellow a{
-  background-color: var(--color-text-yellow) !important;
-}
-
 .highlighted-background.bg-brown a{
-  background-color: var(--color-text-brown) !important;
-}
-
-.highlighted-background.bg-green a{
-  background-color: var(--color-text-green) !important;
+  background-color: rgb(var(--color-brown)) !important;
 }
 
 .highlighted-background.bg-orange a{
-  background-color: var(--color-text-orange) !important;
+  background-color: rgb(var(--color-orange)) !important;
+}
+
+.highlighted-background.bg-yellow a{
+  background-color: rgb(var(--color-yellow)) !important;
+}
+
+.highlighted-background.bg-green a{
+  background-color: rgb(var(--color-green)) !important;
 }
 
 .highlighted-background.bg-blue a{
-  background-color: var(--color-text-blue) !important;
+  background-color: rgb(var(--color-blue)) !important;
+}
+
+.highlighted-background.bg-purple a{
+  background-color: rgb(var(--color-purple)) !important;
 }
 
 .highlighted-background.bg-pink a{
-  background-color: var(--color-text-pink) !important;
+  background-color: rgb(var(--color-pink)) !important;
 }
 
 .highlighted-background.bg-red a{
-  background-color: var(--color-text-red) !important;
+  background-color: rgb(var(--color-red)) !important;
 }
 
 
@@ -461,11 +456,11 @@ p.notion-callout__content{
   /* Gray Button */
  
   [class="notion-callout bg-gray-light border"] {
-    background: rgba(var(--color-bg-gray), 0.75) !important;
+    background: rgba(var(--color-black), 0.75) !important;
   }
 
   [class="notion-callout bg-gray-light border"]:hover {
-    background: rgba(var(--color-bg-gray), 0.25) !important;
+    background: rgba(var(--color-black), 0.25) !important;
   }
 
 
@@ -617,7 +612,7 @@ p.notion-callout__content{
   height: 1.5em !important;
   border-radius: var(--element-radius) !important;
   background-color: var(--color-bg-default) !important;
-  border: 1px solid var(--color-text-default) !important;
+  border: 1px solid rgb(var(--color-text-default)) !important;
 }
 
 .notion-checkbox svg {
