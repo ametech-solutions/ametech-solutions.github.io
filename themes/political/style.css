@@ -29,9 +29,6 @@
   --collection-card-cover-size-small: 172px !important;
   --collection-card-cover-size-medium: 260px !important;
   --collection-card-cover-size-large: 320px !important;
-  /* Color Card BG */
-  /* --color-card-bg sets background color on card elements site-wide*/
-  --color-card-bg: rgba(10, 49, 97) !important;
   /* Pill [One Line Callouts] */
   --notion-pill-padding: 2px 5px !important;
   --notion-pill-border-radius: 0px !important;
@@ -103,7 +100,10 @@
   --color-text-pink: rgb(var(--color-pink)) !important;                 /* HEX: #AD1A72 */
   --color-text-red: rgb(var(--color-red)) !important;                   /* HEX: #E03E3E */
   /* Site Background */
-  --color-bg-default: rgba(10, 49, 97, 1) !important;           /* HEX: #336699 */ /* RGB rgb(51,102,153,1) */
+  --color-bg-default: rgb(10, 49, 97) !important;           /* HEX: #336699 */ /* RGB rgb(51,102,153,1) */
+  /* Color Card BG */
+  /* --color-card-bg sets background color on card elements site-wide*/
+  --color-card-bg: rgb(37, 77, 117) !important;
   /* Colored Backgrounds */
   --color-bg-gray: rgba(var(--color-black),.75) !important;      /* HEX: #EBECED */ /* RGB  rgba(0, 0, 0, 0.25) */
   --color-bg-brown: rgba(var(--color-brown),.75) !important;    /* HEX: #E9E5E3 */ /* RGB rgba(101,67,33, 0.75) */
@@ -1328,15 +1328,15 @@ img {
   /* Global Border Radius [Rounding] */
   --element-radius: 15px !important;
   /* Desktop Page Width */
-  --theme-width: 1440px !important;
+  --theme-width: var(--theme-width) !important;
   /* Site Font Size*/
   --body-font: 20px !important;
   /* Site Column Spacing*/
   --column-spacing: 2em !important;
   /* Site Background */
-  --color-bg-default: rgb(10, 49, 97) !important; 
+  --color-bg-default: rgba(var(--color-bg-default),1) !important; 
   /* UI COLORS */
-  --color-card-bg: rgb(37, 77, 117) !important;
+  --color-card-bg: rgba(var(--color-card-bg),1) !important;
   /* Collection Card Size*/
   --collection-card-cover-size-small: calc(20%) !important;
   --collection-card-cover-size-medium: calc(30%) !important;
