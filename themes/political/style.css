@@ -440,86 +440,47 @@ p.notion-callout__content{
 /* #CALLOUT BUTTONS */
 /* To get red button, give a single line Callout 
   and make the background red in Notion */
-  [class="notion-callout bg-red-light border"] { 
-    background: hsla(0, 100%, 40%, 1);
-    
-    background: linear-gradient(180deg, hsla(0, 100%, 40%, 1) 0%, hsla(0, 100%, 30%, 1) 25%, hsla(0, 100%, 20%, 1) 75%);
-    
-    background: -moz-linear-gradient(180deg, hsla(0, 100%, 40%, 1) 0%, hsla(0, 100%, 30%, 1) 25%, hsla(0, 100%, 20%, 1) 75%);
-    
-    background: -webkit-linear-gradient(180deg, hsla(0, 100%, 40%, 1) 0%, hsla(0, 100%, 30%, 1) 25%, hsla(0, 100%, 20%, 1) 75%);
-    
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CC0000", endColorstr="#990000", GradientType=1 );
-      line-height: 42px;
-      padding: 0;
-      border: none;
-    }
-    [class="notion-callout bg-red-light border"] span {
-      position: relative;
-      display: block;
-      width: 100%;
-      height: 100%;
-    }
-    [class="notion-callout bg-red-light border"]:before,
-    [class="notion-callout bg-red-light border"]:after {
-      position: absolute;
-      content: "";
-      right: 0;
-      bottom: 0;
-      background: rgba(204,0,0,1);
-      box-shadow:
-       -7px -7px 20px 0px rgba(255,255,255,.9),
-       -4px -4px 5px 0px rgba(255,255,255,.9),
-       7px 7px 20px 0px rgba(0,0,0,.2),
-       4px 4px 5px 0px rgba(0,0,0,.3);
-      transition: all 0.3s ease;
-    }
-    [class="notion-callout bg-red-light border"]:before{
-       height: 0%;
-       width: 2px;
-    }
-    [class="notion-callout bg-red-light border"]:after {
-      width: 0%;
-      height: 2px;
-    }
-    [class="notion-callout bg-red-light border"]:hover{
-      color: rgba(204,0,0,1);
-      background: red;
-    }
-    [class="notion-callout bg-red-light border"]:hover:before {
-      height: 100%;
-    }
-    [class="notion-callout bg-red-light border"]:hover:after {
-      width: 100%;
-    }
-    [class="notion-callout bg-red-light border"]:before,
-    [class="notion-callout bg-red-light border"]:after {
-      position: absolute;
-      content: "";
-      left: 0;
-      top: 0;
-      background: rgba(204,0,0,1);
-      box-shadow:
-       -7px -7px 20px 0px rgba(255,255,255,.9),
-       -4px -4px 5px 0px rgba(255,255,255,.9),
-       7px 7px 20px 0px rgba(0,0,0,.2),
-       4px 4px 5px 0px rgba(0,0,0,.3);
-      transition: all 0.3s ease;
-    }
-    [class="notion-callout bg-red-light border"] span:before {
-      width: 2px;
-      height: 0%;
-    }
-    [class="notion-callout bg-red-light border"] span:after {
-      height: 2px;
-      width: 0%;
-    }
-    [class="notion-callout bg-red-light border"] span:hover:before {
-      height: 100%;
-    }
-    [class="notion-callout bg-red-light border"] span:hover:after {
-      width: 100%;
-    }
+  [class="notion-callout bg-red-light border"] {
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: rgb(255,27,0);
+  background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+  }
+  [class="notion-callout bg-red-light border"]:hover {
+    color: #f0094a;
+    background: transparent;
+     box-shadow:none;
+  }
+  [class="notion-callout bg-red-light border"]:before,
+  [class="notion-callout bg-red-light border"]:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #f0094a;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  [class="notion-callout bg-red-light border"]:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  [class="notion-callout bg-red-light border"]:hover:before,
+  [class="notion-callout bg-red-light border"]:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
 
 
 
