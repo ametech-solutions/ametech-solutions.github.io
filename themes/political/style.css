@@ -461,7 +461,7 @@ p.notion-callout__content{
     background-color: rgba(var(--color-pink),0.75);
   }
 
-  .notion-callout.bg-pink-light.border {
+  .notion-callout.bg-pink-light.border:hover {
     background-color: rgba(var(--color-pink),0.5);
   }
 
