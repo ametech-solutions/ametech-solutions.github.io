@@ -31,7 +31,7 @@
   --collection-card-cover-size-large: 320px!important;
     /* Color Card BG */
   /* --color-card-bg sets background color on card elements site-wide*/
-  --color-card-bg: rgba(10, 49, 97) !important;
+  --color-card-bg: rgb(37, 77, 117) !important;
   /* Pill [One Line Callouts] */
   --notion-pill-padding: 2px 5px!important;
   --notion-pill-border-radius: 0px!important;
@@ -75,7 +75,7 @@
   /* This affects text color exclusively (right?)
      and gray contrasted poorly with the background 
      color so it was set to white */
-  --color-default: 255, 255, 255 !important;
+  --color-default: 10, 49, 97 !important;
   --color-white: 255, 255, 255 !important;
   --color-gray: 0, 0, 0 !important;
   --color-black: 0, 0, 0 !important;
@@ -90,22 +90,22 @@
   /* Text */
   /* Site Foreground */
   /* --color-text-default sets default text color site-wide */
-  --color-text-default: rgb(var(--color-white)) !important;
+  --color-text-default: rgba(var(--color-white),1) !important;
   --color-text-default-light: rgba(var(--color-white),1) !important;
-  --color-text-gray: rgb(var(--color-black)) !important;
-  --color-text-black:  rgb(var(--color-black)) !important;
-  --color-text-brown: rgb(var(--color-brown)) !important;
-  --color-text-orange: rgb(var(--color-orange)) !important;
-  --color-text-yellow: rgb(var(--color-yellow)) !important;
-  --color-text-green: rgb(var(--color-green)) !important;
-  --color-text-blue: rgb(var(--color-blue)) !important;
-  --color-text-purple: rgb(var(--color-purple)) !important;
-  --color-text-pink: rgb(var(--color-pink)) !important;
-  --color-text-red: rgb(var(--color-red)) !important;
+  --color-text-gray: rgba(var(--color-white),1) !important;
+  --color-text-black:  rgba(var(--color-black),1) !important;
+  --color-text-brown: rgba(var(--color-brown),1) !important;
+  --color-text-orange: rgba(var(--color-orange),1) !important;
+  --color-text-yellow: rgba(var(--color-yellow),1) !important;
+  --color-text-green: rgba(var(--color-green),1) !important;
+  --color-text-blue: rgba(var(--color-blue),1) !important;
+  --color-text-purple: rgba(var(--color-purple),1) !important;
+  --color-text-pink: rgba(var(--color-pink),1) !important;
+  --color-text-red: rgba(var(--color-red),1) !important;
   /* Site Background */
     /* Color Card BG */
-  --color-bg-default: rgba(10, 49, 97, 1) !important;
-  --color-bg-gray: rgba(var(--color-gray),.75) !important;
+  --color-bg-default: rgba(10, 49, 97)!important;
+  --color-bg-gray: rgba(var(--color-black),.75) !important;
   --color-bg-brown: rgba(var(--color-brown)) !important;
   --color-bg-orange: rgba(var(--color-orange),.75) !important;
   --color-bg-yellow: rgba(var(--color-yellow),.75) !important;
@@ -138,8 +138,7 @@
   /* UI */
   --color-ui-hover-bg: rgba(var(--color-card-bg),0.5) !important;
   --color-ui-hover-bg-light: rgba(var(--color-white),0.5) !important; 
-  --color-card-bg: rgb(37, 77, 117) !important;
-  --color-accent-bg: rgba(10,49,97,1) !important;                   
+  --color-accent-bg: rgba(var(--color-bg-default),1) !important;                   
   --color-border-default: rgba(var(--color-white), 1) !important;
   --color-border-transparent: transparent !important;
 }
@@ -394,15 +393,15 @@ h3 {
 /* Fit Content in Button */
 /* Not perfect but all content fits */
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
-  position: relative !important;
+  position: absolute !important;
   height: 100% !important;
   width: 100% !important;
   top: 0 !important;
   left: 0 !important;
   right: 0 !important;
   bottom: 0 !important;
-  padding: 0 !important;
-  padding-left: 15 !important;
+  padding: 15px !important;
+  padding-left: 50px !important;
   border: none !important;
 }
 
@@ -583,8 +582,7 @@ p.notion-callout__content{
 .notion-quote.bg-purple, 
 .notion-quote.bg-pink, 
 .notion-quote.bg-red {
-  /* border:none !important; */
-  border: 1px solid var(--color-border-default) !important;
+  border:none !important;
 }
 
 
@@ -1186,8 +1184,6 @@ img {
 /* END POLITICAL CUSTOMIZATION */
 
 
-/* ###COLORS - VARIABLES*/
-
 /* THEME: POLITICAL OVERWRITES */
 
 /* These should be set to default values */
@@ -1317,7 +1313,7 @@ margin: auto !important;
 /* Site Background */
 --color-bg-default: rgba(var(--color-bg-default),1) !important; 
 /* UI COLORS */
---color-card-bg: rgba(37, 77, 117) !important;
+--color-card-bg: rgb(37, 77, 117) !important;
 /* Collection Card Size*/
 --collection-card-cover-size-small: calc(20%) !important;
 --collection-card-cover-size-medium: calc(30%) !important;
