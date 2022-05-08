@@ -441,7 +441,7 @@ p.notion-callout__content{
 /* To get red button, give a single line Callout 
   and make the background red in Notion */
   [class="notion-callout bg-red-light border"] {
-    width: 130px;
+    width: fit-content!important;
     height: 40px;
     line-height: 42px;
     padding: 0;
