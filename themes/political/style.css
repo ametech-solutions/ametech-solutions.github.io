@@ -29,6 +29,9 @@
   --collection-card-cover-size-small: 172px !important;
   --collection-card-cover-size-medium: 260px !important;
   --collection-card-cover-size-large: 320px !important;
+   /* --color-card-bg sets background color on card elements site-wide*/
+   --color-card-bg: rgb(37, 77, 117) !important;
+   /* Colored Backgrounds */
   /* Pill [One Line Callouts] */
   --notion-pill-padding: 2px 5px !important;
   --notion-pill-border-radius: 0px !important;
@@ -102,9 +105,7 @@
   /* Site Background */
   --color-bg-default: rgb(10, 49, 97) !important;
   /* Color Card BG */
-  /* --color-card-bg sets background color on card elements site-wide*/
-  --color-card-bg: rgb(37, 77, 117) !important;
-  /* Colored Backgrounds */
+ 
   --color-bg-gray: rgba(var(--color-black),.75) !important;
   --color-bg-brown: rgba(var(--color-brown)) !important;
   --color-bg-orange: rgba(var(--color-orange),.75) !important;
