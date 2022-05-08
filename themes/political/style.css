@@ -315,11 +315,11 @@ p {
 
 h1 {
   font-style: normal  !important;
-  font-size: 3.25rem  !important;
+  font-size: 3rem  !important;
   line-height: 100%  !important;
   letter-spacing: -0.04em  !important;
   margin-bottom: 0.5em !important;
-  max-width: 800px !important;
+  max-width: 1440px !important;
   -webkit-animation: fadeIn 0.5s !important;
   -moz-animation: fadeIn 0.5s !important;
   -ms-animation: fadeIn 0.5s !important;
