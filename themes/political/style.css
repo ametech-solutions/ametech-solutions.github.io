@@ -1311,7 +1311,7 @@ margin: auto !important;
 /* Site Column Spacing*/
 --column-spacing: 2em !important;
 /* Site Background */
---color-bg-default: rgba(var(--color-bg-default),1) !important; 
+--color-bg-default: rgb(var(10, 49, 97)) !important; 
 /* UI COLORS */
 --color-card-bg: rgb(37, 77, 117) !important;
 /* Collection Card Size*/
