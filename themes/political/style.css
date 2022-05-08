@@ -429,28 +429,48 @@ p.notion-callout__content{
   border:none !important;
 }
 
+
+/* #CALLOUT BUTTONS - NO CODING */
+
+.notion-callout.bg-gray-light, 
+.notion-callout.bg-brown-light, 
+.notion-callout.bg-orange-light, 
+.notion-callout.bg-yellow-light, 
+.notion-callout.bg-green-light, 
+.notion-callout.bg-blue-light, 
+.notion-callout.bg-purple-light, 
+.notion-callout.bg-pink-light, 
+.notion-callout.bg-red-light {
+  border:none !important;
+}
+
+/* Never code a button again!
+  In Notion just create a Callout,
+  include a single line (title), 
+  and give it a background color! */
+
+  [class="notion-callout bg-red-light border"] {
+    background: rgb(153,0,0,0.75);
+  }
+
+  [class="notion-callout bg-red-light border"]:hover {
+     background: rgba(153,0,0,0.50);
+  }
+/* PINK BUTTON */
+  .notion-callout.bg-pink-light {
+    background-color: rgba(var(--color-pink),0.75);
+  }
+
+  .notion-callout.bg-pink-light {
+    background-color: rgba(var(--color-pink),0.5);
+  }
+
 /* #Pills */
 
 .notion-pill {
   padding: 0.25em 0.75em !important;
   border-radius: var(--element-radius) !important;
 }
-
-
-/* #CALLOUT BUTTONS */
-/* To get red button, give a single line Callout 
-  and make the background red in Notion */
-  [class="notion-callout bg-red-light border"] {
-    background: rgb(153,0,0,1);
-  }
-  [class="notion-callout bg-red-light border"]:hover {
-     background: rgba(153,0,0,0.5);
-  }
-  
-
-
-
-
 
 /* #Quote */
 
