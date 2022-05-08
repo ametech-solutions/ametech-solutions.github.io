@@ -89,7 +89,7 @@
   /* --color-text-default sets default text color site-wide */
   --color-text-default: rgb(var(--color-white)) !important;
   --color-text-default-light: rgb(var(--color-white)) !important;
-  --color-text-gray: rgb(var(--color-black)) !important;
+  --color-text-gray: rgb(var(--color-white)) !important;
   --color-text-black:  rgb(var(--color-black)) !important;
   --color-text-brown: rgb(var(--color-brown)) !important;
   --color-text-orange: rgb(var(--color-orange)) !important;
@@ -105,7 +105,7 @@
   /* --color-card-bg sets background color on card elements site-wide*/
   --color-card-bg: rgb(37, 77, 117) !important;
   /* Colored Backgrounds */
-  --color-bg-gray: rgba(0,0,0,.75) !important;
+  --color-bg-gray: rgba(var(--color-black),.75) !important;
   --color-bg-brown: rgba(var(--color-brown)) !important;
   --color-bg-orange: rgba(var(--color-orange),.75) !important;
   --color-bg-yellow: rgba(var(--color-yellow),.75) !important;
