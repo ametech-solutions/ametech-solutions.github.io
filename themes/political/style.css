@@ -457,11 +457,11 @@ p.notion-callout__content{
      background: rgba(153,0,0,0.50);
   }
 /* PINK BUTTON */
-  .notion-callout.bg-pink-light.border {
+[class="notion-callout bg-pink-light border"] {
     background-color: rgba(var(--color-pink),0.75);
   }
 
-  .notion-callout.bg-pink-light.border:hover {
+  [class="notion-callout bg-pink-light border"]:hover {
     background-color: rgba(var(--color-pink),0.5);
   }
 
