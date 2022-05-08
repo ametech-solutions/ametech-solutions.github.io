@@ -1334,7 +1334,7 @@ img {
 /* Global Variables */
 :root {
   /* Global Border Radius [Rounding] */
-  --element-radius: 25px !important;
+  --element-radius: 15px !important;
   /* Desktop Page Width */
   --theme-width: 1440px !important;
   /* Site Font Size*/
