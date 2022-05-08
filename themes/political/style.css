@@ -100,7 +100,7 @@
   --color-text-pink: rgb(var(--color-pink)) !important;                 /* HEX: #AD1A72 */
   --color-text-red: rgb(var(--color-red)) !important;                   /* HEX: #E03E3E */
   /* Site Background */
-  --color-bg-default: rgba(51, 102, 153, 1) !important;           /* HEX: #336699 */ /* RGB rgb(51,102,153,1) */
+  --color-bg-default: rgba(10, 49, 97, 1) !important;           /* HEX: #336699 */ /* RGB rgb(51,102,153,1) */
   /* Colored Backgrounds */
   --color-bg-gray: rgba(var(--color-gray),.75) !important;      /* HEX: #EBECED */ /* RGB  rgba(0, 0, 0, 0.25) */
   --color-bg-brown: rgba(var(--color-brown),.75) !important;    /* HEX: #E9E5E3 */ /* RGB rgba(101,67,33, 0.75) */
@@ -1342,7 +1342,7 @@ img {
   /* Site Column Spacing*/
   --column-spacing: 2em !important;
   /* Site Background */
-  --color-bg-default: rgb(51, 102, 153) !important; 
+  --color-bg-default: rgb(10, 49, 97) !important; 
   /* UI COLORS */
   --color-card-bg: rgb(37, 77, 117) !important;
   /* Collection Card Size*/
@@ -1350,6 +1350,7 @@ img {
   --collection-card-cover-size-medium: calc(30%) !important;
   --collection-card-cover-size-large: calc(45%) !important;
 }
+
 
 /******* END #OVERWRITES# *******/
 
