@@ -486,7 +486,7 @@ p.notion-callout__content{
   /* Orange Button */
 
   [class="notion-callout bg-orange-light border"] {
-    background: rgba(var(--color-orange), 0.75) !important;
+    background: rgba(var(--color-orange), 0.50) !important;
   }
 
   [class="notion-callout bg-orange-light border"]:hover {
@@ -497,7 +497,7 @@ p.notion-callout__content{
   /* Yellow Button */
 
   [class="notion-callout bg-yellow-light border"] {
-    background: rgba(var(--color-yellow), 0.75) !important;
+    background: rgba(var(--color-yellow), 0.50) !important;
   }
 
   [class="notion-callout bg-yellow-light border"]:hover {
@@ -508,7 +508,7 @@ p.notion-callout__content{
   /* Green Button */
 
   [class="notion-callout bg-green-light border"] {
-    background: rgba(var(--color-green), 0.75) !important;
+    background: rgba(var(--color-green), 0.50) !important;
   }
 
   [class="notion-callout bg-green-light border"]:hover {
