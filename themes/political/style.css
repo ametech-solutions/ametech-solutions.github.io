@@ -402,8 +402,6 @@ h3 {
   padding-left: 50px !important;
   border: none !important;
 }
-
-
 /* END Callout Button*/
 
 p.notion-callout__content{
@@ -431,7 +429,6 @@ p.notion-callout__content{
   border:none !important;
 }
 
-
 /* #Pills */
 
 .notion-pill {
@@ -440,6 +437,94 @@ p.notion-callout__content{
 }
 
 
+/* #CALLOUT BUTTONS */
+/* To get red button, give a single line Callout 
+  and make the background red in Notion */
+  [class="notion-callout bg-red-light border"] { 
+    background: hsla(0, 100%, 40%, 1);
+    
+    background: linear-gradient(180deg, hsla(0, 100%, 40%, 1) 0%, hsla(0, 100%, 30%, 1) 25%, hsla(0, 100%, 20%, 1) 75%);
+    
+    background: -moz-linear-gradient(180deg, hsla(0, 100%, 40%, 1) 0%, hsla(0, 100%, 30%, 1) 25%, hsla(0, 100%, 20%, 1) 75%);
+    
+    background: -webkit-linear-gradient(180deg, hsla(0, 100%, 40%, 1) 0%, hsla(0, 100%, 30%, 1) 25%, hsla(0, 100%, 20%, 1) 75%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CC0000", endColorstr="#990000", GradientType=1 );
+      line-height: 42px;
+      padding: 0;
+      border: none;
+    }
+    [class="notion-callout bg-red-light border"] span {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    [class="notion-callout bg-red-light border"]:before,
+    [class="notion-callout bg-red-light border"]:after {
+      position: absolute;
+      content: "";
+      right: 0;
+      bottom: 0;
+      background: rgba(204,0,0,1);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    [class="notion-callout bg-red-light border"]:before{
+       height: 0%;
+       width: 2px;
+    }
+    [class="notion-callout bg-red-light border"]:after {
+      width: 0%;
+      height: 2px;
+    }
+    [class="notion-callout bg-red-light border"]:hover{
+      color: rgba(204,0,0,1);
+      background: transparent;
+    }
+    [class="notion-callout bg-red-light border"]:hover:before {
+      height: 100%;
+    }
+    [class="notion-callout bg-red-light border"]:hover:after {
+      width: 100%;
+    }
+    [class="notion-callout bg-red-light border"]:before,
+    [class="notion-callout bg-red-light border"]:after {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      background: rgba(204,0,0,1);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    [class="notion-callout bg-red-light border"] span:before {
+      width: 2px;
+      height: 0%;
+    }
+    [class="notion-callout bg-red-light border"] span:after {
+      height: 2px;
+      width: 0%;
+    }
+    [class="notion-callout bg-red-light border"] span:hover:before {
+      height: 100%;
+    }
+    [class="notion-callout bg-red-light border"] span:hover:after {
+      width: 100%;
+    }
+
+
+
+
+    
 /* #Quote */
 
 .notion-quote {
