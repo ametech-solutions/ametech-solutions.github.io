@@ -136,9 +136,9 @@
   --color-pill-pink: rgba(var(--color-pink),.75) !important;
   --color-pill-red: rgba(var(--color-red),.75) !important;
   /* UI */
-  --color-ui-hover-bg: var(--color-card-bg) !important;
-  --color-ui-hover-bg-light: var(--color-yellow) !important; 
-  --color-accent-bg: rgba(var(--color-bg-default),1) !important;                   
+  --color-ui-hover-bg: rgba(var(--color-yellow),1) !important;
+  --color-ui-hover-bg-light: rgba(var(--color-yellow),1) !important; 
+  --color-accent-bg: rgb(10,49,97) !important;                   
   --color-border-default: rgba(var(--color-white), 1) !important;
   --color-border-transparent: transparent !important;
 }
@@ -394,19 +394,22 @@ h3 {
 .notion-callout {
   position: relative !important;
 }
-  
+ 
+/* Fit Content in Button */
+/* Not perfect but all content fits */
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
-  position: absolute !important;
+  position: relative !important;
   height: 100% !important;
   width: 100% !important;
   top: 0 !important;
   left: 0 !important;
   right: 0 !important;
   bottom: 0 !important;
-  padding: 15px !important;
-  padding-left: 50px !important;
+  padding: 0 !important;
+  padding-left: 15 !important;
   border: none !important;
 }
+
 /* END Callout Button*/
 
 p.notion-callout__content{
@@ -447,97 +450,97 @@ p.notion-callout__content{
   /* Default Button */
 
   [class="notion-callout bg-default-light border"] {
-    background-color: rgba(var(--color-default), 0.75);
+    background: rgba(var(--color-default), 0.75);
   }
 
   [class="notion-callout bg-default-light border"]:hover {
-    background-color: rgba(var(--color-default), 0.25);
+    background: rgba(var(--color-default), 0.25);
   }
 
 
   /* Gray Button */
  
   [class="notion-callout bg-gray-light border"] {
-    background-color: rgba(var(--color-gray), 0.75) !important;
+    background: rgba(var(--color-bg-gray), 0.75) !important;
   }
 
   [class="notion-callout bg-gray-light border"]:hover {
-    background-color: rgba(var(--color-gray), 0.25) !important;
+    background: rgba(var(--color-bg-gray), 0.25) !important;
   }
 
 
   /* Brown Button */
 
   [class="notion-callout bg-brown-light border"] {
-    background-color: rgba(var(--color-brown), 1) !important;
+    background: rgba(var(--color-brown), 1) !important;
   }
 
   [class="notion-callout bg-brown-light border"]:hover {
-    background-color: rgba(var(--color-brown), 0.5) !important;
+    background: rgba(var(--color-brown), 0.5) !important;
   }
 
 
   /* Orange Button */
 
   [class="notion-callout bg-orange-light border"] {
-    background-color: rgba(var(--color-orange), 0.50) !important;
+    background: rgba(var(--color-orange), 0.50) !important;
   }
 
   [class="notion-callout bg-orange-light border"]:hover {
-    background-color: rgba(var(--color-orange), 0.25) !important;
+    background: rgba(var(--color-orange), 0.25) !important;
   }
 
 
   /* Yellow Button */
 
   [class="notion-callout bg-yellow-light border"] {
-    background-color: rgba(var(--color-yellow), 0.50) !important;
+    background: rgba(var(--color-yellow), 0.50) !important;
   }
 
   [class="notion-callout bg-yellow-light border"]:hover {
-    background-color: rgba(var(--color-yellow), 0.25) !important;
+    background: rgba(var(--color-yellow), 0.25) !important;
   }
 
 
   /* Green Button */
 
   [class="notion-callout bg-green-light border"] {
-    background-color: rgba(var(--color-green), 0.50) !important;
+    background: rgba(var(--color-green), 0.50) !important;
   }
 
   [class="notion-callout bg-green-light border"]:hover {
-    background-color: rgba(var(--color-green), 0.25) !important;
+    background: rgba(var(--color-green), 0.25) !important;
   }
 
   /* Blue Button */
 
   [class="notion-callout bg-blue-light border"] {
-    background-color: rgba(var(--color-blue), 1) !important;
+    background: rgba(var(--color-blue), 1) !important;
   }
 
   [class="notion-callout bg-blue-light border"]:hover {
-    background-color: rgba(var(--color-blue), 0.50) !important;
+    background: rgba(var(--color-blue), 0.50) !important;
   }
   
   /* Purple Button */
   
   [class="notion-callout bg-purple-light border"] {
-    background-color: rgba(var(--color-purple), 0.75) !important;
+    background: rgba(var(--color-purple), 0.75) !important;
   }
 
   [class="notion-callout bg-purple-light border"]:hover {
-    background-color: rgba(var(--color-purple), 0.25) !important;
+    background: rgba(var(--color-purple), 0.25) !important;
   }
 
 
   /* Pink Button */
   
   [class="notion-callout bg-pink-light border"] {
-    background-color: rgba(var(--color-pink),0.5) !important;
+    background: rgba(var(--color-pink),0.5) !important;
   }
   
   [class="notion-callout bg-pink-light border"]:hover {
-    background-color: rgba(var(--color-pink),0.25) !important;
+    background: rgba(var(--color-pink),0.25) !important;
   }
   
 
@@ -545,31 +548,12 @@ p.notion-callout__content{
 
 
   [class="notion-callout bg-red-light border"] {
-    background-color: rgba(var(--color-red), 0.75) !important;
+    background: rgba(var(--color-red), 0.75) !important;
   }
 
   [class="notion-callout bg-red-light border"]:hover {
-    background-color: rgba(var(--color-red), 0.25) !important;
+    background: rgba(var(--color-red), 0.25) !important;
   }
-
-/* Fit Content in Button */
-/* Not perfect but all content fits */
-
-.notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
-  position: relative !important;
-  height: 100% !important;
-  width: 100% !important;
-  top: 0 !important;
-  left: 0 !important;
-  right: 0 !important;
-  bottom: 0 !important;
-  padding: 0px !important;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-}
-
 
 /* #Pills */
 
@@ -1205,146 +1189,6 @@ img {
 
 
 /* END POLITICAL CUSTOMIZATION */
-
-
-
-/* THEME: POLITICAL OVERWRITES */
-
-/* These should be set to default values */
-/* When using template, copy/paste these 
-   values into Super's global code section */
-
-
-/* Show/Hide Notion-Navbar  */
-.notion-navbar {
-    display: none !important;
-}
-
-/* Show/Hide Notion Page Blocks */
-.notion-page {
-    display: block !important;
-}
-
-/* Set Page Block BG Color*/
-.notion-page {  
-    background-color: rgba(var(--color-card-bg), .75) !important;
-}
-
-/* Increase/Decrease Opacity to change Page BG Color on Mouseover */
-.notion-page:focus,
-.notion-page:hover {
-  background-color: rgba(var(--color-card-bg), .90) !important;
-}
-
-/******* #NOTION-HEADER *******/
-
-/* Show/Hide Notion Header */
-/* (Page Title, Cover and Icon)*/
-.notion-header {
-  display: none !important;
-}
-.super-content {
-  padding-top: 60px !important;
-}
-/* .super-content affects the header padding left behind*/
-/* END Show/Hide Notion Header*/
-
-
-/* Show/Hide All Notion Page Block Icons  */
-.notion-icon, 
-.notion-icon__page, 
-.notion-header__icon,
-.notion-page__icon,
-.notion-header__icon-wrapper { 
-    display: block !important;
-/* was set to display: none */
-}
-
-/* Show/Hide Column Header for Board Database */
-.notion-collection-board__column-header {
-    display: block !important;
-/* was set to display: none */
-}
-
-/* Show/Hide Database Name */
-.notion-collection__header-wrapper {
-    display: block !important;
-}
-
-/* Show/Hide Notion Database Header Icon */
-.notion-collection__header-wrapper {
-  display: block !important;
-/* was set to display: none */
-}
-
-/* Show/Hide Icon on Database Card  */
-.notion-property,
-.notion-property__title,
-.notion-property__title__icon-wrapper 
-.notion-property .notion-property__title {
-  display: block !important;
-}
-
-/* Show/Hide Page Title */
-.notion-header__title {
-  display: block !important;
-/* was set to display: none */
-}
-
-.notion-header__title-wrapper {
-  display: block !important;
-/* was set to display: none */
-}
-
-/* Show/Hide Page Icon image */
-.notion-header__icon-wrapper {
-  display: block !important;
-/* was set to display: none */
-}
-
-.notion-callout__icon {
-  display: none  !important;
-}
-
-/* SHOW/Hide All Toggles*/
-.notion-toggle {
-  display: block !important;
-}
-/* HIDE All Toggles with Brown Background */
-/* Use these to hide page content*/
-.notion-toggle.bg-brown {
-  display: none !important;
-}
-
-/* Set Page Width */
-.super-content.max-width {
-  max-width: var(--theme-width) !important;
-  margin: auto !important;
-}
-
-
-/* Global Variables */
-:root {
-  /* Global Border Radius [Rounding] */
-  --element-radius: 15px !important;
-  /* Desktop Page Width */
-  --theme-width: var(--theme-width) !important;
-  /* Site Font Size*/
-  --body-font: 20px !important;
-  /* Site Column Spacing*/
-  --column-spacing: 2em !important;
-  /* Site Background */
-  --color-bg-default: rgba(var(--color-bg-default),1) !important; 
-  /* UI COLORS */
-  --color-card-bg: rgba(var(--color-card-bg),1) !important;
-  /* Collection Card Size*/
-  --collection-card-cover-size-small: calc(20%) !important;
-  --collection-card-cover-size-medium: calc(30%) !important;
-  --collection-card-cover-size-large: calc(45%) !important;
-}
-
-
-/******* END #OVERWRITES# *******/
 
 
 
