@@ -1347,7 +1347,7 @@ img {
   /* Site Background */
   --color-bg-default: rgb(10, 49, 97) !important; 
   /* UI COLORS */
-  --color-card-bg: rgb(10, 49, 97) !important;
+  --color-card-bg: rgb(37, 77, 117) !important;
   /* Collection Card Size*/
   --collection-card-cover-size-small: calc(20%) !important;
   --collection-card-cover-size-medium: calc(30%) !important;
