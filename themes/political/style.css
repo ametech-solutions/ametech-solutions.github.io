@@ -87,10 +87,10 @@
   /* Text */
   /* Site Foreground */
   /* --color-text-default sets default text color site-wide */
-  --color-text-default: rgb(var(--color-white)) !important;
-  --color-text-default-light: rgba(var(--color-white),1) !important;
-  --color-text-gray: rgb(var(--color-white)) !important;
-  --color-text-black: rgb(var(--color-black)) !important;
+  --color-text-default: white !important;
+  --color-text-default-light: white !important;
+  --color-text-gray: black !important;
+  --color-text-black:  black !important;
   --color-text-brown: rgb(var(--color-brown)) !important;
   --color-text-orange: rgb(var(--color-orange)) !important;
   --color-text-yellow: rgb(var(--color-yellow)) !important;
@@ -100,10 +100,10 @@
   --color-text-pink: rgb(var(--color-pink)) !important;
   --color-text-red: rgb(var(--color-red)) !important;
   /* Site Background */
-  --color-bg-default: 10, 49, 97 !important;
+  --color-bg-default: rgb(10, 49, 97) !important;
   /* Color Card BG */
   /* --color-card-bg sets background color on card elements site-wide*/
-  --color-card-bg: 37, 77, 117 !important;
+  --color-card-bg: rgb(37, 77, 117) !important;
   /* Colored Backgrounds */
   --color-bg-gray: rgba(0,0,0,.75) !important;
   --color-bg-brown: rgba(var(--color-brown)) !important;
@@ -138,7 +138,7 @@
   /* UI */
   --color-ui-hover-bg: rgba(var(--color-yellow),1) !important;
   --color-ui-hover-bg-light: rgba(var(--color-yellow),1) !important; 
-  --color-accent-bg: rgb(10,49,97) !important;                   
+  --color-accent-bg: rgb(255,255,0) !important;                   
   --color-border-default: rgba(var(--color-white), 1) !important;
   --color-border-transparent: transparent !important;
 }
