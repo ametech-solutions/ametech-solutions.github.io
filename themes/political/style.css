@@ -475,11 +475,11 @@ p.notion-callout__content{
   /* Brown Button */
 
   [class="notion-callout bg-brown-light border"] {
-    background: rgba(var(--color-brown), 0.75) !important;
+    background: rgba(var(--color-brown), 1) !important;
   }
 
   [class="notion-callout bg-brown-light border"]:hover {
-    background: rgba(var(--color-brown), 0.25) !important;
+    background: rgba(var(--color-brown), 0.5) !important;
   }
 
 
@@ -518,7 +518,7 @@ p.notion-callout__content{
   /* Blue Button */
 
   [class="notion-callout bg-blue-light border"] {
-    background: rgba(var(--color-blue), 0.75) !important;
+    background: rgba(var(--color-blue), 1) !important;
   }
 
   [class="notion-callout bg-blue-light border"]:hover {
@@ -532,7 +532,7 @@ p.notion-callout__content{
   }
 
   [class="notion-callout bg-purple-light border"]:hover {
-    background: rgba(var(--color-purple), 0.25) !important;
+    background: rgba(var(--color-purple), 0.5) !important;
   }
 
 
