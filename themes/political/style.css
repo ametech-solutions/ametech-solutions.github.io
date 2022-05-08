@@ -403,13 +403,14 @@ h3 {
   border: none !important;
 }
 
-.notion-callout .bg-red-light .border {
+.block-6ee62396716744c98bf33238c30edfb2 {
+  opacity: 0 !important;
+}
+
+.block-6ee62396716744c98bf33238c30edfb2:hover {
   opacity: 1 !important;
 }
 
-.notion-callout:hover .bg-red-light .border {
-  opacity: 0 !important;
-}
 /* END Callout Button*/
 
 p.notion-callout__content{
