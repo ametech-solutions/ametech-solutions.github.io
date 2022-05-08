@@ -522,7 +522,7 @@ p.notion-callout__content{
   }
 
   [class="notion-callout bg-blue-light border"]:hover {
-    background: rgba(var(--color-blue), 0.25) !important;
+    background: rgba(var(--color-blue), 0.50) !important;
   }
   
   /* Purple Button */
@@ -532,14 +532,14 @@ p.notion-callout__content{
   }
 
   [class="notion-callout bg-purple-light border"]:hover {
-    background: rgba(var(--color-purple), 0.5) !important;
+    background: rgba(var(--color-purple), 0.25) !important;
   }
 
 
   /* Pink Button */
   
   [class="notion-callout bg-pink-light border"] {
-    background-color: rgba(var(--color-pink),0.50) !important;
+    background-color: rgba(var(--color-pink),0.5) !important;
   }
   
   [class="notion-callout bg-pink-light border"]:hover {
@@ -551,7 +551,7 @@ p.notion-callout__content{
 
 
   [class="notion-callout bg-red-light border"] {
-    background: rgba(var(--color-red), 0.50) !important;
+    background: rgba(var(--color-red), 0.75) !important;
   }
 
   [class="notion-callout bg-red-light border"]:hover {
