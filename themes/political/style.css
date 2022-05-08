@@ -83,7 +83,7 @@
   --color-orange: 255, 119, 0 !important;    /* HEX:  #ff7700 */
   --color-yellow: 232, 232, 0 !important;    /* HEX:  #e8e800 */
   --color-green: 0, 202, 0 !important;       /* HEX:  #00ca00 */
-  --color-blue: 51, 102, 153 !important;      /* HEX:  #0090ff */
+  --color-blue: 51, 102, 153 !important;     /* HEX:  #0090ff */
   --color-purple: 121, 85, 121 !important;   /* HEX:  #DD55DD */
   --color-pink: 255, 141, 223 !important;    /* HEX:  #FF8DDF */
   --color-red: 179, 25, 66 !important;       /* HEX:  #dc4040 */
@@ -447,97 +447,97 @@ p.notion-callout__content{
   /* Default Button */
 
   [class="notion-callout bg-default-light border"] {
-    background: rgba(var(--color-default), 0.75);
+    background-color: rgba(var(--color-default), 0.75);
   }
 
   [class="notion-callout bg-default-light border"]:hover {
-    background: rgba(var(--color-default), 0.25);
+    background-color: rgba(var(--color-default), 0.25);
   }
 
 
   /* Gray Button */
  
   [class="notion-callout bg-gray-light border"] {
-    background: rgba(var(--color-gray), 0.75) !important;
+    background-color: rgba(var(--color-bg-gray), 0.75) !important;
   }
 
   [class="notion-callout bg-gray-light border"]:hover {
-    background: rgba(var(--color-gray), 0.25) !important;
+    background-color: rgba(var(--color-bg-gray), 0.25) !important;
   }
 
 
   /* Brown Button */
 
   [class="notion-callout bg-brown-light border"] {
-    background: rgba(var(--color-brown), 1) !important;
+    background-color: rgba(var(--color-bg-brown), 1) !important;
   }
 
   [class="notion-callout bg-brown-light border"]:hover {
-    background: rgba(var(--color-brown), 0.5) !important;
+    background-color: rgba(var(--color-bg-brown), 0.5) !important;
   }
 
 
   /* Orange Button */
 
   [class="notion-callout bg-orange-light border"] {
-    background: rgba(var(--color-orange), 0.50) !important;
+    background-color: rgba(var(--color-bg-orange), 0.50) !important;
   }
 
   [class="notion-callout bg-orange-light border"]:hover {
-    background: rgba(var(--color-orange), 0.25) !important;
+    background-color: rgba(var(--color-bg-orange), 0.25) !important;
   }
 
 
   /* Yellow Button */
 
   [class="notion-callout bg-yellow-light border"] {
-    background: rgba(var(--color-yellow), 0.50) !important;
+    background-color: rgba(var(--color-bg-yellow), 0.50) !important;
   }
 
   [class="notion-callout bg-yellow-light border"]:hover {
-    background: rgba(var(--color-yellow), 0.25) !important;
+    background-color: rgba(var(--color-bg-yellow), 0.25) !important;
   }
 
 
   /* Green Button */
 
   [class="notion-callout bg-green-light border"] {
-    background: rgba(var(--color-green), 0.50) !important;
+    background-color: rgba(var(--color-bg-green), 0.50) !important;
   }
 
   [class="notion-callout bg-green-light border"]:hover {
-    background: rgba(var(--color-green), 0.25) !important;
+    background-color: rgba(var(--color-bg-green), 0.25) !important;
   }
 
   /* Blue Button */
 
   [class="notion-callout bg-blue-light border"] {
-    background: rgba(var(--color-blue), 1) !important;
+    background-color: rgba(var(--color-bg-blue), 1) !important;
   }
 
   [class="notion-callout bg-blue-light border"]:hover {
-    background: rgba(var(--color-blue), 0.50) !important;
+    background-color: rgba(var(--color-bg-blue), 0.50) !important;
   }
   
   /* Purple Button */
   
   [class="notion-callout bg-purple-light border"] {
-    background: rgba(var(--color-purple), 0.75) !important;
+    background-color: rgba(var(--color-bg-purple), 0.75) !important;
   }
 
   [class="notion-callout bg-purple-light border"]:hover {
-    background: rgba(var(--color-purple), 0.25) !important;
+    background-color: rgba(var(--color-bg-purple), 0.25) !important;
   }
 
 
   /* Pink Button */
   
   [class="notion-callout bg-pink-light border"] {
-    background-color: rgba(var(--color-pink),0.5) !important;
+    background-color: rgba(var(--color-bg-pink),0.5) !important;
   }
   
   [class="notion-callout bg-pink-light border"]:hover {
-    background-color: rgba(var(--color-pink),0.25) !important;
+    background-color: rgba(var(--color-bg-pink),0.25) !important;
   }
   
 
@@ -545,11 +545,11 @@ p.notion-callout__content{
 
 
   [class="notion-callout bg-red-light border"] {
-    background: rgba(var(--color-red), 0.75) !important;
+    background-color: rgba(var(--color-bg-red), 0.75) !important;
   }
 
   [class="notion-callout bg-red-light border"]:hover {
-    background: rgba(var(--color-red), 0.25) !important;
+    background-color: rgba(var(--color-bg-red), 0.25) !important;
   }
 
 /* Fit Content in Button */
