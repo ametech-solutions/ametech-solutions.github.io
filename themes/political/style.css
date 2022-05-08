@@ -484,7 +484,7 @@ p.notion-callout__content{
     }
     [class="notion-callout bg-red-light border"]:hover{
       color: rgba(204,0,0,1);
-      background: transparent;
+      background: red;
     }
     [class="notion-callout bg-red-light border"]:hover:before {
       height: 100%;
@@ -524,7 +524,7 @@ p.notion-callout__content{
 
 
 
-    
+
 /* #Quote */
 
 .notion-quote {
