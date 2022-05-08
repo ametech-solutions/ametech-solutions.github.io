@@ -133,9 +133,9 @@
   --color-pill-pink: rgba(var(--color-pink),.75) !important;          /* rgba(255,141,223,.75) */
   --color-pill-red: rgba(var(--color-red),.75) !important;            /* rgba(220, 64, 64,.75) */
   /* UI */
-  --color-ui-hover-bg: rgba(var(--color-card-bg), 1) !important;        /* rgba(37,77,117,1) */
+  --color-ui-hover-bg: rgba(var(--color-card-bg), 0.5) !important;        /* rgba(37,77,117,1) */
   --color-ui-hover-bg-light: rgba(var(--color-white), 0.5) !important;  /* rgba(255,255,255,.5) */ 
-  --color-accent-bg: rgb(45, 170, 219) !important;                    /* rgb(45,170,219) */
+  --color-accent-bg: rgb(10, 49, 97) !important;                    /* rgb(45,170,219) */
   --color-border-default: rgba(var(--color-white), 1) !important;       /* rgba(255,255,255,1) */
   --color-border-transparent: transparent !important;                   /* rgba(0,0,0,0) */
 }
@@ -1344,7 +1344,7 @@ img {
   /* Site Background */
   --color-bg-default: rgb(10, 49, 97) !important; 
   /* UI COLORS */
-  --color-card-bg: rgb(37, 77, 117) !important;
+  --color-card-bg: rgb(10, 49, 97) !important;
   /* Collection Card Size*/
   --collection-card-cover-size-small: calc(20%) !important;
   --collection-card-cover-size-medium: calc(30%) !important;
