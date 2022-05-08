@@ -300,9 +300,9 @@ body {
 /* #Text */
 
 p {
-  line-height: 175%  !important;
+  line-height: 100%  !important;
   margin-bottom: 1rem !important;
-  max-width: 800px !important;    
+  max-width: 1440px !important;    
   -webkit-animation: fadeIn 1.25s !important;
   -moz-animation: fadeIn 1.25s !important;
   -ms-animation: fadeIn 1.25s !important;
