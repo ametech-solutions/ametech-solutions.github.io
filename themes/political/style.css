@@ -403,9 +403,6 @@ h3 {
   border: none !important;
 }
 
-[class="notion-callout bg-red-light border"] {
-  opacity: 1 !important;
-}
 [class="notion-callout bg-red-light border"]:hover {
   opacity: 0 !important;
 }
