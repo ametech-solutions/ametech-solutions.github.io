@@ -390,6 +390,7 @@ h3 {
 }
   
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
+  display: flex !important;
   position: absolute !important;
   justify-content:center !important;
   align-items: center!important;
@@ -399,7 +400,7 @@ h3 {
   left: 0 !important;
   right: 0 !important;
   bottom: 0 !important;
-  padding: 10% !important;
+  padding: 15% !important;
   border: none !important;
 }
 /* END Callout Button*/
