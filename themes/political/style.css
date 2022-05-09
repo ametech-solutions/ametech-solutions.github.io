@@ -558,12 +558,41 @@ p.notion-callout__content{
   [class="notion-callout bg-red-light border"] {
     background: rgba(var(--color-red), 0.5) !important;
     max-width: 250px !important;
+    /* Basic Button Style */
+    box-sizing: border-box !important;
+    appearance: none !important;
+    background-color: transparent !important;
+    border: 2px solid red !important;
+    border-radius: 0.6em !important;
+    color: var(--color-red) !important;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    /* Button Specific */
+    border-color: var(--color-red);
+    color: #fff;
+    box-shadow: 0 0 40px 40px var(--color-red) inset, 0 0 0 0 var(--color-red);
+    transition: all 150ms ease-in-out;
   }
+ 
 
-  [class="notion-callout bg-red-light border"]:hover {
+  [class="notion-callout bg-red-light border"]:hover,{
     background: rgba(var(--color-red), 0.75) !important;
     max-width: 250px !important;
+    /* Button Specific */
+    box-shadow: 0 0 10px 0 var(--color-red) inset, 0 0 10px 4px var(--color-red);
   }
+  
 
 /* Fit Content in Button */
 /* Not perfect but all content fits */
@@ -582,6 +611,7 @@ p.notion-callout__content{
   justify-content: center !important;
   align-content: center !important;
   align-items: center !important;
+  align-self: center !important;
   text-align: center !important;
   display: flex !important;
   flex: 1!important;
