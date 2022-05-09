@@ -547,23 +547,9 @@ p.notion-callout__content{
 /* Fit Content in Button */
 /* Not perfect but all content fits */
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
-/*  position: relative !important;
-  display: inline-block !important;
-  padding: 5px 10px !important;
-  margin: 10px 0 !important;
-  color: white !important;
-  text-decoration: none !important;
-  text-transform: uppercase !important;
-  transition: 0.5s !important;
-  letter-spacing: 2px !important;
-  overflow: hidden !important;
-  margin-right: 10px !important;
-}
-*/
-
   position: relative !important;
   height: 100% !important;
-  width: 100% !important;
+  max-width: 25% !important;
   top: 0 !important;
   left: 0 !important;
   right: 0 !important;
