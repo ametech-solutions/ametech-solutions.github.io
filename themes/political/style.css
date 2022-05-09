@@ -576,12 +576,12 @@ p.notion-callout__content{
   
   /* Purple Button */
   
-  [class="notion-callout bg-purple-light border"] {
+  [class="notion-callout bg-purple-light border"]>[class="notion-link"] {
     background: rgba(var(--color-purple), 0.5) !important;
     max-width: 250px !important;
   }
 
-  [class="notion-callout bg-purple-light border"]:hover {
+  [class="notion-callout bg-purple-light border"]>[class="notion-link"]:hover {
     background: rgba(var(--color-purple), 0.75) !important;
     max-width: 250px !important;
     }
