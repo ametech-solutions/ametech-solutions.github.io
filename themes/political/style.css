@@ -564,6 +564,7 @@ p.notion-callout__content{
   text-align: center !important;
   min-height: 10vh !important;
   display: flex !important;
+  box-sizing: content-box !important;
 }
 
 
