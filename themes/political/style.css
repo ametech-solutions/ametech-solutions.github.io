@@ -391,7 +391,6 @@ h3 {
   
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
   position: absolute !important;
-  display: inline-flex !important;
   justify-content:center !important;
   align-items: center!important;
   height: 100% !important;
