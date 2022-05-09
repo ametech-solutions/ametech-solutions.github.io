@@ -484,7 +484,7 @@ p.notion-callout__content{
   /* Yellow Button */
 
   [class="notion-callout bg-yellow-light border"] {
-    background: rgba(var(--color-yellow), 0.25) !important;
+    background: rgba(var(--color-yellow), 1) !important;
   }
 
   [class="notion-callout bg-yellow-light border"]:hover {
@@ -509,7 +509,7 @@ p.notion-callout__content{
   }
 
   [class="notion-callout bg-blue-light border"]:hover {
-    background: rgba(var(--color-blue), 0.1) !important;
+    background: rgba(var(--color-blue), 1) !important;
   }
   
   /* Purple Button */
