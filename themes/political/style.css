@@ -547,7 +547,22 @@ p.notion-callout__content{
 /* Fit Content in Button */
 /* Not perfect but all content fits */
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
-  position: relative !important;
+  position: relative;
+  display: inline-block;
+  padding: 25px 30px;
+  margin: 40px 0;
+  color: #03e9f4;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+  margin-right: 50px;
+}
+
+
+
+/*  position: relative !important;
   display: flex !important;
   flex-shrink: 3 !important;
   text-align: center !important;
@@ -560,7 +575,7 @@ p.notion-callout__content{
   padding: 0 !important;
   border: none !important;
 }
-
+*/
 /* #Pills */
 
 .notion-pill {
