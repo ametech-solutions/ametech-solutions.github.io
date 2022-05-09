@@ -547,7 +547,7 @@ p.notion-callout__content{
 /* Fit Content in Button */
 /* Not perfect but all content fits */
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
-  position: relative !important;
+/*  position: relative !important;
   display: inline-block !important;
   padding: 5px 10px !important;
   margin: 10px 0 !important;
@@ -559,8 +559,16 @@ p.notion-callout__content{
   overflow: hidden !important;
   margin-right: 10px !important;
 }
+*/
 
-
+/* Center everything ever */
+justify-content: center !important;
+align-content: center !important;
+align-items: center !important;
+text-align: center !important;
+min-height: 100vh !important;
+display: flex !important;
+}
 
 /*  position: relative !important;
   display: flex !important;
