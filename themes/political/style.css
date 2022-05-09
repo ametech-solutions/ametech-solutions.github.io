@@ -545,7 +545,7 @@ p.notion-callout__content{
   }
 
 /* Fit Content in Button */
-/* Not perfect but all content fits 
+/* Not perfect but all content fits */
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
   position: absolute !important;
   height: 100% !important;
@@ -558,7 +558,7 @@ p.notion-callout__content{
   padding-left: 0px !important;
   border: none !important;
 }
-*/
+
 /* #Pills */
 
 .notion-pill {
