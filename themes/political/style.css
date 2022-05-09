@@ -600,7 +600,7 @@ p.notion-callout__content{
   [class="notion-callout bg-pink-light border"]:hover {
     background: var(--color-border-transparent) !important;
     max-width: 250px !important;
-    box-shadow: 0 0 10px 0 rgb(var(--color-red)) inset, 0 0 10px 4px rgb(var(--color-red)) !important;
+    box-shadow: 0 0 10px 0 rgb(var(--color-purple)) inset, 0 0 10px 4px rgb(var(--color-purple)) !important;
   }
   
 
