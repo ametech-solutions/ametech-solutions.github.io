@@ -416,7 +416,7 @@ p.notion-callout__content{
 }
 
 /*.notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link  */
-.notion-callout.__content:first-of-type > .notion-semantic-string.span.notion-link{
+.notion-callout.__content:first-of-type > .notion-semantic-string.span.notion-link {
   /* Basic Button Style */
   box-sizing: border-box !important;
   appearance: none !important;
@@ -437,15 +437,15 @@ p.notion-callout__content{
   text-transform: uppercase !important;
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 700 !important;
-  border-color: rgb(var(--color-yellow)) !important;
-    color: #fff !important;
-    box-shadow: 0 0 40px 40px rgb(var(--color-pink)) inset, 0 0 0 0 rgb(var(--color-pink)) !important;
-    transition: all 150ms ease-in-out !important;
 }
 /*
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link:hover {
     box-shadow: 0 0 10px 0 rgb(var(--color-red)) inset, 0 0 10px 4px rgb(var(--color-red)) !important;
-}*/
+  border-color: rgb(var(--color-yellow)) !important;
+    color: #fff !important;
+    box-shadow: 0 0 40px 40px rgb(var(--color-pink)) inset, 0 0 0 0 rgb(var(--color-pink)) !important;
+    transition: all 150ms ease-in-out !important;
+  }*/
 
 
 /* ORIGINAL */
@@ -600,11 +600,22 @@ p.notion-callout__content{
   [class="notion-callout bg-pink-light border"]:hover {
     background: var(--color-border-transparent) !important;
     max-width: 250px !important;
-    box-shadow: 0 0 10px 0 rgb(var(--color-purple)) inset, 0 0 10px 4px rgb(var(--color-purple)) !important;
+    box-shadow: 0 0 10px 0 rgb(var(--color-pink)) inset, 0 0 10px 4px rgb(var(--color-pink)) !important;
   }
   
 
   /* Red Button */
+
+  [class="notion-callout bg-red-light border"] {
+    background: rgba(var(--color-red),0.25) !important;
+    max-width: 250px !important;
+  }
+  
+  [class="notion-callout bg-red-light border"]:hover {
+    background: var(--color-border-transparent) !important;
+    max-width: 250px !important;
+    box-shadow: 0 0 10px 0 rgb(var(--color-red)) inset, 0 0 10px 4px rgb(var(--color-red)) !important;
+  }
 
 
 /* [class="notion-callout bg-red-light border"] {
