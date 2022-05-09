@@ -549,15 +549,15 @@ p.notion-callout__content{
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
   position: relative !important;
   display: inline-block !important;
-  padding: 25px 30px !important;
-  margin: 40px 0 !important;
+  padding: 5px 10px !important;
+  margin: 10px 0 !important;
   color: #03e9f4 !important;
   text-decoration: none !important;
   text-transform: uppercase !important;
   transition: 0.5s !important;
-  letter-spacing: 4px !important;
+  letter-spacing: 2px !important;
   overflow: hidden !important;
-  margin-right: 50px !important;
+  margin-right: 10px !important;
 }
 
 
