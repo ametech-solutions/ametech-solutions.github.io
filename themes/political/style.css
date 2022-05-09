@@ -561,19 +561,8 @@ p.notion-callout__content{
 }
 */
 
-/* Center everything ever */
-justify-content: center !important;
-align-content: center !important;
-align-items: center !important;
-text-align: center !important;
-min-height: 10vh !important;
-display: flex !important;
-}
-
-/*  position: relative !important;
-  display: flex !important;
+  position: relative !important;
   flex-shrink: 3 !important;
-  text-align: center !important;
   height: auto !important;
   width: auto!important;
   top: 0 !important;
@@ -582,8 +571,16 @@ display: flex !important;
   bottom: 0 !important;
   padding: 0 !important;
   border: none !important;
+  /* Center everything ever */
+  justify-content: center !important;
+  align-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  min-height: 10vh !important;
+  display: flex !important;
 }
-*/
+
+
 /* #Pills */
 
 .notion-pill {
