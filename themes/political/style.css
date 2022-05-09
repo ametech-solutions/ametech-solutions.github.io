@@ -387,10 +387,10 @@ h3 {
 /* (Entire block is clickable) */
 .notion-callout {
   position: relative !important;
+  display: flex !important;
 }
   
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
-  display: flex !important;
   position: absolute !important;
   justify-content:center !important;
   align-items: center!important;
