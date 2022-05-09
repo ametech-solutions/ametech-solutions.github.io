@@ -562,7 +562,7 @@ p.notion-callout__content{
   font-size: 14 !important;
   line-height: 100%!important;
   height: 100% !important;
-  max-width: 100% !important;
+  width: 100% !important;
   top: 0 !important;
   left: 0 !important;
   right: 0 !important;
