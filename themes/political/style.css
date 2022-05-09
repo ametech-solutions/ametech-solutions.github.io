@@ -385,22 +385,22 @@ h3 {
 
 /*  START Callout Button*/ 
 /* (Entire block is clickable) */
-.notion-callout {
-  position: relative !important;
+.notion-callout { 
+  position: relative!important;
 }
-  
+
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
-  position: absolute !important;;
-  height: 100% !important;
-  width: 100% !important;
-  top: 0 !important;
-  left: 0 !important;
-  right: 0 !important;
-  bottom: 15px !important;
-  padding: 50px !important;
-  border: none !important;
+  position: absolute!important;
+  height: 100%!important;
+  width: 100%!important;
+  top: 0!important;
+  left: 0!important;
+  right: 0!important;
+  bottom: 0!important;
+  padding: 15px!important;
+  padding-left: 50px!important;
+  border: none!important;
 }
-/* END Callout Button*/
 
 p.notion-callout__content{
   max-width: var(--theme-width) !important;
@@ -547,7 +547,7 @@ p.notion-callout__content{
 /* Fit Content in Button */
 /* Not perfect but all content fits */
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
-  position: absolute !important;
+  position: relative !important;
   height: 100% !important;
   width: 100% !important;
   top: 0 !important;
