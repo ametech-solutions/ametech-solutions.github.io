@@ -685,16 +685,38 @@ p.notion-callout__content{
   border-radius: var(--element-radius) !important;
 }
 
-.notion-quote.bg-gray, 
-.notion-quote.bg-brown, 
-.notion-quote.bg-orange, 
-.notion-quote.bg-yellow, 
-.notion-quote.bg-green, 
-.notion-quote.bg-blue, 
-.notion-quote.bg-purple, 
-.notion-quote.bg-pink, 
+.notion-quote.bg-gray {
+  border: 1px solid var(--color-border-gray) !important;
+} 
+.notion-quote.bg-brown {
+  border: 1px solid var(--color-border-brown) !important;
+} 
+.notion-quote.bg-orange {
+  border: 1px solid var(--color-border-orange) !important;
+}
+
+.notion-quote.bg-yellow {
+  border: 1px solid var(--color-border-yellow) !important;
+}
+
+.notion-quote.bg-green {
+  border: 1px solid var(--color-border-green) !important;
+}
+
+.notion-quote.bg-blue {
+  border: 1px solid var(--color-border-blue) !important;
+}
+
+.notion-quote.bg-purple {
+  border: 1px solid var(--color-border-purple) !important;
+} 
+
+.notion-quote.bg-pink {
+  border: 1px solid var(--color-border-pink) !important;
+}
+
 .notion-quote.bg-red {
-  border:none !important;
+  border: 1px solid var(--color-border-red) !important;
 }
 
 
