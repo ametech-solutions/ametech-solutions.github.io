@@ -452,10 +452,12 @@ p.notion-callout__content{
  
   [class="notion-callout bg-gray-light border"] {
     background: rgba(var(--color-gray), 0.5) !important;
+    max-width: 250px !important;
   }
 
   [class="notion-callout bg-gray-light border"]:hover {
     background: rgba(var(--color-gray), 0.75) !important;
+    max-width: 250px !important;
   }
 
 
@@ -474,10 +476,12 @@ p.notion-callout__content{
 
   [class="notion-callout bg-orange-light border"] {
     background: rgba(var(--color-orange), 0.5) !important;
+    max-width: 250px !important;
   }
 
   [class="notion-callout bg-orange-light border"]:hover {
     background: rgba(var(--color-orange), 0.75) !important;
+    max-width: 250px !important;
   }
 
 
@@ -496,10 +500,12 @@ p.notion-callout__content{
 
   [class="notion-callout bg-green-light border"] {
     background: rgba(var(--color-green), 0.5) !important;
+    max-width: 250px !important;
   }
 
   [class="notion-callout bg-green-light border"]:hover {
     background: rgba(var(--color-green), 0.75) !important;
+    max-width: 250px !important;
   }
 
   /* Blue Button */
@@ -516,10 +522,12 @@ p.notion-callout__content{
   
   [class="notion-callout bg-purple-light border"] {
     background: rgba(var(--color-purple), 0.5) !important;
+    max-width: 250px !important;
   }
 
   [class="notion-callout bg-purple-light border"]:hover {
     background: rgba(var(--color-purple), 0.75) !important;
+    max-width: 250px !important;
   }
 
 
@@ -539,10 +547,12 @@ p.notion-callout__content{
 
   [class="notion-callout bg-red-light border"] {
     background: rgba(var(--color-red), 0.5) !important;
+    max-width: 250px !important;
   }
 
   [class="notion-callout bg-red-light border"]:hover {
     background: rgba(var(--color-red), 0.75) !important;
+    max-width: 250px !important;
   }
 
 /* Fit Content in Button */
@@ -564,7 +574,6 @@ p.notion-callout__content{
   align-content: center !important;
   align-items: center !important;
   text-align: center !important;
-  min-width: 250px !important;
   display: flex !important;
   flex: 1!important;
   box-sizing: content-box !important;
