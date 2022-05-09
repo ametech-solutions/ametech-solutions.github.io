@@ -386,12 +386,12 @@ h3 {
 /*  START Callout Button*/ 
 /* (Entire block is clickable) */
 .notion-callout {
-  position: absolute !important;
-  display: flex !important;
+  position: relative !important;
 }
   
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
-  position: absolute !important;
+  position: relative !important;
+  display: flex !important;
   justify-content:center !important;
   align-items: center!important;
   height: 100% !important;
