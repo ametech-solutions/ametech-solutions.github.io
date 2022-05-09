@@ -391,13 +391,14 @@ p.notion-callout__content{
 
 .notion-callout {
   border-radius: var(--element-radius) !important;
-  border: 1px solid var(--color-border-transparent) !important;
+  /* border: 1px solid var(--color-border-transparent) !important; */
   /* padding: 1.5em 1.5em 0.5em 1.5em !important; */
   padding: .5rem .5rem .5rem .5rem !important;
   overflow: hidden !important;
   margin-bottom: 1em !important;
 }
 
+/* 
 .notion-callout.bg-gray-light, 
 .notion-callout.bg-brown-light, 
 .notion-callout.bg-orange-light, 
@@ -409,6 +410,7 @@ p.notion-callout__content{
 .notion-callout.bg-red-light {
   border:none !important;
 }
+*/
 
 /*  START Callout Button*/ 
 /* (Entire block is clickable) */
@@ -589,27 +591,25 @@ p.notion-callout__content{
   }
   
 
-  /* Red Button 
-     background: rgba(var(--color-red),1) !important; 
-  */
+  /* Red Button */
 
 
   [class="notion-callout bg-red-light border"] {
+    background: rgba(var(--color-red),1) !important; 
     max-width: 250px !important;
     /* Button Specific */
-    border-color: rgba(var(--color-red),1) !important;
+    border-color: rgb(var(--color-red)) !important;
     color: #fff !important;
-    box-shadow: 0 0 40px 40px rgba(var(--color-red),1) inset, 0 0 0 0 rgba(var(--color-red),1) !important;
+    box-shadow: 0 0 40px 40px rgb(var(--color-red)) inset, 0 0 0 0 rgb(var(--color-red)) !important;
     transition: all 150ms ease-in-out !important;
   }
  
-  /* Red Button:Hover
-     background: rgba(var(--color-red), 0.75) !important;
-  */
+  /* Red Button:Hover */
   [class="notion-callout bg-red-light border"]:hover {
+    background: rgba(var(--color-red), 0.75) !important;
     max-width: 250px !important;
     /* Button Specific */
-    box-shadow: 0 0 10px 0 rgba(var(--color-red),1) inset, 0 0 10px 4px rgba(var(--color-red),1) !important;
+    box-shadow: 0 0 10px 0 rgb(var(--color-red)) inset, 0 0 10px 4px rgb(var(--color-red)) !important;
   }
 
 
@@ -1374,7 +1374,7 @@ margin: auto !important;
 /* Desktop Page Width */
 --theme-width: 1440px !important;
 /* Site Font Size*/
---body-font: 20px !important;
+--body-font: 16px !important;
 /* Site Column Spacing*/
 --column-spacing: 2em !important;
 /* Site Background */
@@ -1441,7 +1441,7 @@ margin-bottom: 0.5rem !important;
 
 :root {
  /* Mobile Body Font Size */
- --body-font: 16px !important;
+ --body-font: 12px !important;
  /* Mobile Collection Card Cover Size*/
  --collection-card-cover-size-small: 100% !important;
  --collection-card-cover-size-medium: 100% !important;
