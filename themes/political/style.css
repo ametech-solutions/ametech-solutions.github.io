@@ -387,8 +387,6 @@ p.notion-callout__content{
   width: var(--theme-width) !important;
 }
 
-/* END Callout Button*/
-
 .notion-callout {
   border-radius: var(--element-radius) !important;
   /* border: 1px solid var(--color-border-transparent) !important; */
@@ -585,7 +583,7 @@ p.notion-callout__content{
     transition: all 150ms ease-in-out !important;
   }
 
-  [class="notion-callout bg-purple-light border"]>[class="notion-semantic-string"]>[class="notion-link link"]:hover {
+  [class="notion-callout bg-purple-light border"]>[class="notion-semantic-string"]>.notion-link:hover {
     background: var(--color-border-transparent) !important;
     max-width: 250px !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-red)) inset, 0 0 10px 4px rgb(var(--color-red)) !important;
@@ -626,7 +624,7 @@ p.notion-callout__content{
     /* box-shadow: 0 0 10px 0 rgb(var(--color-red)) inset, 0 0 10px 4px rgb(var(--color-red)) !important;
   }*/
 
-
+/* END Callout Button*/
 
 
 /* #Pills */
