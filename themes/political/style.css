@@ -441,10 +441,12 @@ p.notion-callout__content{
 
   [class="notion-callout bg-default-light border"] {
     background: rgba(var(--color-default), 0.50);
+    max-width: 250px !important;
   }
 
   [class="notion-callout bg-default-light border"]:hover {
     background: rgba(var(--color-default), 0.75);
+    max-width: 250px !important;
   }
 
 
@@ -465,10 +467,12 @@ p.notion-callout__content{
 
   [class="notion-callout bg-brown-light border"] {
     background: rgba(var(--color-brown), 0.75) !important;
+    max-width: 250px !important;
   }
 
   [class="notion-callout bg-brown-light border"]:hover {
     background: rgba(var(--color-brown), 1) !important;
+    max-width: 250px !important;
   }
 
 
@@ -489,10 +493,12 @@ p.notion-callout__content{
 
   [class="notion-callout bg-yellow-light border"] {
     background: rgba(var(--color-yellow), 0.25) !important;
+    max-width: 250px !important;
   }
 
   [class="notion-callout bg-yellow-light border"]:hover {
     background: rgba(var(--color-yellow), 0.50) !important;
+    max-width: 250px !important;
   }
 
 
@@ -512,10 +518,12 @@ p.notion-callout__content{
 
   [class="notion-callout bg-blue-light border"] {
     background: rgba(var(--color-blue), 0.75) !important;
+    max-width: 250px !important;
   }
 
   [class="notion-callout bg-blue-light border"]:hover {
     background: rgba(var(--color-blue), 1) !important;
+    max-width: 250px !important;
   }
   
   /* Purple Button */
@@ -528,17 +536,19 @@ p.notion-callout__content{
   [class="notion-callout bg-purple-light border"]:hover {
     background: rgba(var(--color-purple), 0.75) !important;
     max-width: 250px !important;
-  }
+    }
 
 
   /* Pink Button */
   
   [class="notion-callout bg-pink-light border"] {
     background: rgba(var(--color-pink),0.25) !important;
+    max-width: 250px !important;
   }
   
   [class="notion-callout bg-pink-light border"]:hover {
     background: rgba(var(--color-pink),0.5) !important;
+    max-width: 250px !important;
   }
   
 
@@ -560,9 +570,8 @@ p.notion-callout__content{
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
   position: relative !important;
   font-size: 14 !important;
-  line-height: 100%!important;
+  line-height: 50%!important;
   height: 100% !important;
-  width: 100% !important;
   top: 0 !important;
   left: 0 !important;
   right: 0 !important;
@@ -576,7 +585,6 @@ p.notion-callout__content{
   text-align: center !important;
   display: flex !important;
   flex: 1!important;
-  box-sizing: border-box !important;
 }
 
 
