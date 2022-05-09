@@ -576,7 +576,7 @@ p.notion-callout__content{
   text-align: center !important;
   display: flex !important;
   flex: 1!important;
-  box-sizing: content-box !important;
+  box-sizing: border-box !important;
 }
 
 
