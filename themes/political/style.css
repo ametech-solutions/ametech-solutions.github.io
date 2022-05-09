@@ -564,7 +564,7 @@ p.notion-callout__content{
   align-content: center !important;
   align-items: center !important;
   text-align: center !important;
-  max-height: 10vh !important;
+  min-width: 250px !important;
   display: flex !important;
   flex: 1!important;
   box-sizing: content-box !important;
