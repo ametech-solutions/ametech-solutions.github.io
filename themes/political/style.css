@@ -549,6 +549,7 @@ p.notion-callout__content{
 /* Not perfect but all content fits */
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
   position: relative !important;
+  font-size: 14 !important;
   line-height: 100%!important;
   height: 100% !important;
   max-width: 100% !important;
@@ -563,7 +564,7 @@ p.notion-callout__content{
   align-content: center !important;
   align-items: center !important;
   text-align: center !important;
-  max-height: 5vh !important;
+  max-height: 10vh !important;
   display: flex !important;
   box-sizing: content-box !important;
 }
