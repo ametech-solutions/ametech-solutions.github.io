@@ -389,7 +389,7 @@ h3 {
   position: relative!important;
 }
 
-.notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
+/* .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
   position: absolute!important;
   height: 100%!important;
   width: 100%!important;
@@ -400,7 +400,7 @@ h3 {
   padding: 15px!important;
   padding-left: 50px!important;
   border: none!important;
-}
+}*/
 
 p.notion-callout__content{
   max-width: var(--theme-width) !important;
