@@ -396,8 +396,8 @@ h3 {
   top: 0 !important;
   left: 0 !important;
   right: 0 !important;
-  bottom: 0 !important;
-  padding: 0px !important;
+  bottom: 15px !important;
+  padding: 50px !important;
   border: none !important;
 }
 /* END Callout Button*/
