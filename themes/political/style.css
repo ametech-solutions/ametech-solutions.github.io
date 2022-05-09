@@ -555,7 +555,7 @@ p.notion-callout__content{
   left: 0 !important;
   right: 0 !important;
   bottom: 0 !important;
-  padding: 0 !important;
+  padding: 10px !important;
   border: none !important;
   /* Center everything ever */
   justify-content: center !important;
