@@ -576,7 +576,7 @@ p.notion-callout__content{
   
   /* Purple Button */
   
-  [class="notion-callout bg-purple-light border"]>[class="notion-link"] {
+  [class="notion-callout bg-purple-light border"]>[class="notion-semantic-string link"] {
     background: rgba(var(--color-purple), 0.5) !important;
     max-width: 250px !important;
     border-color: rgb(var(--color-purple)) !important;
@@ -585,7 +585,7 @@ p.notion-callout__content{
     transition: all 150ms ease-in-out !important;
   }
 
-  [class="notion-callout bg-purple-light border"]>[class="notion-link"]:hover {
+  [class="notion-callout bg-purple-light border"]>[class="notion-semantic-string link"]:hover {
     background: var(--color-border-transparent) !important;
     max-width: 250px !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-red)) inset, 0 0 10px 4px rgb(var(--color-red)) !important;
