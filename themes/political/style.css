@@ -410,7 +410,8 @@ p.notion-callout__content{
 .notion-callout {
   border-radius: var(--element-radius) !important;
   border: 1px solid var(--color-border-transparent) !important;
-  padding: 1.5em 1.5em 0.5em 1.5em !important;
+  /* padding: 1.5em 1.5em 0.5em 1.5em !important; */
+  padding: 1rem 1rem .5rem 1rem !important;
   overflow: hidden !important;
   margin-bottom: 1em !important;
 }
