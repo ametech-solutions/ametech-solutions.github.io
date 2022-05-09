@@ -548,6 +548,8 @@ p.notion-callout__content{
 /* Not perfect but all content fits */
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
   position: relative !important;
+  display: flex !important;
+  flex-shrink: 3 !important;
   text-align: center !important;
   height: auto !important;
   width: auto!important;
