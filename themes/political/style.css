@@ -562,7 +562,7 @@ p.notion-callout__content{
   align-content: center !important;
   align-items: center !important;
   text-align: center !important;
-  min-height: 5vh !important;
+  max-height: 5vh !important;
   display: flex !important;
   box-sizing: content-box !important;
 }
