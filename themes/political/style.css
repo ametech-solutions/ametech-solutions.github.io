@@ -1454,7 +1454,7 @@ margin-bottom: 0.5rem !important;
 
 :root {
  /* Mobile Body Font Size */
- --body-font: 12px !important;
+ --body-font: 16px !important;
  /* Mobile Collection Card Cover Size*/
  --collection-card-cover-size-small: 100% !important;
  --collection-card-cover-size-medium: 100% !important;
