@@ -439,9 +439,9 @@ p.notion-callout__content{
   text-transform: uppercase !important;
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 700 !important;
-  border-color: rgb(var(--color-red)) !important;
+  border-color: rgb(var(--color-yellow)) !important;
     color: #fff !important;
-    box-shadow: 0 0 40px 40px rgb(var(--color-red)) inset, 0 0 0 0 rgb(var(--color-red)) !important;
+    box-shadow: 0 0 40px 40px rgb(var(--color-pink)) inset, 0 0 0 0 rgb(var(--color-pink)) !important;
     transition: all 150ms ease-in-out !important;
 }
 /*
@@ -564,7 +564,7 @@ p.notion-callout__content{
 
   /* Blue Button */
 
-  [class="notion-callout bg-blue-light border"] {
+  [class="notion-callout bg-blue-light border"]> {
     background: rgba(var(--color-blue), 0.75) !important;
     max-width: 250px !important;
   }
@@ -579,12 +579,17 @@ p.notion-callout__content{
   [class="notion-callout bg-purple-light border"]>[class="notion-link"] {
     background: rgba(var(--color-purple), 0.5) !important;
     max-width: 250px !important;
+    border-color: rgb(var(--color-purple)) !important;
+    color: #fff !important;
+    box-shadow: 0 0 40px 40px rgb(var(--color-purple)) inset, 0 0 0 0 rgb(var(--color-purple)) !important;
+    transition: all 150ms ease-in-out !important;
   }
 
   [class="notion-callout bg-purple-light border"]>[class="notion-link"]:hover {
-    background: rgba(var(--color-purple), 0.75) !important;
+    background: var(--color-border-transparent) !important;
     max-width: 250px !important;
-    }
+    box-shadow: 0 0 10px 0 rgb(var(--color-red)) inset, 0 0 10px 4px rgb(var(--color-red)) !important;
+  }
 
 
   /* Pink Button */
