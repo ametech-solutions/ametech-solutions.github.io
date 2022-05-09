@@ -391,14 +391,15 @@ h3 {
   
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
   position: absolute !important;
+  justify-content:center !important;
+  align-items: center!important;
   height: 100% !important;
   width: 100% !important;
   top: 0 !important;
   left: 0 !important;
   right: 0 !important;
   bottom: 0 !important;
-  padding: 15px !important;
-  padding-left: 50px !important;
+  padding: 5px !important;
   border: none !important;
 }
 /* END Callout Button*/
@@ -546,7 +547,7 @@ p.notion-callout__content{
   }
 
 /* Fit Content in Button */
-/* Not perfect but all content fits */
+/* Not perfect but all content fits 
 .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
   position: absolute !important;
   height: 100% !important;
@@ -559,7 +560,7 @@ p.notion-callout__content{
   padding-left: 0px !important;
   border: none !important;
 }
-
+*/
 /* #Pills */
 
 .notion-pill {
