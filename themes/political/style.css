@@ -446,7 +446,6 @@ p.notion-callout__content{
     max-width: 250px !important;
     border-color: rgb(var(--color-default)) !important;
     color: white !important;
-    text-shadow: 2px 1px BLACK;
     font-weight: 800!important;
     box-shadow: 0 0 40px 40px rgb(var(--color-default)) inset, 0 0 0 0 rgb(var(--color-default)) !important;
     transition: all 150ms ease-in-out !important;
@@ -456,7 +455,6 @@ p.notion-callout__content{
     background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
-    text-shadow: 2px 1px black;
     border-color: rgb(var(--color-default)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-default)) inset, 0 0 10px 4px rgb(var(--color-default)) !important;
   }
@@ -468,7 +466,6 @@ p.notion-callout__content{
     max-width: 250px !important;
     border-color: rgb(var(--color-gray)) !important;
     color: white !important;
-    text-shadow: 2px 1px BLACK;
     font-weight: 800!important;
     box-shadow: 0 0 40px 40px rgb(var(--color-gray)) inset, 0 0 0 0 rgb(var(--color-gray)) !important;
     transition: all 150ms ease-in-out !important;
@@ -478,7 +475,6 @@ p.notion-callout__content{
     background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
-    text-shadow: 2px 1px black;
     border-color: rgb(var(--color-gray)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-gray)) inset, 0 0 5px 8px rgb(var(--color-gray)) !important;
   }
@@ -488,7 +484,6 @@ p.notion-callout__content{
   [class="notion-callout bg-brown-light border"] {
     max-width: 250px !important;
     color: white !important;
-    text-shadow: 2px 1px black;
     font-weight: 800!important;
     border-color: rgb(var(--color-brown)) !important;    
     box-shadow: 0 0 40px 40px rgb(var(--color-brown)) inset, 0 0 0 0 rgb(var(--color-brown)) !important;
@@ -499,7 +494,6 @@ p.notion-callout__content{
     background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
-    text-shadow: 2px 1px black;
     border-color: rgb(var(--color-brown)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-brown)) inset, 0 0 5px 8px rgba(var(--color-brown),1) !important;
   }
@@ -511,7 +505,6 @@ p.notion-callout__content{
     max-width: 250px !important;
     border-color: rgb(var(--color-orange)) !important;
     color: white !important;
-    text-shadow: 1px 1px black;
     font-weight: 800!important;
     box-shadow: 0 0 40px 40px rgba(var(--color-orange),0.5) inset, 0 0 0 0 rgb(var(--color-orange)) !important;
     transition: all 150ms ease-in-out !important;
@@ -521,7 +514,6 @@ p.notion-callout__content{
     background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
-    text-shadow: 2px 1px black;
     border-color: rgb(var(--color-orange)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-orange)) inset, 0 0 5px 4px rgba(var(--color-orange),0.5) !important;
   }
@@ -532,7 +524,6 @@ p.notion-callout__content{
   [class="notion-callout bg-yellow-light border"] {
     max-width: 250px !important;
     color: black !important;
-    text-shadow: 1px 1px white !important;
     font-weight: bold !important;
     box-shadow: 0 0 40px 40px rgba(var(--color-yellow),1) inset, 0 0 0 0 rgb(var(--color-yellow)) !important;
     transition: all 150ms ease-in-out !important;
@@ -542,7 +533,6 @@ p.notion-callout__content{
     background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
-    text-shadow: 2px 1px black !important;
     border-color: rgb(var(--color-yellow)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-yellow)) inset, 0 0 10px 4px rgb(var(--color-yellow)) !important;
   }
@@ -553,7 +543,6 @@ p.notion-callout__content{
   [class="notion-callout bg-green-light border"] {
     max-width: 250px !important;
     color: white !important;
-    text-shadow: 1px 1px black !important;
     font-weight: bold !important;
     border-color: rgb(var(--color-green)) !important;
     box-shadow: 0 0 40px 40px rgba(var(--color-green),0.25) inset, 0 0 0 0 rgb(var(--color-green)) !important;
@@ -564,7 +553,6 @@ p.notion-callout__content{
     background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
-    text-shadow: 2px 1px black;
     border-color: rgb(var(--color-green)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-green)) inset, 0 0 10px 4px rgba(var(--color-green),0.5) !important;
   }
@@ -574,7 +562,6 @@ p.notion-callout__content{
   [class="notion-callout bg-blue-light border"] {
     max-width: 250px !important;
     color: white !important;
-    text-shadow: 1px 1px black !important;
     font-weight: bold !important;
     border-color: rgb(var(--color-blue)) !important;
     box-shadow: 0 0 40px 40px rgba(var(--color-blue),1) inset, 0 0 0 0 rgb(var(--color-blue)) !important;
@@ -585,7 +572,6 @@ p.notion-callout__content{
     background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
-    text-shadow: 2px 1px black;
     border-color: rgb(var(--color-blue)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-blue)) inset, 0 0 4px 4px rgb(var(--color-blue)) !important;
   }
@@ -595,7 +581,6 @@ p.notion-callout__content{
   [class="notion-callout bg-purple-light border"] {
     max-width: 250px !important;
     color: white !important;
-    text-shadow: 1px 1px black !important;
     font-weight: bold !important;
     border-color: rgb(var(--color-purple)) !important;
     box-shadow: 0 0 40px 40px rgba(var(--color-purple),1) inset, 0 0 0 0 rgba(var(--color-purple),1) !important;
@@ -606,7 +591,6 @@ p.notion-callout__content{
     background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
-    text-shadow: 2px 1px black;
     border-color: rgb(var(--color-purple)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-purple)) inset, 0 0 5px 8px rgb(var(--color-purple)) !important;
   }
@@ -617,7 +601,6 @@ p.notion-callout__content{
   [class="notion-callout bg-pink-light border"] {
     max-width: 250px !important;
     color: black !important;
-    text-shadow: 1px 1px white;
     font-weight: bold!important;
     border-color: rgb(var(--color-pink)) !important;
     box-shadow: 0 0 1px 1px rgba(var(--color-pink),.25) inset, 0 0 0 0 rgb(var(--color-pink)) !important;
@@ -628,7 +611,6 @@ p.notion-callout__content{
     background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
-    text-shadow: 2px 1px black;
     border-color: rgb(var(--color-pink)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-pink)) inset, 0 0 5px 8px rgba(var(--color-pink),0.5) !important;
   }
@@ -639,7 +621,6 @@ p.notion-callout__content{
   [class="notion-callout bg-red-light border"] {
     max-width: 250px !important;
     color: white !important;
-    text-shadow: 1px 1px black !important;
     font-weight: bold !important;
     border-color: rgb(var(--color-red)) !important;    
     box-shadow: 0 0 40px 40px rgba(var(--color-red),0.5) inset, 0 0 0 0 rgb(var(--color-red)) !important;
@@ -650,7 +631,6 @@ p.notion-callout__content{
     background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
-    text-shadow: 2px 1px black !important;
     border-color: rgb(var(--color-red)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-red)) inset, 0 0 5px 8px rgba(var(--color-red),0.75) !important;
   }
