@@ -1,0 +1,16 @@
+{
+    "better-comments.highlightPlainText": true,
+    "editor.tabSize": 2,
+    "editor.cursorStyle": "block-outline",
+    "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.dragAndDrop": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "window.autoDetectColorScheme": false,
+    "colorize.colorized_colors": [
+        "BROWSERS_COLORS",
+        "HEXA",
+        "RGB",
+        "HSL",
+        "ARGB"
+    ]
+}

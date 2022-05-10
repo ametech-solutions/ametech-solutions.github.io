@@ -1,5 +1,29 @@
 resistance.css
 
+
+
+
+/* GLOBAL DEFAULTS */
+/* Global Variables */
+/* :root {
+  /* Global Border Radius [Rounding] 
+  --element-radius: 15px !important;
+  /* Desktop Page Width 
+  --theme-width: var(--theme-width) !important;
+  /* Site Font Size
+  --body-font: 20px !important;
+  /* Site Column Spacing
+  --column-spacing: 2em !important;
+  /* Site Background 
+  --color-bg-default: rgba(var(--color-bg-default),1) !important; 
+  /* UI COLORS 
+  --color-card-bg: rgba(var(--color-card-bg),1) !important;
+  /* Collection Card Size
+  --collection-card-cover-size-small: calc(20%) !important;
+  --collection-card-cover-size-medium: calc(30%) !important;
+  --collection-card-cover-size-large: calc(45%) !important;
+}
+
 /******* THEME: POLITICAL *******/
 
 

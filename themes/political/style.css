@@ -1,6 +1,11 @@
 /******* THEME: POLITICAL *******/
 
-
+/* COMMENT SYSTEM */
+/* ! - fix this */
+/* todo - do this */
+/* ? - wut dis */
+/* * doing this */
+/* // this done */
 
 /******* VARIABLES *******/ 
 
@@ -72,23 +77,23 @@
   /* This affects text color exclusively (right?)
      and gray contrasted poorly with the background 
      color so it was set to white */
-  --color-transparent: transparent !important;
-  --color-default: 10, 49, 97 !important;
-  --color-white: 255, 255, 255 !important;
-  --color-gray: 0, 0, 0 !important;
-  --color-black: 0, 0, 0 !important;
-  --color-brown: 101, 67, 33 !important;
-  --color-orange: 255, 119, 0 !important;
-  --color-yellow: 232, 232, 0 !important;
-  --color-green: 0, 202, 0 !important;
-  --color-blue: 37, 77, 117 !important;
-  --color-purple: 121, 85, 121 !important;
-  --color-pink: 255, 141, 223 !important;
-  --color-red: 179, 25, 66 !important;
+  --color-transparent: transparent !important; 
+  --color-default: 10, 49, 97 !important; /* rgb(10,49,97) */
+  --color-white: 255, 255, 255 !important; /* rgb(255,255,255) */
+  --color-black: 0, 0, 0 !important; /* rgb(0,0,0) */
+  --color-gray: 0, 0, 0 !important; /* rgb(0,0,0) */
+  --color-brown: 101, 67, 33 !important; /* rgb(101,67,33) */
+  --color-orange: 255, 119, 0 !important; /* rgb(255,119,0) */
+  --color-yellow: 232, 232, 0 !important; /* rgb(232,232,0) */
+  --color-green: 0, 202, 0 !important; /* rgb(0,202,0)  */
+  --color-blue: 37, 77, 117 !important; /* rgb(37,77,117)  */
+  --color-purple: 121, 85, 121 !important; /* rgb(121,85,121)  */
+  --color-pink: 255, 141, 223 !important; /* rgb(255,141,223)  */
+  --color-red: 179, 25, 66 !important; /* rgb(179,25,66)  */
   /* Text */
   /* Site Foreground */
   /* --color-text-default sets default text color site-wide */
-  --color-text-default-light: rgba(var(--color-white),1) !important;
+  --color-text-default-light: rgba(var(--color-white),1) !important; /* rgb(var(--color-white)) */
   --color-text-default: rgba(var(--color-white),1) !important;
   --color-text-black:  rgba(var(--color-black),1) !important;
   --color-text-gray: rgba(var(--color-white),1) !important;
@@ -100,9 +105,7 @@
   --color-text-purple: rgba(var(--color-purple),1) !important;
   --color-text-pink: rgba(var(--color-pink),1) !important;
   --color-text-red: rgba(var(--color-red),1) !important;
-  /* Site Background */
-  /* --color-bg-default sets background color SITE WIDE */
-  --color-bg-default: rgba(10, 49, 97)!important;
+  /*  Site Background */
   --color-bg-black: rgba(var(--color-black),75) !important;
   --color-bg-gray: rgba(var(--color-black),.75) !important;
   --color-bg-brown: rgba(var(--color-brown)) !important;
@@ -113,7 +116,7 @@
   --color-bg-purple: rgba(var(--color-purple),.75) !important;
   --color-bg-pink: rgba(var(--color-pink),.75) !important;
   --color-bg-red: rgba(var(--color-red),.85) !important;
-  /* Background Light  What does this do? */
+  /* ? Background Light  What does this do? */
   --color-bg-gray-light: rgba(var(--color-gray),.25) !important;
   --color-bg-brown-light: rgba(var(--color-brown),.75) !important;
   --color-bg-orange-light: rgba(var(--color-orange),.5) !important;
@@ -124,9 +127,9 @@
   --color-bg-pink-light: rgba(var(--color-pink),.75) !important;
   --color-bg-red-light: rgba(var(--color-red),.85) !important;
   /* Site Border Colors */
+  --color-border-transparent: transparent !important;
   --color-border-default-light: rgba(var(--color-white),1) !important;
   --color-border-default: rgba(var(--color-white),1) !important;
-  --color-border-transparent: transparent !important;
   --color-border-black:  rgba(var(--color-black),1) !important;
   --color-border-gray: rgba(var(--color-white),1) !important;
   --color-border-brown: rgba(var(--color-brown),1) !important;
@@ -149,6 +152,8 @@
   --color-pill-pink: rgba(var(--color-pink),.75) !important;
   --color-pill-red: rgba(var(--color-red),.75) !important;
   /* UI */
+  /*! --color-bg-default sets background color SITE WIDE */
+  --color-bg-default: rgba(10, 49, 97)!important;
   --color-ui-hover-bg: rgba(var(--color-card-bg),0.5) !important;
   --color-ui-hover-bg-light: rgba(var(--color-white),0.5) !important; 
   --color-accent-bg: rgba(var(--color-bg-default),1) !important;
@@ -270,6 +275,7 @@ body {
 .highlighted-background.bg-gray a{
   background-color: rgb(var(--color-black)) !important;
 }
+
 .highlighted-background.bg-brown a{
   background-color: rgb(var(--color-brown)) !important;
 }
@@ -444,46 +450,55 @@ p.notion-callout__content{
 /* Gray Quote Text */
 [class="notion-callout color-gray-light border"] {
   border: 1px solid var(--color-border-gray) !important;
+  color: var(--color-text-default) !important;
 }
 
 /* Brown Quote Text */
 [class="notion-callout color-brown-light border"] {
   border: 1px solid var(--color-border-brown) !important;
+  color: var(--color-text-default) !important;
 } 
 
 /* Orange Quote Text */
 [class="notion-callout color-orange-light border"] {
   border: 1px solid var(--color-border-orange) !important;
+  color: var(--color-text-default) !important;
 }
 
 /* Yellow Quote Text */
 [class="notion-callout color-yellow-light border"] {
   border: 1px solid var(--color-border-yellow) !important;
+  color: var(--color-text-default) !important;
 }
 
 /* Green Quote Text */
 [class="notion-callout color-green-light border"] {
   border: 1px solid var(--color-border-green) !important;
+  color: var(--color-text-default) !important;
 }
 
 /* Blue Quote Text */
 [class="notion-callout color-blue-light border"] {
   border: 1px solid var(--color-border-blue) !important;
+  color: var(--color-text-default) !important;
 }
 
 /* Purple Quote Text */
 [class="notion-callout color-purple-light border"] {
   border: 1px solid var(--color-border-purple) !important;
+  color: var(--color-text-default) !important;
 } 
 
 /* Pink Quote Text */
 [class="notion-callout color-pink-light border"] {
   border: 1px solid var(--color-border-pink) !important;
+  color: var(--color-text-default) !important;
 }
 
 /* Red Quote Text */
 [class="notion-callout color-red-light border"] {
   border: 1px solid var(--color-border-red) !important;
+  color: var(--color-text-default) !important;
 }
 
 
@@ -501,8 +516,9 @@ p.notion-callout__content{
   box-sizing: border-box !important;
   appearance: none !important;
   background-color: transparent !important;
-  border: 2px solid rgb(var(--color-white)) !important;
-  border-radius: 0.6em !important;
+  /* ! shutting off borders unless set in notion with foreground color */
+  /* ! border: 2px solid rgb(var(--color-white)) !important; */
+  /* ! border-radius: 0.6em !important; */
   color: white !important;
   cursor: pointer !important;
   display: flex !important;
