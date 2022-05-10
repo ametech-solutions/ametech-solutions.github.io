@@ -391,13 +391,19 @@ p.notion-callout__content{
 
 .notion-callout {
   border-radius: var(--element-radius) !important;
-  /* border: 1px solid var(--color-border-transparent) !important; */
-  /* padding: 1.5em 1.5em 0.5em 1.5em !important; */
   padding: .5rem .5rem .5rem .5rem !important;
   overflow: hidden !important;
   margin-bottom: 1em !important;
 }
 
+/* Notion Callouts with Border Colors */
+
+/* This may come in handy sometime*/
+/* Apparently anything with the class bg-<color>-light 
+   has a BACKGROUND color selected from within Notion.
+   Anything with the class bg-<color> has a FOREGROUND
+   color selected from within Notion.
+/* 
 .notion-callout.bg-gray-light, 
 .notion-callout.bg-brown-light, 
 .notion-callout.bg-orange-light, 
@@ -406,8 +412,62 @@ p.notion-callout__content{
 .notion-callout.bg-blue-light, 
 .notion-callout.bg-purple-light, 
 .notion-callout.bg-pink-light, 
-.notion-callout.bg-red-light {
-  border:none !important;
+.notion-callout.bg-red-light
+
+.notion-callout.bg-gray, 
+.notion-callout.bg-brown, 
+.notion-callout.bg-orange, 
+.notion-callout.bg-yellow, 
+.notion-callout.bg-green, 
+.notion-callout.bg-blue, 
+.notion-callout.bg-purple, 
+.notion-callout.bg-pink, 
+.notion-callout.bg-red,
+*/
+
+/* Gray Quote Text */
+[class="notion-callout bg-gray border"] {
+  border: 1px solid var(--color-text-gray) !important;
+}
+
+/* Brown Quote Text */
+[class="notion-callout bg-brown border"] {
+  border: 1px solid var(--color-text-brown) !important;
+} 
+
+/* Orange Quote Text */
+[class="notion-callout bg-orange border"] {
+  border: 1px solid var(--color-text-orange) !important;
+}
+
+/* Yellow Quote Text */
+[class="notion-callout bg-yellow border"] {
+  border: 1px solid var(--color-text-yellow) !important;
+}
+
+/* Green Quote Text */
+[class="notion-callout bg-green border"] {
+  border: 1px solid var(--color-text-green) !important;
+}
+
+/* Blue Quote Text */
+[class="notion-callout bg-blue border"] {
+  border: 1px solid var(--color-text-blue) !important;
+}
+
+/* Purple Quote Text */
+[class="notion-callout bg-purple border"] {
+  border: 1px solid var(--color-text-purple) !important;
+} 
+
+/* Pink Quote Text */
+[class="notion-callout bg-pink border"] {
+  border: 1px solid var(--color-text-pink) !important;
+}
+
+/* Red Quote Text */
+[class="notion-callout bg-red border"] {
+  border: 1px solid var(--color-text-red) !important;
 }
 
 
@@ -442,105 +502,104 @@ p.notion-callout__content{
   line-height: 1 !important;
 }
 
-
+  /* Default Button */  
   [class="notion-callout bg-default-light border"] {
     max-width: 250px !important;
-    border-color: rgb(var(--color-default)) !important;
     color: white !important;
-    font-weight: 800!important;
+    font-weight: bold!important;
+    border-color: rgb(var(--color-default)) !important;
     box-shadow: 0 0 40px 40px rgb(var(--color-default)) inset, 0 0 0 0 rgb(var(--color-default)) !important;
     transition: all 150ms ease-in-out !important;
   }
 
+  /* Default Button :Hover */  
   [class="notion-callout bg-default-light border"]:hover {
-    background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
+    background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-default)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-default)) inset, 0 0 10px 4px rgb(var(--color-default)) !important;
   }
 
 
   /* Gray Button */
- 
   [class="notion-callout bg-gray-light border"] {
     max-width: 250px !important;
-    border-color: rgb(var(--color-gray)) !important;
     color: white !important;
-    font-weight: 800!important;
+    font-weight: bold!important;
+    border-color: rgb(var(--color-gray)) !important;
     box-shadow: 0 0 40px 40px rgb(var(--color-gray)) inset, 0 0 0 0 rgb(var(--color-gray)) !important;
     transition: all 150ms ease-in-out !important;
   }
 
+  /* Gray Button :Hover */  
   [class="notion-callout bg-gray-light border"]:hover {
-    background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
+    background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-gray)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-gray)) inset, 0 0 5px 8px rgb(var(--color-gray)) !important;
   }
 
   /* Brown Button */
-
   [class="notion-callout bg-brown-light border"] {
     max-width: 250px !important;
     color: white !important;
-    font-weight: 800!important;
+    font-weight: bold!important;
     border-color: rgb(var(--color-brown)) !important;    
     box-shadow: 0 0 40px 40px rgb(var(--color-brown)) inset, 0 0 0 0 rgb(var(--color-brown)) !important;
     transition: all 150ms ease-in-out !important;
   }
 
+  /* Brown Button :Hover */  
   [class="notion-callout bg-brown-light border"]:hover {
-    background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
+    background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-brown)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-brown)) inset, 0 0 5px 8px rgba(var(--color-brown),1) !important;
   }
 
 
   /* Orange Button */
-
   [class="notion-callout bg-orange-light border"] {
     max-width: 250px !important;
-    border-color: rgb(var(--color-orange)) !important;
     color: white !important;
-    font-weight: 800!important;
+    font-weight: bold!important;
+    border-color: rgb(var(--color-orange)) !important;
     box-shadow: 0 0 40px 40px rgba(var(--color-orange),0.5) inset, 0 0 0 0 rgb(var(--color-orange)) !important;
     transition: all 150ms ease-in-out !important;
   }
 
+  /* Orange Button :Hover */  
   [class="notion-callout bg-orange-light border"]:hover {
-    background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
+    background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-orange)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-orange)) inset, 0 0 5px 4px rgba(var(--color-orange),0.5) !important;
   }
 
-
   /* Yellow Button */
-
   [class="notion-callout bg-yellow-light border"] {
     max-width: 250px !important;
     color: black !important;
     font-weight: bold !important;
+    border-color: rgb(var(--color-yellow)) !important;
     box-shadow: 0 0 40px 40px rgba(var(--color-yellow),1) inset, 0 0 0 0 rgb(var(--color-yellow)) !important;
     transition: all 150ms ease-in-out !important;
   }
 
+  /* Yellow Button :Hover */  
   [class="notion-callout bg-yellow-light border"]:hover {
-    background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
+    background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-yellow)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-yellow)) inset, 0 0 10px 4px rgb(var(--color-yellow)) !important;
   }
 
-
   /* Green Button */
-
   [class="notion-callout bg-green-light border"] {
     max-width: 250px !important;
     color: white !important;
@@ -550,16 +609,16 @@ p.notion-callout__content{
     transition: all 150ms ease-in-out !important;
   }
 
+  /* Green Button :Hover */  
   [class="notion-callout bg-green-light border"]:hover {
-    background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
+    background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-green)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-green)) inset, 0 0 10px 4px rgba(var(--color-green),0.5) !important;
   }
 
   /* Blue Button */
-
   [class="notion-callout bg-blue-light border"] {
     max-width: 250px !important;
     color: white !important;
@@ -569,16 +628,16 @@ p.notion-callout__content{
     transition: all 150ms ease-in-out !important;
   }
 
+  /* Blue Button :Hover */  
   [class="notion-callout bg-blue-light border"]:hover {
-    background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
+    background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-blue)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-blue)) inset, 0 0 4px 4px rgb(var(--color-blue)) !important;
   }
   
   /* Purple Button */
-  
   [class="notion-callout bg-purple-light border"] {
     max-width: 250px !important;
     color: white !important;
@@ -588,17 +647,16 @@ p.notion-callout__content{
     transition: all 150ms ease-in-out !important;
   }
 
+  /* Purple Button :Hover */    
   [class="notion-callout bg-purple-light border"]:hover {
-    background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
+    background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-purple)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-purple)) inset, 0 0 5px 8px rgb(var(--color-purple)) !important;
   }
 
-
   /* Pink Button */
-  
   [class="notion-callout bg-pink-light border"] {
     max-width: 250px !important;
     color: black !important;
@@ -608,17 +666,17 @@ p.notion-callout__content{
     transition: all 150ms ease-in-out !important;
   }
 
+  /* Pink Button :Hover */  
   [class="notion-callout bg-pink-light border"]:hover {
-    background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
+    background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-pink)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-pink)) inset, 0 0 5px 8px rgba(var(--color-pink),0.5) !important;
   }
   
 
   /* Red Button */
-
   [class="notion-callout bg-red-light border"] {
     max-width: 250px !important;
     color: white !important;
@@ -628,10 +686,11 @@ p.notion-callout__content{
     transition: all 150ms ease-in-out !important;
   }
 
+  /* Red Button :Hover */  
   [class="notion-callout bg-red-light border"]:hover {
-    background-color: rgb(var(--color-transparent)) !important;
     max-width: 250px !important;
     color: white !important;
+    background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-red)) !important;
     box-shadow: 0 0 10px 0 rgb(var(--color-red)) inset, 0 0 5px 8px rgba(var(--color-red),0.75) !important;
   }
@@ -664,41 +723,41 @@ p.notion-callout__content{
   border-radius: var(--element-radius) !important;
 }
 
-[class="notion-quote bg-gray"] {
-  border: 1px solid var(--color-border-gray) !important;
-}
+    [class="notion-quote bg-gray"] {
+      border: 1px solid var(--color-text-gray) !important;
+    }
 
-[class="notion-quote bg-brown"] {
-  border: 1px solid var(--color-border-brown) !important;
-} 
+    [class="notion-quote bg-brown"] {
+      border: 1px solid var(--color-text-brown) !important;
+    } 
 
-[class="notion-quote bg-orange"] {
-  border: 1px solid var(--color-border-orange) !important;
-}
+    [class="notion-quote bg-orange"] {
+      border: 1px solid var(--color-text-orange) !important;
+    }
 
-[class="notion-quote bg-yellow"] {
-  border: 1px solid var(--color-border-yellow) !important;
-}
+    [class="notion-quote bg-yellow"] {
+      border: 1px solid var(--color-text-yellow) !important;
+    }
 
-[class="notion-quote bg-green"] {
-  border: 1px solid var(--color-border-green) !important;
-}
+    [class="notion-quote bg-green"] {
+      border: 1px solid var(--color-text-green) !important;
+    }
 
-[class="notion-quote bg-blue"] {
-  border: 1px solid var(--color-border-blue) !important;
-}
+    [class="notion-quote bg-blue"] {
+      border: 1px solid var(--color-text-blue) !important;
+    }
 
-[class="notion-quote bg-purple"] {
-  border: 1px solid var(--color-border-purple) !important;
-} 
+    [class="notion-quote bg-purple"] {
+      border: 1px solid var(--color-text-purple) !important;
+    } 
 
-[class="notion-quote bg-pink"] {
-  border: 1px solid var(--color-border-pink) !important;
-}
+    [class="notion-quote bg-pink"] {
+      border: 1px solid var(--color-text-pink) !important;
+    }
 
-[class="notion-quote bg-red"] {
-  border: 1px solid var(--color-border-red) !important;
-}
+    [class="notion-quote bg-red"] {
+      border: 1px solid var(--color-text-red) !important;
+    }
 
 
 /* #Divider */
