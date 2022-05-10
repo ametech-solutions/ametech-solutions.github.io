@@ -409,6 +409,7 @@ p.notion-callout__content{
   padding: .5rem .5rem .5rem .5rem !important;
   overflow: hidden !important;
   margin-bottom: 1em !important;
+  border: 2px solid rgb(var(--color-white)) !important;
 }
 
 /* Notion Callouts with Border Colors */
@@ -441,47 +442,47 @@ p.notion-callout__content{
 */
 
 /* Gray Quote Text */
-[class="notion-callout bg-gray"] {
+[class="notion-callout color-gray-light border"] {
   border: 1px solid var(--color-border-gray) !important;
 }
 
 /* Brown Quote Text */
-[class="notion-callout bg-brown"] {
+[class="notion-callout color-brown-light border"] {
   border: 1px solid var(--color-border-brown) !important;
 } 
 
 /* Orange Quote Text */
-[class="notion-callout bg-orange"] {
+[class="notion-callout color-orange-light border"] {
   border: 1px solid var(--color-border-orange) !important;
 }
 
 /* Yellow Quote Text */
-[class="notion-callout bg-yellow"] {
+[class="notion-callout color-yellow-light border"] {
   border: 1px solid var(--color-border-yellow) !important;
 }
 
 /* Green Quote Text */
-[class="notion-callout bg-green"] {
+[class="notion-callout color-green-light border"] {
   border: 1px solid var(--color-border-green) !important;
 }
 
 /* Blue Quote Text */
-[class="notion-callout bg-blue"] {
+[class="notion-callout color-blue-light border"] {
   border: 1px solid var(--color-border-blue) !important;
 }
 
 /* Purple Quote Text */
-[class="notion-callout bg-purple"] {
+[class="notion-callout color-purple-light border"] {
   border: 1px solid var(--color-border-purple) !important;
 } 
 
 /* Pink Quote Text */
-[class="notion-callout bg-pink"] {
+[class="notion-callout color-pink-light border"] {
   border: 1px solid var(--color-border-pink) !important;
 }
 
 /* Red Quote Text */
-[class="notion-callout bg-red"] {
+[class="notion-callout color-red-light border"] {
   border: 1px solid var(--color-border-red) !important;
 }
 
