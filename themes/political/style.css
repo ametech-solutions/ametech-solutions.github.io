@@ -677,7 +677,7 @@ p.notion-callout__content{
   width: 100%  !important;
   margin: 1rem auto !important;
   padding: 1em 1em 2em 2em !important;
-  border: 1px solid var(--color-border-default) !important;
+  border: 1px solid var(--color-transparent) !important;
   text-align: center !important;
   display: flex !important;
   flex-direction: column !important;
@@ -685,37 +685,39 @@ p.notion-callout__content{
   border-radius: var(--element-radius) !important;
 }
 
-.notion-quote.bg-gray {
+[class="notion-quote bg-gray"] {
   border: 1px solid var(--color-border-gray) !important;
-} 
-.notion-quote.bg-brown {
+}
+
+[class="notion-quote bg-brown"] {
   border: 1px solid var(--color-border-brown) !important;
 } 
-.notion-quote.bg-orange {
+
+[class="notion-quote bg-orange"] {
   border: 1px solid var(--color-border-orange) !important;
 }
 
-.notion-quote.bg-yellow {
+[class="notion-quote bg-yellow"] {
   border: 1px solid var(--color-border-yellow) !important;
 }
 
-.notion-quote.bg-green {
+[class="notion-quote bg-green"] {
   border: 1px solid var(--color-border-green) !important;
 }
 
-.notion-quote.bg-blue {
+[class="notion-quote bg-blue"] {
   border: 1px solid var(--color-border-blue) !important;
 }
 
-.notion-quote.bg-purple {
+[class="notion-quote bg-purple"] {
   border: 1px solid var(--color-border-purple) !important;
 } 
 
-.notion-quote.bg-pink {
+[class="notion-quote bg-pink"] {
   border: 1px solid var(--color-border-pink) !important;
 }
 
-.notion-quote.bg-red {
+[class="notion-quote bg-red"] {
   border: 1px solid var(--color-border-red) !important;
 }
 
