@@ -113,7 +113,7 @@
   --color-bg-purple: rgba(var(--color-purple),.75) !important;
   --color-bg-pink: rgba(var(--color-pink),.75) !important;
   --color-bg-red: rgba(var(--color-red),.85) !important;
-  /* Background Light  */
+  /* Background Light  What does this do? */
   --color-bg-gray-light: rgba(var(--color-gray),.25) !important;
   --color-bg-brown-light: rgba(var(--color-brown),.75) !important;
   --color-bg-orange-light: rgba(var(--color-orange),.5) !important;
@@ -123,6 +123,20 @@
   --color-bg-purple-light: rgba(var(--color-purple),.75) !important;
   --color-bg-pink-light: rgba(var(--color-pink),.75) !important;
   --color-bg-red-light: rgba(var(--color-red),.85) !important;
+  /* Site Border Colors */
+  --color-border-default-light: rgba(var(--color-white),1) !important;
+  --color-border-default: rgba(var(--color-white),1) !important;
+  --color-border-transparent: transparent !important;
+  --color-border-black:  rgba(var(--color-black),1) !important;
+  --color-border-gray: rgba(var(--color-white),1) !important;
+  --color-border-brown: rgba(var(--color-brown),1) !important;
+  --color-border-orange: rgba(var(--color-orange),1) !important;
+  --color-border-yellow: rgba(var(--color-yellow),1) !important;
+  --color-border-green: rgba(var(--color-green),1) !important;
+  --color-border-blue: rgba(var(--color-blue),1) !important;
+  --color-border-purple: rgba(var(--color-purple),1) !important;
+  --color-border-pink: rgba(var(--color-pink),1) !important;
+  --color-border-red: rgba(var(--color-red),1) !important;
   /* Pill */
   --color-pill-default: rgba(var(--color-default),.5) !important;
   --color-pill-gray: rgba(var(--color-gray),.50) !important;
@@ -142,6 +156,7 @@
   --color-border-default: rgba(var(--color-white), 1) !important;
   --color-border-transparent: transparent !important;
 }
+
 /* END VARIABLES */
 
 
@@ -427,47 +442,47 @@ p.notion-callout__content{
 
 /* Gray Quote Text */
 [class="notion-callout bg-gray border"] {
-  border: 1px solid var(--color-text-gray) !important;
+  border: 1px solid var(--color-border-gray) !important;
 }
 
 /* Brown Quote Text */
 [class="notion-callout bg-brown border"] {
-  border: 1px solid var(--color-text-brown) !important;
+  border: 1px solid var(--color-border-brown) !important;
 } 
 
 /* Orange Quote Text */
 [class="notion-callout bg-orange border"] {
-  border: 1px solid var(--color-text-orange) !important;
+  border: 1px solid var(--color-border-orange) !important;
 }
 
 /* Yellow Quote Text */
 [class="notion-callout bg-yellow border"] {
-  border: 1px solid var(--color-text-yellow) !important;
+  border: 1px solid var(--color-border-yellow) !important;
 }
 
 /* Green Quote Text */
 [class="notion-callout bg-green border"] {
-  border: 1px solid var(--color-text-green) !important;
+  border: 1px solid var(--color-border-green) !important;
 }
 
 /* Blue Quote Text */
 [class="notion-callout bg-blue border"] {
-  border: 1px solid var(--color-text-blue) !important;
+  border: 1px solid var(--color-border-blue) !important;
 }
 
 /* Purple Quote Text */
 [class="notion-callout bg-purple border"] {
-  border: 1px solid var(--color-text-purple) !important;
+  border: 1px solid var(--color-border-purple) !important;
 } 
 
 /* Pink Quote Text */
 [class="notion-callout bg-pink border"] {
-  border: 1px solid var(--color-text-pink) !important;
+  border: 1px solid var(--color-border-pink) !important;
 }
 
 /* Red Quote Text */
 [class="notion-callout bg-red border"] {
-  border: 1px solid var(--color-text-red) !important;
+  border: 1px solid var(--color-border-red) !important;
 }
 
 
@@ -724,39 +739,39 @@ p.notion-callout__content{
 }
 
     [class="notion-quote bg-gray"] {
-      border: 1px solid var(--color-text-gray) !important;
+      border: 1px solid var(--color-border-gray) !important;
     }
 
     [class="notion-quote bg-brown"] {
-      border: 1px solid var(--color-text-brown) !important;
+      border: 1px solid var(--color-border-brown) !important;
     } 
 
     [class="notion-quote bg-orange"] {
-      border: 1px solid var(--color-text-orange) !important;
+      border: 1px solid var(--color-border-orange) !important;
     }
 
     [class="notion-quote bg-yellow"] {
-      border: 1px solid var(--color-text-yellow) !important;
+      border: 1px solid var(--color-border-yellow) !important;
     }
 
     [class="notion-quote bg-green"] {
-      border: 1px solid var(--color-text-green) !important;
+      border: 1px solid var(--color-border-green) !important;
     }
 
     [class="notion-quote bg-blue"] {
-      border: 1px solid var(--color-text-blue) !important;
+      border: 1px solid var(--color-border-blue) !important;
     }
 
     [class="notion-quote bg-purple"] {
-      border: 1px solid var(--color-text-purple) !important;
+      border: 1px solid var(--color-border-purple) !important;
     } 
 
     [class="notion-quote bg-pink"] {
-      border: 1px solid var(--color-text-pink) !important;
+      border: 1px solid var(--color-border-pink) !important;
     }
 
     [class="notion-quote bg-red"] {
-      border: 1px solid var(--color-text-red) !important;
+      border: 1px solid var(--color-border-red) !important;
     }
 
 
@@ -836,11 +851,6 @@ p.notion-callout__content{
   font-family: var(--secondary-font) !important;
 }
 
-.notion-numbered-list {
-  color: var(--color-text-white);
-  background-color: rgba(var(--color-card-bg), .25);
-  font-family: var(--secondary-font) !important;
-} 
 
 
 /* #Numbered list */
@@ -848,6 +858,12 @@ p.notion-callout__content{
 .notion-numbered-list {
   padding-bottom: 1em !important;
 }
+
+.notion-numbered-list {
+  color: var(--color-text-white);
+  background-color: rgba(var(--color-card-bg), .25);
+  font-family: var(--secondary-font) !important;
+} 
 
 
 /* #Toggle block */
@@ -1142,7 +1158,7 @@ white-space: normal !important;
 
 
 
-/* View switcher */
+/* View switcher (Dropdowns for Views in Databases) */
 
 .notion-dropdown__button p, 
 .notion-dropdown__option p{
