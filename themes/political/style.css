@@ -558,8 +558,8 @@ p.notion-callout__content{
     max-width: 250px !important;
     color: white !important;
     font-weight: bold!important;
-    border-color: rgb(var(--color-default)) !important;
-    box-shadow: 0 0 40px 40px rgb(var(--color-default)) inset, 0 0 0 0 rgb(var(--color-default)) !important;
+    border-color: rgb(var(--color-card-bg)) !important;
+    box-shadow: 0 0 40px 40px rgb(var(--color-card-bg)) inset, 0 0 0 0 rgb(var(--color-default)) !important;
     transition: all 150ms ease-in-out !important;
   }
 
@@ -569,7 +569,7 @@ p.notion-callout__content{
     color: white !important;
     background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-default)) !important;
-    box-shadow: 0 0 10px 0 rgb(var(--color-default)) inset, 0 0 10px 4px rgb(var(--color-default)) !important;
+    box-shadow: 0 0 10px 0 rgb(var(--color-default)) inset, 0 0 10px 4px rgb(var(--color-card-bg)) !important;
   }
 
 
