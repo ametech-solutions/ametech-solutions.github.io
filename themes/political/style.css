@@ -98,7 +98,7 @@
   --color-text-default-light: rgba(var(--color-white),1) !important;
   --color-text-default: rgba(var(--color-white),1) !important;
   --color-text-gray: rgba(var(--color-white),1) !important;
-  --color-text-black: rgba(var(--color-black).1) !important;
+  --color-text-black: rgba(var(--color-black),1) !important;
   --color-text-brown: rgba(var(--color-brown),1) !important;
   --color-text-orange: rgba(var(--color-orange),1) !important;
   --color-text-yellow: rgba(var(--color-yellow),1) !important;
@@ -537,7 +537,7 @@ p.notion-callout__content{
   /** Orange Callout Button - BG color in Notion */
   [class="notion-callout bg-orange-light border"] {
     /*! max-width: 250px !important; */
-    color: white !important;
+    color: black !important;
     border-color: rgb(var(--color-orange)) !important;
     box-shadow: 0 0 40px 40px rgba(var(--color-orange),0.5) inset, 0 0 0 0 rgb(var(--color-orange)) !important;
     transition: all 150ms ease-in-out !important;
@@ -669,14 +669,14 @@ p.notion-callout__content{
 /** #Callout Border Blocks */
 /** Set Notion FG Color */
 
-/** Default Callout Border - Notion FG Color */
+/** Default var(--color-card-bg) Callout Border - Notion FG Color */
 [class="notion-callout color-default-light border"] {
   border: 2px solid var(--color-card-bg) !important;
   background-color: var(--color-border-transparent) !important;
   color: var(--color-text-default) !important;
 }
 
-/** Default Callout Border - Notion FG Color :Hover */
+/** Default var(--color-card-bg) Callout Border - Notion FG Color :Hover */
 [class="notion-callout color-default-light border"] {
   background-color: var(--color-card-bg) !important;
   color: var(--color-text-default) !important;
