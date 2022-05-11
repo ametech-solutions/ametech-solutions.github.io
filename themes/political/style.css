@@ -484,7 +484,7 @@ p.notion-callout__content{
     color: white !important;
     background-color: var(--color-card-bg) !important;
     border-color: var(--color-card-bg) !important;
-    box-shadow: 0 0 40px 40px rgb(var(--color-card-bg)) inset, 0 0 0 0 rgb(var(--color-card-bg)) !important;
+    /* box-shadow: 0 0 40px 40px rgb(var(--color-card-bg)) inset, 0 0 0 0 rgb(var(--color-card-bg)) !important; */
     transition: all 150ms ease-in-out !important;
   }
 
@@ -493,7 +493,7 @@ p.notion-callout__content{
     color: white !important;
     background-color: var(--color-transparent) !important;
     border-color: var(--color-card-bg) !important;
-    box-shadow: 0 0 10px 0 rgb(var(--color-card-bg)) inset, 0 0 10px 4px rgb(var(--color-card-bg)) !important;
+    /* box-shadow: 0 0 10px 0 rgb(var(--color-card-bg)) inset, 0 0 10px 4px rgb(var(--color-card-bg)) !important; */
   }
 
 
@@ -512,7 +512,7 @@ p.notion-callout__content{
     color: white !important;
     background-color: var(--color-transparent) !important;
     border-color: var(--color-gray) !important;
-    box-shadow: 0 0 10px 0 rgb(var(--color-gray)) inset, 0 0 5px 4px rgb(var(--color-gray)) !important;
+    /* box-shadow: 0 0 10px 0 rgb(var(--color-gray)) inset, 0 0 5px 4px rgb(var(--color-gray)) !important; */
   }
 
   /** Brown Callout Button - BG color in Notion */
@@ -531,7 +531,7 @@ p.notion-callout__content{
     color: white !important;
     background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-brown)) !important;
-    box-shadow: 0 0 10px 0 rgb(var(--color-brown)) inset, 0 0 5px 4px rgba(var(--color-brown),1) !important;
+    /* box-shadow: 0 0 10px 0 rgb(var(--color-brown)) inset, 0 0 5px 4px rgba(var(--color-brown),1) !important; */
   }
 
   /** Orange Callout Button - BG color in Notion */
@@ -549,7 +549,7 @@ p.notion-callout__content{
     color: white !important;
     background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-orange)) !important;
-    box-shadow: 0 0 10px 0 rgb(var(--color-orange)) inset, 0 0 5px 4px rgba(var(--color-orange),0.5) !important;
+    /* box-shadow: 0 0 10px 0 rgb(var(--color-orange)) inset, 0 0 5px 4px rgba(var(--color-orange),0.5) !important; */
   }
 
   /** Yellow Callout Button - BG color in Notion */
@@ -567,7 +567,7 @@ p.notion-callout__content{
     color: white !important;
     background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-yellow)) !important;
-    box-shadow: 0 0 10px 0 rgb(var(--color-yellow)) inset, 0 0 5px 4px rgb(var(--color-yellow)) !important;
+    /* box-shadow: 0 0 10px 0 rgb(var(--color-yellow)) inset, 0 0 5px 4px rgb(var(--color-yellow)) !important; */
   }
 
   /** Green Callout Button - BG color in Notion */
@@ -585,7 +585,7 @@ p.notion-callout__content{
     color: white !important;
     background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-green)) !important;
-    box-shadow: 0 0 10px 0 rgb(var(--color-green)) inset, 0 0 5px 4px rgba(var(--color-green),0.5) !important;
+    /* box-shadow: 0 0 10px 0 rgb(var(--color-green)) inset, 0 0 5px 4px rgba(var(--color-green),0.5) !important; */
   }
 
   /** Blue Callout Button - BG color in Notion */
@@ -603,7 +603,7 @@ p.notion-callout__content{
     color: white !important;
     background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-blue)) !important;
-    box-shadow: 0 0 10px 0 rgb(var(--color-blue)) inset, 0 0 5px 4px rgb(var(--color-blue)) !important;
+    /* box-shadow: 0 0 10px 0 rgb(var(--color-blue)) inset, 0 0 5px 4px rgb(var(--color-blue)) !important; */
   }
   
   /** Purple Callout Button - BG color in Notion */
@@ -621,7 +621,7 @@ p.notion-callout__content{
     color: white !important;
     background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-purple)) !important;
-    box-shadow: 0 0 10px 0 rgb(var(--color-purple)) inset, 0 0 5px 4px rgb(var(--color-purple)) !important;
+    /* box-shadow: 0 0 10px 0 rgb(var(--color-purple)) inset, 0 0 5px 4px rgb(var(--color-purple)) !important; */
   }
 
   /** Pink Callout Button - BG color in Notion */
@@ -639,7 +639,7 @@ p.notion-callout__content{
     color: white !important;
     background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-pink)) !important;
-    box-shadow: 0 0 10px 0 rgb(var(--color-pink)) inset, 0 0 5px 4px rgba(var(--color-pink),0.5) !important;
+    /* box-shadow: 0 0 10px 0 rgb(var(--color-pink)) inset, 0 0 5px 4px rgba(var(--color-pink),0.5) !important; */
   }
   
 
@@ -658,7 +658,7 @@ p.notion-callout__content{
     color: white !important;
     background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-red)) !important;
-    box-shadow: 0 0 10px 0 rgb(var(--color-red)) inset, 0 0 5px 4px rgba(var(--color-red),0.75) !important;
+    /* box-shadow: 0 0 10px 0 rgb(var(--color-red)) inset, 0 0 5px 4px rgba(var(--color-red),0.75) !important; */
   }
 
 
