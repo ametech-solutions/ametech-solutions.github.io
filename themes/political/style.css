@@ -828,7 +828,7 @@ p.notion-callout__content{
     }
 
     [class="notion-quote bg-brown"] {
-      border: 2px solid var(--color-border-brown) !important;
+      border: 2px solid var(--color-brown) !important;
     } 
 
     [class="notion-quote bg-orange"] {
