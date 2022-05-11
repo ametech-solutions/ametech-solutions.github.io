@@ -87,7 +87,7 @@
   --color-black: 0, 0, 0 !important; /* rgb(0,0,0) */
   --color-brown: 101, 67, 33 !important; /* rgb(101,67,33) */
   --color-orange: 255, 119, 0 !important; /* rgb(255,119,0) */
-  --color-yellow: 232, 232, 0 !important; /* rgb(232,232,0) */
+  --color-yellow: rgb(232, 232, 0) !important; /* rgb(232,232,0) */
   --color-green: 0, 202, 0 !important; /* rgb(0,202,0) */
   --color-blue: 37,77,117 !important; /* rgb(37,77,117) */
   --color-purple: 121,85,121 !important; /* rgb(121,85,121) */
@@ -556,9 +556,9 @@ p.notion-callout__content{
   /* Default Callout Button */  
   [class="notion-callout border"] {
     color: white !important;
-    font-weight: bold!important;
+    font-weight: bold !important;
     border-color: rgb(var(--color-card-bg)) !important;
-    box-shadow: 0 0 40px 40px rgb(var(--color-card-bg)) inset, 0 0 0 0 rgb(var(--color-default)) !important;
+    box-shadow: 0 0 40px 40px rgb(var(--color-card-bg)) inset, 0 0 0 0 rgb(var(--color-card-bg)) !important;
     transition: all 150ms ease-in-out !important;
   }
 
@@ -566,8 +566,8 @@ p.notion-callout__content{
   [class="notion-callout border"]:hover {
     color: white !important;
     background-color: rgb(var(--color-transparent)) !important;
-    border-color: rgb(var(--color-default)) !important;
-    box-shadow: 0 0 10px 0 rgb(var(--color-default)) inset, 0 0 10px 4px rgb(var(--color-card-bg)) !important;
+    border-color: rgb(var(--color-card-bg)) !important;
+    box-shadow: 0 0 10px 0 rgb(var(--color-card-bg)) inset, 0 0 10px 4px rgb(var(--color-card-bg)) !important;
   }
 
 
@@ -575,7 +575,7 @@ p.notion-callout__content{
   [class="notion-callout bg-gray-light border"] {
     max-width: 250px !important;
     color: white !important;
-    font-weight: bold!important;
+    font-weight: bold !important;
     border-color: rgb(var(--color-gray)) !important;
     box-shadow: 0 0 40px 40px rgb(var(--color-gray)) inset, 0 0 0 0 rgb(var(--color-gray)) !important;
     transition: all 150ms ease-in-out !important;
