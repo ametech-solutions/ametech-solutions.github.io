@@ -518,7 +518,7 @@ p.notion-callout__content{
 [class="notion-callout color-yellow-light border"]:hover {
   border: 2px solid var(--color-border-transparent) !important;
   background-color: var(--color-yellow) !important;
-  color: var(--color-text-default) !important;
+  color: var(--color-text-black) !important;
 }
 
 /** Green Callout Border - Notion FG Color */
@@ -574,7 +574,7 @@ p.notion-callout__content{
 [class="notion-callout color-pink-light border"]:hover {
   border: 2px solid var(--color-border-transparent) !important;
   background-color: var(--color-pink) !important;
-  color: var(--color-text-default) !important;
+  color: var(--color-text-black) !important;
 }
 
 /** Red Callout Border - Notion FG Color */
