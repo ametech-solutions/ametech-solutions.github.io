@@ -511,7 +511,7 @@ p.notion-callout__content{
     /*! max-width: 250px !important; */
     color: white !important;
     background-color: var(--color-transparent) !important;
-    border-color: var(--color-gray) !important;
+    border-color: var(--color-black) !important;
     /* box-shadow: 0 0 10px 0 rgb(var(--color-gray)) inset, 0 0 5px 4px rgb(var(--color-gray)) !important; */
   }
 
