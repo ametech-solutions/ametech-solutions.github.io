@@ -788,7 +788,7 @@ p.notion-callout__content{
 
 /** Red Callout Border - Notion FG Color */
 [class="notion-callout color-red-light border"] {
-  border: 2px solid rgb(var(--color-pink)) !important;
+  border: 2px solid rgb(var(--color-red)) !important;
   background-color: rgb(var(--color-border-transparent)) !important;
   color: rgb(var(--color-text-default)) !important;
 }
