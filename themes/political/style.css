@@ -94,9 +94,17 @@
   --link-border-width: 0px 0px 0px 0px!important;
   --link-border-style: none!important;
   --link-border-color: none !important;
-  /** UI */
+  /* #UI */
+  /*! Global Border Radius [Rounding] */
+  --element-radius: 15px !important;
+  /*! Desktop Page Width */
+  --theme-width: 1440px !important;
+  /*! Site Font Size*/
+  --body-font: 16px !important;
+  /*! Site Column Spacing*/
+  --column-spacing: 2em !important;
   /*! --color-default is the default theme color */
-  --color-default: rgb(10, 49, 97) !important;
+  --color-default: rgb(37, 77, 117) !important;
   /*! --color-text-default sets default text color site-wide */
   --color-text-default: rgba(var(--color-white),1) !important;
   /*! --color-bg-default sets background color SITE WIDE */
@@ -104,14 +112,16 @@
   /*! --color-card-bg is meant cards bg to provide contrast */
   --color-card-bg: rgb(45,170,221) !important;
   --color-ui-hover-bg: rgba(var(--color-card-bg),0.5) !important;
-  --color-ui-hover-bg-light: rgba(var(--color-white),0.5) !important; 
+  --color-ui-hover-bg-light: rgba(var(--color-white),1) !important; 
   --color-accent-bg: rgba(var(--color-red),1) !important;
-
   --color-border-default: rgba(var(--color-white), 1) !important;
   --color-border-transparent: transparent !important;
   --color-transparent: transparent !important;
+  /*! Collection Card Size*/
+  --collection-card-cover-size-small: calc(20%) !important;
+  --collection-card-cover-size-medium: calc(30%) !important;
+  --collection-card-cover-size-large: calc(45%) !important;
   /* ###Colors */
- 
   /* This affects text color exclusively (right?)
      and gray contrasted poorly with the background 
      color so it was set to white */ 
