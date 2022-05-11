@@ -556,7 +556,8 @@ p.notion-callout__content{
   [class="notion-callout border"] {
     color: white !important;
     font-weight: bold !important;
-    border-color: rgb(var(--color-card-bg)) !important;
+    background-color: rgb(var(--color-color-bg)) !important;
+    border-color: rgb(var(--color-border-default)) !important;
     box-shadow: 0 0 40px 40px rgb(var(--color-card-bg)) inset, 0 0 0 0 rgb(var(--color-card-bg)) !important;
     transition: all 150ms ease-in-out !important;
   }
