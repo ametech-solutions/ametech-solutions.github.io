@@ -554,8 +554,7 @@ p.notion-callout__content{
 }
 
   /* Default Callout Button */  
-  [class="notion-callout bg-default-light border"] {
-    max-width: 250px !important;
+  [class="notion-callout border"] {
     color: white !important;
     font-weight: bold!important;
     border-color: rgb(var(--color-card-bg)) !important;
@@ -564,8 +563,7 @@ p.notion-callout__content{
   }
 
   /* Default Callout Button :Hover */  
-  [class="notion-callout bg-default-light border"]:hover {
-    max-width: 250px !important;
+  [class="notion-callout border"]:hover {
     color: white !important;
     background-color: rgb(var(--color-transparent)) !important;
     border-color: rgb(var(--color-default)) !important;
