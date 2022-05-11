@@ -512,7 +512,7 @@ p.notion-callout__content{
 
   /** Default Callout Button - BG color in Notion */  
   [class="notion-callout border"] {
-    color: white !important;
+    color: black !important;
     background-color: var(--color-card-bg) !important;
     border-color: var(--color-card-bg) !important;
     box-shadow: 0 0 40px 40px var(--color-card-bg) inset, 0 0 0 0 var(--color-card-bg) !important;
@@ -543,7 +543,7 @@ p.notion-callout__content{
     color: white !important;
     background-color: var(--color-transparent) !important;
     border-color: var(--color-black) !important;
-    box-shadow: 0 0 5px 0 var(--color-gray) inset, 0 0 5px 4px var(--color-gray) !important;
+    box-shadow: 0 0 5px 0 var(--color-gray) inset, 0 0 3px 4px var(--color-gray) !important;
   }
 
   /** Brown Callout Button - BG color in Notion */
@@ -562,7 +562,7 @@ p.notion-callout__content{
     color: white !important;
     background-color: var(--color-transparent) !important;
     border-color: var(--color-brown) !important;
-    box-shadow: 0 0 5px 0 var(--color-brown) inset, 0 0 5px 4px rgba(var(--color-brown),1) !important;
+    box-shadow: 0 0 5px 0 var(--color-brown) inset, 0 0 5px 4px var(--color-brown) !important;
   }
 
   /** Orange Callout Button - BG color in Notion */
@@ -570,7 +570,7 @@ p.notion-callout__content{
     /*! max-width: 250px !important; */
     color: black !important;
     border-color: var(--color-orange) !important;
-    box-shadow: 0 0 40px 40px rgba(var(--color-orange),0.5) inset, 0 0 0 0 var(--color-orange) !important;
+    box-shadow: 0 0 40px 40px var(--color-bg-orange-light) inset, 0 0 0 0 var(--color-bg-orange-light) !important;
     transition: all 150ms ease-in-out !important;
   }
 
@@ -580,7 +580,7 @@ p.notion-callout__content{
     color: white !important;
     background-color: var(--color-transparent) !important;
     border-color: var(--color-orange) !important;
-    box-shadow: 0 0 5px 0 var(--color-orange) inset, 0 0 5px 4px rgba(var(--color-orange),0.5) !important;
+    box-shadow: 0 0 5px 0 var(--color-bg-orange-light) inset, 0 0 5px 4px (var(--color-bg-orange-light) !important;
   }
 
   /** Yellow Callout Button - BG color in Notion */
