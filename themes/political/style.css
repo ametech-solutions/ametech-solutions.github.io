@@ -81,18 +81,18 @@
      and gray contrasted poorly with the background 
      color so it was set to white */
   --color-transparent: transparent !important; 
-  --color-default: rgb(10, 49, 97) !important;
-  --color-white: rgb(255, 255, 255) !important; 
-  --color-black: rgb(0, 0, 0) !important;
-  --color-gray: rgb(0, 0, 0) !important;
-  --color-brown: rgb(101, 67, 33) !important;
-  --color-orange: rgb(255, 119, 0) !important;
-  --color-yellow: rgb(232, 232, 0) !important;
-  --color-green: rgb(0, 202, 0) !important;
-  --color-blue: rgb(37,77,117) !important;
-  --color-purple: rgb(121,85,121) !important;
-  --color-pink: rgb(255,141,223) !important;
-  --color-red: rgb(179, 25, 66) !important;
+  --color-default: 10, 49, 97 !important; /* rgb(10,49,97) */
+  --color-white: (255, 255, 255) !important; /* rgb(255,255,255) */ 
+  --color-black: (0, 0, 0) !important; /* rgb(0,0,0) */
+  --color-gray: (0, 0, 0) !important; /* rgb(0,0,0) */
+  --color-brown: (101, 67, 33) !important; /* rgb(101,67,33) */
+  --color-orange: (255, 119, 0) !important; /* rgb(255,119,0) */
+  --color-yellow: (232, 232, 0) !important; /* rgb(232,232,0) */
+  --color-green: (0, 202, 0) !important; /* rgb(0,202,0) */
+  --color-blue: (37,77,117) !important; /* rgb(37,77,117) */
+  --color-purple: (121,85,121) !important; /* rgb(121,85,121) */
+  --color-pink: (255,141,223) !important; /* rgb(255,141,223) */
+  --color-red: (179, 25, 66) !important; /* rgb(179,25,66) */
   /* ###Text */
   /* Site Foreground */
   /* --color-text-default sets default text color site-wide */
@@ -159,7 +159,7 @@
   --color-bg-default: rgb(10, 49, 97) !important;
   --color-ui-hover-bg: rgba(var(--color-card-bg),0.5) !important;
   --color-ui-hover-bg-light: rgba(var(--color-white),0.5) !important; 
-  --color-accent-bg: rgba(var(--color-bg-default),1) !important;
+  --color-accent-bg: rgba(var(--color-card-bg),1) !important;
   --color-card-bg: rgb(37, 77, 117) !important;    
   --color-border-default: rgba(var(--color-white), 1) !important;
   --color-border-transparent: transparent !important;
