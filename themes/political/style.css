@@ -79,15 +79,14 @@
   /* --color-default is the default theme color */
   /* This affects text color exclusively (right?)
      and gray contrasted poorly with the background 
-     color so it was set to white */
-  --color-transparent: transparent !important; 
+     color so it was set to white */ 
   --color-default: 10, 49, 97 !important; /* rgb(10,49,97) */
   --color-white: 255, 255, 255 !important; /* rgb(255,255,255) */ 
   --color-gray: 0, 0, 0 !important; /* rgb(0,0,0) */
   --color-black: 0, 0, 0 !important; /* rgb(0,0,0) */
   --color-brown: 101, 67, 33 !important; /* rgb(101,67,33) */
   --color-orange: 255, 119, 0 !important; /* rgb(255,119,0) */
-  --color-yellow: rgb(232, 232, 0) !important; /* rgb(232,232,0) */
+  --color-yellow: 232, 232, 0 !important; /* rgb(232,232,0) */
   --color-green: 0, 202, 0 !important; /* rgb(0,202,0) */
   --color-blue: 37,77,117 !important; /* rgb(37,77,117) */
   --color-purple: 121,85,121 !important; /* rgb(121,85,121) */
@@ -110,7 +109,7 @@
   --color-text-red: rgba(var(--color-red),1) !important;
   /* ###Site Background */
   /** --color-bg-default sets background color SITE WIDE */
-  --color-bg-default: rgb(10, 49, 97) !important;
+  --color-bg-default: 10, 49, 97 !important; /* rgb(10,49,97) */
   --color-bg-gray: rgba(var(--color-black),.75) !important;
   --color-bg-black: rgba(var(--color-black),.75) !important;
   --color-bg-brown: rgba(var(--color-brown).75) !important;
@@ -132,7 +131,6 @@
   --color-bg-pink-light: rgba(var(--color-pink),.75) !important;
   --color-bg-red-light: rgba(var(--color-red),.85) !important;
   /* ###Site Border Colors */
-  --color-border-transparent: transparent !important;
   --color-border-default-light: rgba(var(--color-white),1) !important;
   --color-border-default: rgba(var(--color-white),1) !important;
   --color-border-black:  rgba(var(--color-black),1) !important;
@@ -163,6 +161,7 @@
   --color-card-bg: 37, 77, 117 !important;    
   --color-border-default: rgba(var(--color-white), 1) !important;
   --color-border-transparent: transparent !important;
+  --color-transparent: transparent !important;
 }
 
 /* END VARIABLES */
