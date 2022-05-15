@@ -1,5 +1,3 @@
-1-Variables
-
 /******* THEME: POLITICAL *******/
 
 /* COMMENT SYSTEM */
@@ -160,8 +158,11 @@
   --color-ui-hover-bg: rgba(var(--color-card-bg),0.5) !important;
   --color-ui-hover-bg-light: rgba(var(--color-white),0.5) !important; 
   --color-accent-bg: rgba(var(--color-red),1) !important;
-  --color-card-bg: 51, 102, 152 !important;    
+  --color-card-bg: 51, 102, 153 !important;    
   --color-border-default: rgba(var(--color-white), 1) !important;
   --color-border-transparent: transparent !important;
   --color-transparent: transparent !important;
 }
+
+/* END VARIABLES */
+
